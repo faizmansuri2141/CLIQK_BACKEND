@@ -1,0 +1,1110 @@
+// comment
+new_add_comment
+new_add_sub_comment
+sendSubCommentNotification
+
+
+chmod 400 /Users/faizmansuri/Downloads/click_new.pem
+ls -l /Users/faizmansuri/Downloads/click_new.pem
+ssh -i /Users/faizmansuri/Downloads/click_new.pem ubuntu@23.20.83.83
+ 
+// post
+ceatePost
+tagPostPeoplesNotification
+
+
+
+// home screen
+homeScreenPost
+community_post
+perticulorSectionForPost
+myPost
+postForPerticulorPrivateSections
+postDetails
+
+
+
+
+tagPeoples
+
+
+521 per change kiya     community_id : sectionData._id,
+community_id : sectionData._id,
+
+
+tagPostPeoplesNotification 
+await tagPostPeoplesNotification(userId ,validTagPeoples ,postId ,communityId)
+
+
+liuke dis like module 
+143 
+
+330
+community_id : findPost.communityId,
+
+
+682
+                community_id : postFind.communityId,
+
+
+                893
+                1275
+
+
+mohsin lala flutter vala aa k mere ko bt deta he 
+
+
+
+
+ceatePost changes kiya he 
+
+
+
+const calculateXP = (socialScore) => {
+    if (socialScore <= 1000) {
+        return Math.floor(socialScore / 100);
+    }
+
+    let xp = 10; // 1000 tak 10 XP
+    let stepSize = 150;
+    let threshold = 1000;
+
+    while (socialScore >= threshold + stepSize) {
+        threshold += stepSize;
+        xp++;
+        stepSize += 50; // Har step ke baad 50 ka increment
+    }
+
+    return xp;
+};
+
+// Example cases
+console.log(calculateXP(50));    // 0 XP
+console.log(calculateXP(600));   // 6 XP
+console.log(calculateXP(1000));  // 10 XP
+console.log(calculateXP(1100));  // 11 XP
+console.log(calculateXP(1250));  // 12 XP
+console.log(calculateXP(1450));  // 13 XP
+console.log(calculateXP(2050));  // 16 XP
+console.log(calculateXP(2500));  // 18 XP
+
+ 
+
+
+chnages 
+1 create gif new peramiter add in post and return peramiter in response
+section list top 10 and my section number 
+section social score leaderboard. 
+
+
+
+
+
+1 social score 10 points for section request and section have 10 points  createCommunity file 
+create post so jo create karta he post usko 6 point and jo section me create hote he usko 6 points create post file
+jab like kare to 
+
+
+
+date 3 apr 
+register k time per verify account ka remove karna he 
+soft delete all posts 
+pin kar diya to delete nahi hoga un pin kara to 24 hours me delete ho jayega , admin sab k post pin and un pin dono kar sakta he 
+section own ki post bhi un pin he to 24 hours me delete hoga 
+new api pin and un pin vali new api 
+
+
+new - 
+for you - anas k 2 section he uske ek me join hu to uska dusra section mere ko dikhega means sggestion me aayega - new api 
+most liked - section me post he and konse section k post sab se jyada likes he vo respons me section aayega 
+
+jaha jaha followes aate he vaha section jisne create kiya uski user id and kitne follwers he vo aana chaye 
+
+section view : jab koi section k uper click kare to uska ek count add karna he new peramiter 
+
+
+
+/ 📦 Required packages
+const cron = require("node-cron");
+const createNotification = require("../models/notifiication_list");
+const userData = require("../models/user");
+const createCliqkData = require("../models/createcommunity");
+const axios = require("axios");
+const moment = require("moment");
+const { google } = require("googleapis");
+const serviceAccount = require("../cliqk-e25f0-firebase-adminsdk-vedtf-7eb62187c9.json");
+
+const SCOPES = ["https://www.googleapis.com/auth/cloud-platform"];
+const STATIC_USER_ID = "67a4c5082f32b1680ef21c22";
+
+function getAccessToken() {
+  return new Promise((resolve, reject) => {
+    const jwtClient = new google.auth.JWT(
+      serviceAccount.client_email,
+      undefined,
+      serviceAccount.private_key,
+      SCOPES
+    );
+    jwtClient.authorize((err, tokens) => {
+      if (err || !tokens?.access_token) {
+        console.error("❌ Access token error:", err);
+        reject(err || new Error("Failed to obtain access token"));
+      } else {
+        resolve(tokens.access_token);
+      }
+    });
+  });
+}
+
+const notificationMessages = {
+  section_score_rising: {
+    push: "Section’s up 📈 We’re cooking 🔥",
+    inApp: "Whole squad levelling up. Section’s cooking rn 🔥"
+  },
+  section_daily_score: {
+    push: "Your section gained points today 💪",
+    inApp: "Section got some fire today. Points going up 🚀"
+  },
+  section_top_10_user: {
+    push: "Top 10 in your section 😙",
+    inApp: "One of your members hit Top 10! Section’s heating up 👏"
+  },
+  section_top_1: {
+    push: "Your section’s #1 🔥 We’re THEM 💪",
+    inApp: "Section’s running the platform rn. You just hit #1 on the leaderboard as a group 🏆"
+  },
+  user_score_rising: {
+    push: "Your XP just went up 🔥",
+    inApp: "Keep pushing! You’re levelling up fast 🚀"
+  },
+  user_daily_score: {
+    push: "You gained points today 💪",
+    inApp: "You’re doing work! Keep it up 🔥"
+  },
+  user_top_10: {
+    push: "You made it to the Top 10! 🌟",
+    inApp: "You’re one of the elites now. Respect 🙌"
+  },
+  user_top_1: {
+    push: "You’re #1 on the leaderboard! 👑",
+    inApp: "Top of the world, baby. You earned this 🏆"
+  }
+};
+
+const sendNotification = async ({ userId, sectionId = null, type, senderId = STATIC_USER_ID }) => {
+  const { push: pushMsg, inApp: inAppMsg } = notificationMessages[type] || {};
+  if (!pushMsg || !inAppMsg) return;
+
+  const user = await userData.findById(userId);
+  if (!user?.device_Token) return;
+
+  const projectId = process.env.PROJECTID;
+  if (!projectId) console.error("❌ PROJECTID env variable is missing.");
+
+  const accessToken = await getAccessToken();
+  const url = `https://fcm.googleapis.com/v1/projects/${projectId}/messages:send`;
+  console.log("🔔 Sending notification to:", userId, "| Type:", type);
+
+  let notificationCount = await createNotification.countDocuments({
+    user_id: userId,
+    is_Shown: true
+  });
+  notificationCount = notificationCount > 0 ? notificationCount + 1 : 1;
+
+  const message = {
+    message: {
+      token: user.device_Token,
+      notification: { title: "CLIQK", body: pushMsg },
+      android: { notification: { sound: "default" } },
+      apns: {
+        payload: {
+          aps: { sound: "default", badge: notificationCount }
+        }
+      },
+      data: { badgeCount: notificationCount.toString() }
+    }
+  };
+
+  try {
+    await axios.post(url, message, {
+      headers: {
+        Authorization: `Bearer ${accessToken}`,
+        "Content-Type": "application/json"
+      } 
+    });
+
+    await new createNotification({
+      community_id: sectionId,
+      sender_id: senderId,
+      user_id: userId,
+      notification_message: inAppMsg,
+      notification_type: 14,
+      module_type: type.includes("section") ? "section_alert" : "user_alert"
+    }).save();
+  } catch (err) {
+    console.error("❌ Notification send failed for user:", userId, "→", err.message);
+  }
+};
+
+
+const resetUserAndSectionScores = async () => {
+  try {
+    // Update all users
+    await userData.updateMany({}, {
+      $set: {
+        previousXP: 0,
+        previousScore: 0,
+        previousRank: 0,
+        lastScoreChange: null,
+        highestScore: 0
+      }
+    });
+    console.log("✅ All users reset");
+
+    // Update all sections
+    await createCliqkData.updateMany({}, {
+      $set: {
+        previousXP: 0,
+        previousScore: 0,
+        previousRank: 0,
+        lastScoreChange: null,
+        lastDecay: null,
+        highestScore: 0,
+        lastTop10NotifiedUserIds: []
+      }
+    });
+    console.log("✅ All sections reset");
+  } catch (error) {
+    console.error("❌ Error during reset:", error);
+  }
+};
+
+// ⏰ Daily score delta check
+cron.schedule("* * * * *", async () => {
+  const today = moment().startOf("day");
+  console.log("📅 Running daily score check...");
+
+  const sections = await createCliqkData.find({});
+
+  for (const section of sections) {
+    const prev = section.previousScore || 0;
+    const current = section.socialScore;
+    if (current > prev) {
+      await sendNotification({ userId: section.userObjId, sectionId: section._id, type: "section_daily_score" });
+      section.previousScore = current;
+      section.lastScoreChange = today.toDate();
+      await section.save();
+    }
+  }
+
+  const users = await userData.find({});
+  for (const user of users) {
+    const prev = user.previousScore || 0;
+    const current = user.socialScore;
+    if (current > prev) {
+      await sendNotification({ userId: user._id, type: "user_daily_score" });
+      user.previousScore = current;
+      user.lastScoreChange = today.toDate();
+      await user.save();
+    }
+  }
+});
+
+// ⏱️ Hourly leaderboard rank check
+cron.schedule("* * * * *", async () => {
+  console.log("📊 Running hourly leaderboard rank check...");
+
+  const allUsers = await userData.find({}).sort({ socialScore: -1 });
+  for (let i = 0; i < allUsers.length; i++) {
+    const user = allUsers[i];
+    const currentRank = i + 1;
+    if (user.previousRank !== currentRank) {
+      if (currentRank <= 10 && user.previousRank > 10) {
+        await sendNotification({ userId: user._id, type: "user_top_10" });
+      }
+      if (currentRank === 1 && user.previousRank !== 1) {
+        await sendNotification({ userId: user._id, type: "user_top_1" });
+      }
+      user.previousRank = currentRank;
+      await user.save();
+    }
+  }
+
+  const allSections = await createCliqkData.find({}).sort({ socialScore: -1 });
+  for (let i = 0; i < allSections.length; i++) {
+    const section = allSections[i];
+    const currentRank = i + 1;
+    if (section.previousRank !== currentRank) {
+      if (currentRank === 1 && section.previousRank !== 1) {
+        await sendNotification({ userId: section.userObjId, sectionId: section._id, type: "section_top_1" });
+      }
+
+      const top10UserIds = allUsers.slice(0, 10).map((u) => String(u._id));
+      const memberTop10 = section.community_Members?.find((id) => top10UserIds.includes(String(id)));
+
+      if (memberTop10 && !section.lastTop10NotifiedUserIds.includes(String(memberTop10))) {
+        await sendNotification({ userId: section.userObjId, sectionId: section._id, type: "section_top_10_user" });
+        section.lastTop10NotifiedUserIds.push(String(memberTop10));
+      }
+
+      section.previousRank = currentRank;
+      await section.save();
+    }
+  }
+
+
+  // await resetUserAndSectionScores()
+
+  console.log("✅ Hourly rank check completed.");
+});
+
+module.exports = sendNotification;
+
+
+
+
+here to start
+
+// 📦 Required packages
+const cron = require("node-cron");
+const createNotification = require("../models/notifiication_list");
+const userData = require("../models/user");
+const createCliqkData = require("../models/createcommunity");
+const axios = require("axios");
+const moment = require("moment");
+const { google } = require("googleapis");
+const serviceAccount = require("../cliqk-e25f0-firebase-adminsdk-vedtf-7eb62187c9.json");
+
+const SCOPES = ["https://www.googleapis.com/auth/cloud-platform"];
+const STATIC_USER_ID = "67a4c5082f32b1680ef21c22";
+
+function getAccessToken() {
+  return new Promise((resolve, reject) => {
+    const jwtClient = new google.auth.JWT(
+      serviceAccount.client_email,
+      undefined,
+      serviceAccount.private_key,
+      SCOPES
+    );
+    jwtClient.authorize((err, tokens) => {
+      if (err || !tokens?.access_token) {
+        console.error("❌ Access token error:", err);
+        reject(err || new Error("Failed to obtain access token"));
+      } else {
+        resolve(tokens.access_token);
+      }
+    });
+  });
+}
+
+const notificationMessages = {
+  section_score_rising: {
+    push: "Section’s up 📈 We’re cooking 🔥",
+    inApp: "Whole squad levelling up. Section’s cooking rn 🔥"
+  },
+  section_daily_score: {
+    push: "Your section gained points today 💪",
+    inApp: "Section got some fire today. Points going up 🚀"
+  },
+  section_top_10_user: {
+    push: "Top 10 in your section 😙",
+    inApp: "One of your members hit Top 10! Section’s heating up 👏"
+  },
+  section_top_1: {
+    push: "Your section’s #1 🔥 We’re THEM 💪",
+    inApp: "Section’s running the platform rn. You just hit #1 on the leaderboard as a group 🏆"
+  },
+  section_top_5: {
+    push: "🚀 Your section’s in the Top 5",
+    inApp: "Section’s in the Top 5 now — it’s getting serious."
+  },
+  user_score_rising: {
+    push: "Your XP just went up 🔥",
+    inApp: "Keep pushing! You’re levelling up fast 🚀"
+  },
+  user_daily_score: {
+    push: "You gained points today 💪",
+    inApp: "You’re doing work! Keep it up 🔥"
+  },
+  user_top_10: {
+    push: "🥇 You just broke into the Top 10",
+    inApp: "You just broke into the Top 10 — now you're officially on the radar 👀"
+  },
+  user_top_5: {
+    push: "🥈 Top 5 — certified pressure",
+    inApp: "You just made Top 5. You're applying real pressure now."
+  },
+  user_top_1: {
+    push: "👑 You’re #1 on the leaderboard!",
+    inApp: "You’re officially at the top. Nobody above you. #1 on the leaderboard 🔥"
+  }
+};
+
+const sendNotification = async ({ userId, sectionId = null, type, senderId = STATIC_USER_ID }) => {
+  const { push: pushMsg, inApp: inAppMsg } = notificationMessages[type] || {};
+  if (!pushMsg || !inAppMsg) return;
+
+  const user = await userData.findById(userId);
+  if (!user?.device_Token) return;
+
+  const projectId = process.env.PROJECTID;
+  if (!projectId) console.error("❌ PROJECTID env variable is missing.");
+
+  const accessToken = await getAccessToken();
+  const url = `https://fcm.googleapis.com/v1/projects/${projectId}/messages:send`;
+
+  let notificationCount = await createNotification.countDocuments({ user_id: userId, is_Shown: true });
+  notificationCount = notificationCount > 0 ? notificationCount + 1 : 1;
+
+  const message = {
+    message: {
+      token: user.device_Token,
+      notification: { title: "CLIQK", body: pushMsg },
+      android: { notification: { sound: "default" } },
+      apns: { payload: { aps: { sound: "default", badge: notificationCount } } },
+      data: { badgeCount: notificationCount.toString() }
+    }
+  };
+
+  try {
+    await axios.post(url, message, {
+      headers: {
+        Authorization: `Bearer ${accessToken}`,
+        "Content-Type": "application/json"
+      }
+    });
+
+    await new createNotification({
+      community_id: sectionId,
+      sender_id: senderId,
+      user_id: userId,
+      notification_message: inAppMsg,
+      notification_type: 14,
+      module_type: type.includes("section") ? "section_alert" : "user_alert"
+    }).save();
+  } catch (err) {
+    console.error("❌ Notification send failed for user:", userId, "→", err.message);
+  }
+};
+
+// ⏰ Daily score delta check
+cron.schedule("0 0 * * *", async () => {
+  const today = moment().startOf("day");
+  const sections = await createCliqkData.find({});
+  for (const section of sections) {
+    const prev = section.previousScore || 0;
+    const current = section.socialScore;
+    if (current > prev) {
+      await sendNotification({ userId: section.userObjId, sectionId: section._id, type: "section_daily_score" });
+      section.previousScore = current;
+      section.lastScoreChange = today.toDate();
+      await section.save();
+    }
+  }
+
+  const users = await userData.find({});
+  for (const user of users) {
+    const prev = user.previousScore || 0;
+    const current = user.socialScore;
+    if (current > prev) {
+      await sendNotification({ userId: user._id, type: "user_daily_score" });
+      user.previousScore = current;
+      user.lastScoreChange = today.toDate();
+      await user.save();
+    }
+  }
+});
+
+// ⏱️ Hourly leaderboard rank check
+cron.schedule("0 * * * *", async () => {
+  const allUsers = await userData.find({}).sort({ socialScore: -1 });
+  for (let i = 0; i < allUsers.length; i++) {
+    const user = allUsers[i];
+    const currentRank = i + 1;
+    if (user.previousRank !== currentRank) {
+      if (currentRank <= 10 && user.previousRank > 10) {
+        await sendNotification({ userId: user._id, type: "user_top_10" });
+      }
+      if (currentRank <= 5 && user.previousRank > 5) {
+        await sendNotification({ userId: user._id, type: "user_top_5" });
+      }
+      if (currentRank === 1 && user.previousRank !== 1) {
+        await sendNotification({ userId: user._id, type: "user_top_1" });
+      }
+      user.previousRank = currentRank;
+      await user.save();
+    }
+  }
+
+  const allSections = await createCliqkData.find({}).sort({ socialScore: -1 });
+  for (let i = 0; i < allSections.length; i++) {
+    const section = allSections[i];
+    const currentRank = i + 1;
+    if (section.previousRank !== currentRank) {
+      if (currentRank === 1 && section.previousRank !== 1) {
+        await sendNotification({ userId: section.userObjId, sectionId: section._id, type: "section_top_1" });
+      }
+      if (currentRank <= 5 && section.previousRank > 5) {
+        await sendNotification({ userId: section.userObjId, sectionId: section._id, type: "section_top_5" });
+      }
+
+      const top10UserIds = allUsers.slice(0, 10).map(u => String(u._id));
+      const memberTop10 = section.community_Members?.find(id => top10UserIds.includes(String(id)));
+      if (memberTop10 && !section.lastTop10NotifiedUserIds.includes(String(memberTop10))) {
+        await sendNotification({ userId: section.userObjId, sectionId: section._id, type: "section_top_10_user" });
+        section.lastTop10NotifiedUserIds.push(String(memberTop10));
+      }
+      section.previousRank = currentRank;
+      await section.save();
+    }
+  }
+});
+
+module.exports = sendNotification;
+
+
+
+
+
+
+// exports.homeScreenPost = async (req, res, next) => {
+//     try {
+//         const userObjId = req.user._id;
+//         const user_id = mongoose.Types.ObjectId(req.body.user_id);
+
+//         // Notifications
+//         const notification_counts = await notificationData.find({ is_Shown: true });
+//         const notification_count = notification_counts.length;
+
+//         await userData.updateOne({ _id: userObjId }, { $set: { badgeCount: notification_count } });
+
+//         // Home screen communities
+//         const homescreen = await communityData.aggregate([
+//             {
+//                 $match: {
+//                     $or: [
+//                         { userObjId: userObjId },
+//                         { $expr: { $in: [userObjId, "$community_Members"] } },
+//                     ],
+//                 },
+//             },
+//             {
+//                 $project: {
+//                     _id: 1,
+//                     communityImage: 1,
+//                     communityName: 1,
+//                     subscrition_type: 1,
+//                     is_public: 1
+//                 }
+//             },
+//         ]);
+
+//         // Posts
+//         const post = await communityData.aggregate([
+//             {
+//                 $match: {
+//                     $or: [
+//                         { userObjId: user_id },
+//                         { $expr: { $in: [user_id, "$community_Members"] } },
+//                     ],
+//                 },
+//             },
+//             {
+//                 $lookup: {
+//                     from: "createpostdatas",
+//                     localField: "community_Members",
+//                     foreignField: "user_Id",
+//                     as: "community_Members",
+//                 }
+//             },
+//             { $unwind: "$community_Members" },
+//             { $match: { "community_Members.isActive": true } },
+
+//             {
+//                 $lookup: {
+//                     from: "userdatas",
+//                     localField: "community_Members.user_Id",
+//                     foreignField: "_id",
+//                     as: "community_Members.user_Id",
+//                 }
+//             },
+//             { $unwind: "$community_Members.user_Id" },
+//             {
+//                 $project: {
+//                     "community_Members.user_Id._id": 1,
+//                     "community_Members.user_Id.username": 1,
+//                     "community_Members.user_Id.image": 1,
+//                     "community_Members._id": 1,
+//                     "community_Members.post_type": 1,
+//                     "community_Members.createPost": 1,
+//                     "community_Members.desc": 1,
+//                     "community_Members.option": 1,
+//                     "community_Members.is_public": 1,
+//                     "community_Members.createdAt": 1,
+//                     "community_Members.tagPeoples": 1,
+//                     "community_Members.repost": 1,
+//                     "community_Members.repostUserId": 1,
+//                     "community_Members.isActive": 1,
+//                     likes: { $size: "$community_Members.post_likes" },
+//                 }
+//             },
+//             {
+//                 $sort: { "community_Members.createdAt": -1 }
+//             }
+//         ]);
+
+//         const postData = [];
+
+//         await Promise.all(post.map(async item => {
+//             const postItem = item.community_Members;
+
+//             // Check like status
+//             const isLiked = await like_dislikedatas.exists({
+//                 user_Id: user_id,
+//                 post_Id: postItem._id
+//             });
+
+//             // Count reposts
+//             const repostCount = await postDatas.countDocuments({
+//                 _id: postItem._id,
+//                 repost: true
+//             });
+
+//             // Top 2 comments with user info
+//             const topComments = await commentModel.aggregate([
+//                 { $match: { post_Id: postItem._id } },
+//                 { $sort: { createdAt: -1 } }, // sort by latest
+//                 { $limit: 2 },
+//                 {
+//                     $lookup: {
+//                         from: "userdatas",
+//                         localField: "user_Id",
+//                         foreignField: "_id",
+//                         as: "user",
+//                     },
+//                 },
+//                 { $unwind: "$user" },
+//                 {
+//                     $project: {
+//                         _id: 1,
+//                         text: 1,
+//                         createdAt: 1,
+//                         user: {
+//                             _id: "$user._id",
+//                             username: "$user.username",
+//                             image: "$user.image"
+//                         }
+//                     }
+//                 }
+//             ]);
+
+//             // Main post object
+//             const postObj = {
+//                 post_id: postItem._id,
+//                 post_type: postItem.post_type,
+//                 createPost: postItem.createPost,
+//                 desc: postItem.desc,
+//                 user_data: postItem.user_Id,
+//                 tagPeoples: postItem.tagPeoples,
+//                 createdAt: postItem.createdAt,
+//                 total_likes: postItem.likes,
+//                 is_public: postItem.is_public,
+//                 repost: postItem.repost || false,
+//                 is_Likes: isLiked || false,
+//                 repostCount: repostCount,
+//                 topComments: topComments || [],
+//                 isActive: postItem.isActive 
+
+//             };
+
+//             // Add repost user info if exists
+//             if (postItem.repostUserId) {
+//                 const repostUser = await userData.findOne(
+//                     { _id: postItem.repostUserId },
+//                     { fullname: 1, username: 1, image: 1 }
+//                 );
+//                 if (repostUser) {
+//                     postObj.repostUserData = {
+//                         _id: repostUser._id || "",
+//                         fullname: repostUser.fullname || "",
+//                         username: repostUser.username || "",
+//                         image: repostUser.image || ""
+//                     };
+//                 }
+//             }
+
+//             postData.push(postObj);
+//         }));
+
+//         // Pagination
+//         const pageNo = parseInt(req.body.page);
+//         const limit = parseInt(req.body.limit || 4);
+
+//         const paginate = (items, page, perPage) => {
+//             const offset = perPage * (page - 1);
+//             const totalPages = Math.ceil(items.length / perPage);
+//             const paginatedItems = items.slice(offset, perPage * page);
+//             const current_page = (offset / perPage) + 1;
+
+//             return {
+//                 previousPage: page - 1 > 0 ? page - 1 : false,
+//                 nextPage: (totalPages > page) ? page + 1 : false,
+//                 totalDocs: items.length,
+//                 totalPages: totalPages,
+//                 currentPage: current_page,
+//                 post: paginatedItems
+//             };
+//         };
+
+//         const result = paginate(postData, pageNo, limit);
+
+//         return res.send({
+//             data: homescreen,
+//             notification_count,
+//             result,
+//             status: 1,
+//             message: "Homescreen data fetched successfully"
+//         });
+
+//     } catch (error) {
+//         console.log("error ", error);
+//         res.send({ status: 0, message: error.message });
+//     }
+// };
+
+exports.    community_post = async (req, res, next) => {
+
+  try {
+      const community_id = mongoose.Types.ObjectId(req.body.community_id)
+      const user_id = req.user._id
+
+      const subscrition_type = req.body.subscrition_type
+
+      if (subscrition_type === "free") {
+          const community_post = await postData.aggregate([
+
+
+              { $match: { communityId: community_id } },
+
+              {
+                  $lookup: {
+                      from: "userdatas",
+                      localField: "user_Id",
+                      foreignField: "_id",
+                      as: "user_Id",
+                  }
+              },
+              { $unwind: "$user_Id" },
+
+              {
+                  $project: {
+                      "_id": 1,
+                      "post_type": 1,
+                      "createPost": 1,
+                      "desc": 1,
+                      "is_public": 1,
+                      "option": 1,
+                      "user_Id._id": 1,
+                      "user_Id.username": 1,
+                      "user_Id.image": 1,
+                      "createdAt": 1,
+                      "tagPeoples":1,
+                      likes: { $size: "$post_likes" }
+                      // likesCount: { $size: "$post_likes" },
+                  }
+              },
+
+          ])
+          let postDatas = []
+
+          const datass = await Promise.all(community_post.map(async item => {
+              var obj = {};
+              const data = await like_dislikedatas.find({ user_Id: user_id, post_Id: item._id });
+
+          const repostCount = await postDatas.find({ _id: item._id  , repost : true }).countDocuments();
+
+
+              var d = data.length > 0 ? true : false;
+
+              obj.post_id = item._id;
+              obj.post_type = item.post_type;
+              obj.createPost = item.createPost;
+              obj.desc = item.desc;
+              obj.user_data = item.user_Id;
+              obj.createdAt = item.createdAt;
+              obj.total_likes = item.likes;
+              obj.is_public = item.is_public;
+              obj.tagPeoples = item.tagPeoples;
+              obj.is_Likes = d;
+              obj. repostCount = repostCount
+
+              postDatas.push(obj)
+              return postDatas
+          }));
+
+          const pageNo = parseInt(req.body.page)
+          const limit = parseInt(req.body.limit || 4)
+
+          const paginate = (items, page, perPage) => {
+              console.log("perPage=>>", perPage, "items+>>", items, "page=>>", page)
+              const offset = perPage * (page - 1);
+              const totalPages = Math.ceil(items.length / perPage);
+              const paginatedItems = items.slice(offset, perPage * page);
+              const current_page = (offset / perPage) + 1
+
+              return {
+                  previousPage: page - 1 ? page - 1 : false,
+                  nextPage: (totalPages > page) ? page + 1 : false,
+                  totalDocs: items.length,
+                  totalPages: totalPages,
+                  currentPage: current_page,
+                  post: paginatedItems
+              };
+          };
+          const result = paginate(postDatas, pageNo, limit)
+
+          return res.send({ Data: result, status: 1, message: "community post fatch successfully" })
+      }
+      else {
+          const community_post = await communityData.aggregate([
+
+              { $match: { _id: community_id } },
+
+              {
+                  $lookup: {
+                      from: "userdatas",
+                      localField: "community_Members",
+                      foreignField: "_id",
+                      as: "community_Members",
+                  }
+              },
+
+              { $unwind: "$community_Members" },
+  
+              {
+                  $lookup: {
+                      from: "createpostdatas",
+
+                      // always let variable use aggrigate variable
+                      let: { user_id: '$community_Members._id', communityid: community_id },
+                      pipeline: [
+                          {
+                              $match: {
+                                  $expr: {
+
+                                      $and: [
+                                          { $eq: ["$user_Id", "$$user_id"] },
+                                          { $in: ["$$communityid", "$communityId"] }
+                                      ]
+                                  }
+                              }
+                          }
+                      ],
+                      as: "posts",
+
+                  }
+              },
+
+              {
+                  $match: {
+                      posts: { $ne: [] }
+                  }
+              }
+
+          ])
+
+
+          const postDatas = []
+          const datass = await Promise.all(community_post.map(async item => {
+              var obj = {};
+
+              const post = []
+              await Promise.all(item.posts.map(async element => {
+                  var post_obj = {};
+
+                  const data = await like_dislikedatas.find({ user_Id: user_id, post_Id: element._id });
+
+                  var d = data.length > 0 ? true : false;
+
+          const repostCount = await postDatas.find({ _id: element._id  , repost : true }).countDocuments();
+
+
+                  post_obj.post_id = element._id;
+                  post_obj.post_type = element.post_type;
+                  post_obj.createPost = element.createPost;
+                  post_obj.desc = element.desc;
+                  post_obj.createdAt = element.createdAt;
+                  post_obj.is_public = element.is_public;
+                  post_obj.likes = element.post_likes.length;
+                  post_obj.is_Likes = d;
+                  post_obj.tagPeoples = element.tagPeoples
+                  post_obj.repostCount = repostCount
+
+                  post.push(post_obj)
+
+              }));
+
+              obj.user_id = item.community_Members._id;
+              obj.fullname = item.community_Members.fullname;
+              obj.image = item.community_Members.image;
+              obj.post = post
+
+              postDatas.push(obj)
+              return postDatas
+          }));
+
+          const pageNo = parseInt(req.body.pageNo)
+          const limit = parseInt(req.body.limit || 4)
+          console.log("limit", limit);
+
+          const paginate = (items, page, perPage) => {
+              const offset = perPage * (page - 1);
+              const totalPages = Math.ceil(items.length / perPage);
+              const paginatedItems = items.slice(offset, perPage * page);
+              const current_page = (offset / perPage) + 1
+
+              return {
+                  previousPage: page - 1 ? page - 1 : false,
+                  nextPage: (totalPages > page) ? page + 1 : false,
+                  totalDocs: items.length,
+                  totalPages: totalPages,
+                  currentPage: current_page,
+                  post: paginatedItems
+              };
+          };
+          const result = paginate(postDatas, pageNo, limit)
+
+          res.send({ data: postDatas, status: 1, message: "community post fatch successfully" })
+      }
+
+  }
+  catch (error) {
+      console.log(error)
+      res.send({ status: 0, message: error.message })
+
+  }
+}
+
+
+
+const sectionSocialScores = async (sectionId, scoresData, scoreFor) => {
+  try {
+    if (["user_created_post", "repost_user_created_post"].includes(scoreFor)) {
+      const existingSection = await csectionSocialSData.findOne({ sectionId });
+      const sectionFind = await createCliqkData.findById(sectionId);
+
+      if (sectionFind) {
+        sectionFind.socialScore += scoresData.score;
+
+        // Calculate new XP
+        const xpp = calculateXP(sectionFind.socialScore);
+        const currentXP = xpp.xp;
+
+        // Derive previous XP (since we don’t persist it)
+        const previousXP = currentXP > 1 ? currentXP - 1 : 1;
+
+        // Update XP
+        sectionFind.xp = currentXP;
+        await sectionFind.save();
+
+        // Send notification if XP increased
+        if (currentXP > previousXP) {
+          await sendSectionNotification({
+            userId: sectionFind.userObjId,
+            sectionId: sectionFind._id,
+            type: "section_score_rising"
+          });
+        }
+      }
+
+      // Log score data
+      if (existingSection) {
+        existingSection.scoresData.push(scoresData);
+        await existingSection.save();
+        console.log(`✅ Successfully updated ${scoreFor} for section ${sectionId}`);
+      } else {
+        const newSection = new csectionSocialSData({ sectionId, scoresData: [scoresData] });
+        await newSection.save();
+        console.log("✅ New section created with scores data.");
+      }
+    }
+  } catch (error) {
+    console.error("❌ Error in sectionSocialScores:", error);
+  }
+};
+
+const userProfileScore = async (userId, scoresData, scoreFor) => {
+  try {
+    if (["user_created_post", "repost_user_created_post"].includes(scoreFor)) {
+      const existingUser = await playerSocialScore.findOne({ userId });
+      const userFind = await userData.findById(userId);
+
+      if (userFind) {
+        userFind.socialScore += scoresData.score;
+
+        const xpData = calculateXP(userFind.socialScore);
+        const currentXP = xpData.xp;
+        const previousXP = currentXP > 1 ? currentXP - 1 : 1;
+
+        userFind.xp = currentXP;
+        await userFind.save();
+
+        if (currentXP > previousXP) {
+          await sendSectionNotification({
+            userId: userFind._id,
+            type: "user_score_rising"
+          });
+        }
+      }
+
+      if (existingUser) {
+        existingUser.scoresData.push(scoresData);
+        await existingUser.save();
+        console.log(`✅ Successfully updated ${scoreFor} for user ${userId}`);
+      } else {
+        const newUser = new playerSocialScore({ userId, scoresData });
+        await newUser.save();
+        console.log("New user created with scores data.");
+      }
+    }
+  } catch (error) {
+    console.error("Error in userProfileScore:", error);
+  }
+};
+
+
+// Function to calculate XP
+const calculateXP = (socialScore) => {
+  let xp = 1;
+  let accumulatedPoints = 0;
+
+  // Early levels (1 → 10)
+  for (let level = 1; level <= 10; level++) {
+    const pointsNeeded = level * 10;
+
+    if (socialScore < accumulatedPoints + pointsNeeded) {
+      xp = level;
+      return {
+        xp,
+        nextThreshold: accumulatedPoints + pointsNeeded,
+      };
+    }
+
+    accumulatedPoints += pointsNeeded;
+  }
+
+  // After level 10 → fixed +100 per level
+  const extraPoints = socialScore - accumulatedPoints;
+
+  if (extraPoints >= 0) {
+    xp = 10 + Math.floor(extraPoints / 100) + 1;
+    const nextThreshold =
+      accumulatedPoints + (xp - 10) * 100;
+
+    return { xp, nextThreshold };
+  }
+
+  return { xp, nextThreshold: accumulatedPoints };
+};
+
+

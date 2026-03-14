@@ -1,0 +1,2679 @@
+[
+  {
+    "_id": "66672f9fa9c95f379c7f4e7c",
+    "cliqk_type": "private",
+    "subscrition_type": "",
+    "timescale": "",
+    "Amount": "0",
+    "communityImage": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/f11d0889-584d-4f0e-abda-40a5558955a3IMG_20240610_222249.jpg",
+        "_id": "66672f9fa9c95f379c7f4e7d"
+      }
+    ],
+    "communityName": "sfsfs",
+    "aboutCommunity": "fssfsfsdf",
+    "userObjId": "6663f108af09c97547bda51b",
+    "community_Members": [
+      "6663f108af09c97547bda51b",
+      "6663ef80af09c97547bda511"
+    ],
+    "createdAt": "2024-06-08T12:41:14.684Z",
+    "is_public": 0,
+    "product_id": "",
+    "price_id": "",
+    "unique_id": "7860615148",
+    "communityId": 2,
+    "__v": 6,
+    "socialScore": 0,
+    "followersList": [
+      "666824c2a9c95f379c7f4f8c"
+    ],
+    "updatedAt": "2025-04-07T11:20:06.272Z",
+    "xp": 0,
+    "viewsCount": 18,
+    "dualTimeLine": false,
+    "viewsTimeAndDateAndUserId": [
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-23T14:58:19.955Z",
+        "_id": "68308d0b2adbfd34ae8b582f"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-23T14:59:09.949Z",
+        "_id": "68308d3d2adbfd34ae8b5892"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-04T12:59:00.894Z",
+        "_id": "6867d01454ff44277c0f71fb"
+      }
+    ],
+    "lastScoreChange": "2025-06-27T18:30:00.000Z",
+    "lastTop10NotifiedUserIds": [
+      "6663ef80af09c97547bda511"
+    ],
+    "previousRank": 3,
+    "previousScore": 7,
+    "lastDecay": null,
+    "previousXP": 0
+  },
+  {
+    "_id": "666be3f460b6e67aa7b20fdf",
+    "cliqk_type": "bussiness",
+    "subscrition_type": "free",
+    "Amount": "0",
+    "communityImage": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/669d9050-4b47-4cae-8105-d3b34527f4e6IMG_20240614_120110.jpg",
+        "_id": "666be3f460b6e67aa7b20fe0"
+      },
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/bb3e0a1b-3d12-48cf-9ff0-f98c10a663baIMG_20240614_120121.jpg",
+        "_id": "666be3f460b6e67aa7b20fe1"
+      }
+    ],
+    "communityName": "Busniness Community",
+    "aboutCommunity": "Hello everyone 👋🏻! Today I’m going to show you how to use the “Shimmer Effect” in your Android projects. Before start, for those who don’t know what shimmer is that it’s a more efficient and UX-friendly way to show a loading process to the user. It’s generally preferred for list items as you see below:",
+    "userObjId": "6663f108af09c97547bda51b",
+    "community_Members": [
+      "666824c2a9c95f379c7f4f8c",
+      "6663ef80af09c97547bda511"
+    ],
+    "createdAt": "2024-06-13T13:32:59.912Z",
+    "is_public": 0,
+    "product_id": "",
+    "price_id": "",
+    "unique_id": "9376687598",
+    "communityId": 6,
+    "__v": 5,
+    "socialScore": 0,
+    "updatedAt": "2025-02-21T11:18:57.020Z",
+    "xp": 0,
+    "followersList": [
+      "6663ef80af09c97547bda511",
+      "6663ef80af09c97547bda511"
+    ],
+    "viewsCount": 38,
+    "dualTimeLine": false,
+    "viewsTimeAndDateAndUserId": [
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "viewedAt": "2025-05-24T07:44:47.597Z",
+        "_id": "683178ef1a124fdff436114d"
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "viewedAt": "2025-05-24T07:45:27.467Z",
+        "_id": "683179171a124fdff43611e9"
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "viewedAt": "2025-05-24T07:46:03.326Z",
+        "_id": "6831793b1a124fdff4361354"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-26T18:55:54.436Z",
+        "_id": "6834b93a1a124fdff4362889"
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "viewedAt": "2025-05-26T19:04:29.521Z",
+        "_id": "6834bb3d1a124fdff4362fb3"
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "viewedAt": "2025-05-26T19:06:26.671Z",
+        "_id": "6834bbb21a124fdff4363075"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-26T19:07:38.572Z",
+        "_id": "6834bbfa1a124fdff43630df"
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "viewedAt": "2025-05-31T10:03:16.827Z",
+        "_id": "683ad3e4c706cf637875da53"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-12T10:20:22.754Z",
+        "_id": "684aa9e63b5940b12aaa549c"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-07T11:46:21.630Z",
+        "_id": "686bb38d54ff44277c0f7f8f"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-07T11:46:57.773Z",
+        "_id": "686bb3b154ff44277c0f7fa4"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-14T10:29:15.732Z",
+        "_id": "6874dbfb868f4079bd1a2ee0"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-14T10:33:57.854Z",
+        "_id": "6874dd15868f4079bd1a2fae"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-14T10:34:00.887Z",
+        "_id": "6874dd18868f4079bd1a2fb6"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-14T10:37:13.697Z",
+        "_id": "6874ddd9868f4079bd1a300f"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-14T10:41:10.088Z",
+        "_id": "6874dec6868f4079bd1a31b0"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-07-17T17:19:42.798Z",
+        "_id": "687930ae868f4079bd1a8ca6"
+      }
+    ],
+    "lastScoreChange": "2025-08-31T18:30:00.000Z",
+    "lastTop10NotifiedUserIds": [
+      "666824c2a9c95f379c7f4f8c"
+    ],
+    "previousRank": 27,
+    "previousScore": 25,
+    "lastDecay": null,
+    "previousXP": 0
+  },
+  {
+    "_id": "668d5372ebb46ed45c5002c9",
+    "cliqk_type": "bussiness",
+    "subscrition_type": "free",
+    "Amount": "0",
+    "communityImage": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/c860cc15-e1f2-4aa7-a2de-6e774c8537a5IMG_20250413_165904_1299353002591785901%281%29.jpg",
+        "_id": "6834baba1a124fdff4362d4b"
+      }
+    ],
+    "communityName": "Update Business account",
+    "aboutCommunity": "weweweewewew",
+    "userObjId": "6663ef80af09c97547bda511",
+    "community_Members": [
+      "6663ef80af09c97547bda511"
+    ],
+    "createdAt": "2024-07-03T15:24:12.780Z",
+    "is_public": 0,
+    "product_id": "",
+    "price_id": "",
+    "unique_id": "1844742241",
+    "communityId": 7,
+    "__v": 6,
+    "followersList": [
+      "666824c2a9c95f379c7f4f8c"
+    ],
+    "dualTimeLine": false,
+    "socialScore": 0,
+    "updatedAt": "2025-04-12T11:04:51.387Z",
+    "viewsCount": 66,
+    "xp": 0,
+    "viewsTimeAndDateAndUserId": [
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-21T10:06:11.261Z",
+        "_id": "682da59353b51be218ad751c"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-21T12:29:11.256Z",
+        "_id": "682dc71717e6a0199742b676"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-23T15:59:57.865Z",
+        "_id": "68309b7d2adbfd34ae8b5a9a"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-23T16:16:55.739Z",
+        "_id": "68309f772adbfd34ae8b5ada"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-23T16:47:17.054Z",
+        "_id": "6830a6952adbfd34ae8b5b2e"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-23T16:48:08.526Z",
+        "_id": "6830a6c82adbfd34ae8b5b95"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-23T16:48:30.465Z",
+        "_id": "6830a6de2adbfd34ae8b5bae"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-23T16:49:28.031Z",
+        "_id": "6830a7182adbfd34ae8b5bbe"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-23T16:52:13.091Z",
+        "_id": "6830a7bd2adbfd34ae8b5c0e"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-23T16:53:25.017Z",
+        "_id": "6830a8052adbfd34ae8b5c62"
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "viewedAt": "2025-05-24T07:42:51.764Z",
+        "_id": "6831787b1a124fdff4361106"
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "viewedAt": "2025-05-24T07:45:33.274Z",
+        "_id": "6831791d1a124fdff43611f1"
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "viewedAt": "2025-05-24T07:45:37.146Z",
+        "_id": "683179211a124fdff43611f9"
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "viewedAt": "2025-05-24T07:46:13.325Z",
+        "_id": "683179451a124fdff436135c"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-26T18:04:04.822Z",
+        "_id": "6834ad141a124fdff4362219"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-26T18:55:15.931Z",
+        "_id": "6834b9131a124fdff4362826"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-26T19:02:13.413Z",
+        "_id": "6834bab51a124fdff4362d47"
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "viewedAt": "2025-05-26T19:04:10.481Z",
+        "_id": "6834bb2a1a124fdff4362f86"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-11T10:39:36.865Z",
+        "_id": "68495ce8eab7ade3982c0533"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-12T10:17:35.770Z",
+        "_id": "684aa93f3b5940b12aaa547b"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-12T10:18:22.630Z",
+        "_id": "684aa96e3b5940b12aaa5486"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-12T10:19:59.694Z",
+        "_id": "684aa9cf3b5940b12aaa5491"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-12T10:20:34.008Z",
+        "_id": "684aa9f23b5940b12aaa54a7"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-12T10:24:53.046Z",
+        "_id": "684aaaf53b5940b12aaa54cf"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-16T18:15:02.791Z",
+        "_id": "68505f2654ff44277c0f30fe"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-16T18:18:08.435Z",
+        "_id": "68505fe054ff44277c0f3187"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-16T18:20:19.359Z",
+        "_id": "6850606354ff44277c0f3212"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-16T19:21:23.189Z",
+        "_id": "68506eb354ff44277c0f3bd9"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-16T19:27:03.262Z",
+        "_id": "6850700754ff44277c0f3e27"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-24T09:00:10.754Z",
+        "_id": "685a691a54ff44277c0f492d"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-04T11:37:17.161Z",
+        "_id": "6867bced54ff44277c0f6f20"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-04T11:37:53.693Z",
+        "_id": "6867bd1154ff44277c0f6f2b"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-07T11:46:31.975Z",
+        "_id": "686bb39754ff44277c0f7f97"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-07T11:47:15.029Z",
+        "_id": "686bb3c354ff44277c0f7faf"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-13T17:44:59.857Z",
+        "_id": "6873f09b868f4079bd1a1d33"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-13T17:55:05.138Z",
+        "_id": "6873f2f9868f4079bd1a203c"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-14T10:41:23.956Z",
+        "_id": "6874ded3868f4079bd1a31c6"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-14T10:41:27.577Z",
+        "_id": "6874ded7868f4079bd1a31d3"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-14T14:10:10.596Z",
+        "_id": "68750fc2868f4079bd1a63ef"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-15T16:39:41.903Z",
+        "_id": "6876844d868f4079bd1a72b9"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-15T17:47:04.807Z",
+        "_id": "68769418868f4079bd1a7316"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-15T17:47:14.301Z",
+        "_id": "68769422868f4079bd1a7321"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-07-30T07:43:31.777Z",
+        "_id": "6889cd239e1a3212743e5fd0"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-30T11:08:53.582Z",
+        "_id": "6889fd459e1a3212743e648f"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-08-11T13:15:29.120Z",
+        "_id": "6899ecf19e1a3212743ef2d7"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-08-11T13:17:11.422Z",
+        "_id": "6899ed579e1a3212743ef37c"
+      }
+    ],
+    "lastScoreChange": "2025-08-31T18:30:00.000Z",
+    "lastTop10NotifiedUserIds": [
+      "6663ef80af09c97547bda511"
+    ],
+    "previousRank": 26,
+    "previousScore": 34,
+    "lastDecay": null,
+    "previousXP": 0
+  },
+  {
+    "_id": "668d962bebb46ed45c5008b1",
+    "cliqk_type": "private",
+    "subscrition_type": "",
+    "timescale": "",
+    "Amount": "0",
+    "communityImage": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/feb148aa-f487-4f27-bfe5-2339948473c51725304567.813571image.jpeg",
+        "_id": "66d60f0c56969a23c77540fb"
+      }
+    ],
+    "communityName": "passwordhills",
+    "aboutCommunity": "write about your section",
+    "userObjId": "668d95a5ebb46ed45c50086f",
+    "community_Members": [
+      "668d95a5ebb46ed45c50086f",
+      "666acee4547c0608c2f348cb",
+      "668d8894ebb46ed45c500505"
+    ],
+    "createdAt": "2024-07-03T15:24:12.780Z",
+    "is_public": 0,
+    "product_id": "",
+    "price_id": "",
+    "unique_id": "2519900903",
+    "communityId": 10,
+    "__v": 5,
+    "followersList": [],
+    "socialScore": 0,
+    "updatedAt": "2025-04-07T08:23:01.576Z",
+    "xp": 0,
+    "viewsCount": 7,
+    "viewsTimeAndDateAndUserId": [
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-05-28T05:42:05.910Z",
+        "_id": "6836a22d1a124fdff4363e2c"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-13T17:55:58.445Z",
+        "_id": "6873f32e868f4079bd1a2106"
+      },
+      {
+        "userId": "668d95a5ebb46ed45c50086f",
+        "viewedAt": "2025-07-27T00:35:38.874Z",
+        "_id": "6885745a9e1a3212743e3304"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-07-30T07:43:49.790Z",
+        "_id": "6889cd359e1a3212743e5fe0"
+      }
+    ],
+    "dualTimeLine": false,
+    "lastTop10NotifiedUserIds": [
+      "668d95a5ebb46ed45c50086f"
+    ],
+    "previousRank": 25,
+    "previousScore": 0,
+    "lastDecay": null,
+    "lastScoreChange": null,
+    "previousXP": 0
+  },
+  {
+    "_id": "668f036bebb46ed45c50377e",
+    "cliqk_type": "private",
+    "subscrition_type": "",
+    "timescale": "",
+    "Amount": "0",
+    "communityImage": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/47d25614-301f-40d0-b66b-47e3062f2ddf1720731581.469311image.jpeg",
+        "_id": "669047be864a822f8633a728"
+      }
+    ],
+    "communityName": "What A Time..",
+    "aboutCommunity": "write about your section",
+    "userObjId": "668f0233ebb46ed45c50375d",
+    "community_Members": [],
+    "createdAt": "2024-07-03T15:24:12.780Z",
+    "is_public": 0,
+    "product_id": "",
+    "price_id": "",
+    "unique_id": "8739247261",
+    "communityId": 13,
+    "__v": 1,
+    "followersList": [],
+    "socialScore": 0,
+    "xp": 0,
+    "dualTimeLine": false,
+    "lastTop10NotifiedUserIds": [],
+    "previousRank": 24,
+    "previousScore": 0,
+    "updatedAt": "2025-06-27T13:57:58.119Z",
+    "viewsCount": 0,
+    "viewsTimeAndDateAndUserId": [],
+    "lastDecay": null,
+    "lastScoreChange": null,
+    "previousXP": 0
+  },
+  {
+    "_id": "668f8992ebb46ed45c503cef",
+    "cliqk_type": "private",
+    "subscrition_type": "",
+    "timescale": "",
+    "Amount": "0",
+    "communityImage": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/a18f3472-5e07-4c04-bd14-33863974c51b1720682887.60456image.jpeg",
+        "_id": "668f8992ebb46ed45c503cf0"
+      }
+    ],
+    "communityName": "NGU!",
+    "aboutCommunity": "Mind\nOver\nMatter. ",
+    "userObjId": "668e40e1ebb46ed45c50223e",
+    "community_Members": [
+      "668d95a5ebb46ed45c50086f",
+      "666acee4547c0608c2f348cb",
+      "668d8894ebb46ed45c500505",
+      "668f0233ebb46ed45c50375d",
+      "668e40e1ebb46ed45c50223e",
+      "668db061ebb46ed45c501824"
+    ],
+    "createdAt": "2024-07-03T15:24:12.780Z",
+    "is_public": 0,
+    "product_id": "",
+    "price_id": "",
+    "unique_id": "1987806246",
+    "communityId": 14,
+    "__v": 7,
+    "followersList": [],
+    "viewsCount": 24,
+    "socialScore": 0,
+    "xp": 0,
+    "dualTimeLine": false,
+    "updatedAt": "2025-05-31T08:28:03.230Z",
+    "viewsTimeAndDateAndUserId": [
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "viewedAt": "2025-05-31T10:03:32.424Z",
+        "_id": "683ad3f4c706cf637875da5b"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-12T10:21:09.385Z",
+        "_id": "684aaa153b5940b12aaa54b6"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-12T10:42:59.490Z",
+        "_id": "684aaf333b5940b12aaa55af"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-12T10:49:26.951Z",
+        "_id": "684ab0b63b5940b12aaa55e2"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-15T19:09:30.874Z",
+        "_id": "684f1a6a54ff44277c0f2979"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-16T19:28:38.672Z",
+        "_id": "6850706654ff44277c0f3e98"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-04T12:57:36.139Z",
+        "_id": "6867cfc054ff44277c0f716f"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-07T11:57:29.490Z",
+        "_id": "686bb62954ff44277c0f8081"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-07T11:57:36.771Z",
+        "_id": "686bb63054ff44277c0f8089"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-15T16:39:30.703Z",
+        "_id": "68768442868f4079bd1a72ae"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-03T02:04:17.750Z",
+        "_id": "688ec3a19e1a3212743e8848"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-03T02:04:29.640Z",
+        "_id": "688ec3ad9e1a3212743e8858"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-03T02:04:32.706Z",
+        "_id": "688ec3b09e1a3212743e8864"
+      }
+    ],
+    "lastScoreChange": "2025-08-31T18:30:00.000Z",
+    "lastTop10NotifiedUserIds": [
+      "668d95a5ebb46ed45c50086f",
+      "668e40e1ebb46ed45c50223e"
+    ],
+    "previousRank": 23,
+    "previousScore": 18,
+    "lastDecay": null,
+    "previousXP": 0
+  },
+  {
+    "_id": "669057ad864a822f8633aa04",
+    "cliqk_type": "private",
+    "subscrition_type": "",
+    "timescale": "",
+    "Amount": "0",
+    "communityImage": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/852fe642-61b2-4dfe-a3df-3852693937151727294907.81116image.jpeg",
+        "_id": "66f46de2fdd19c96a410216b"
+      }
+    ],
+    "communityName": "Behind the scenes ",
+    "aboutCommunity": "Life is for living 🦋✨🌎",
+    "userObjId": "669041ca864a822f8633a4ab",
+    "community_Members": [
+      "669041ca864a822f8633a4ab",
+      "668d8894ebb46ed45c500505"
+    ],
+    "createdAt": "2024-07-11T12:34:30.532Z",
+    "is_public": 0,
+    "product_id": "",
+    "price_id": "",
+    "unique_id": "3290550925",
+    "communityId": 15,
+    "__v": 2,
+    "followersList": [],
+    "socialScore": 0,
+    "xp": 0,
+    "viewsCount": 1,
+    "viewsTimeAndDateAndUserId": [
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-26T18:42:49.117Z",
+        "_id": "6834b6291a124fdff436253f"
+      }
+    ],
+    "dualTimeLine": false,
+    "lastTop10NotifiedUserIds": [],
+    "previousRank": 22,
+    "previousScore": 0,
+    "updatedAt": "2025-06-27T13:57:58.119Z",
+    "lastDecay": null,
+    "lastScoreChange": null,
+    "previousXP": 0
+  },
+  {
+    "_id": "6693ee877e9579eef565c654",
+    "cliqk_type": "private",
+    "subscrition_type": "",
+    "timescale": "",
+    "Amount": "0",
+    "communityImage": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/aa14afc0-7c7b-4b6c-bb45-48b29688a52a1720970886.5802078image.jpeg",
+        "_id": "6693ee877e9579eef565c655"
+      }
+    ],
+    "communityName": "HER's",
+    "aboutCommunity": "write about your section",
+    "userObjId": "6693ed7b7e9579eef565c54f",
+    "community_Members": [
+      "6693ed7b7e9579eef565c54f"
+    ],
+    "createdAt": "2024-07-12T05:39:43.925Z",
+    "is_public": 0,
+    "product_id": "",
+    "price_id": "",
+    "unique_id": "7169229555",
+    "communityId": 16,
+    "__v": 2,
+    "followersList": [],
+    "viewsCount": 3,
+    "socialScore": 0,
+    "xp": 0,
+    "dualTimeLine": false,
+    "lastTop10NotifiedUserIds": [],
+    "previousRank": 21,
+    "previousScore": 0,
+    "updatedAt": "2025-06-27T13:57:58.119Z",
+    "viewsTimeAndDateAndUserId": [
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-21T08:23:11.886Z",
+        "_id": "687df8ef5e4b591d165d8391"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-07-30T07:43:38.323Z",
+        "_id": "6889cd2a9e1a3212743e5fd8"
+      }
+    ],
+    "lastDecay": null,
+    "lastScoreChange": null,
+    "previousXP": 0
+  },
+  {
+    "_id": "6695cf247e9579eef565eadf",
+    "cliqk_type": "private",
+    "subscrition_type": "",
+    "timescale": "",
+    "Amount": "0",
+    "communityImage": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/31182833-9620-40df-ad2d-3c5d91ac5bf01721093923.177538image.jpeg",
+        "_id": "6695cf247e9579eef565eae0"
+      }
+    ],
+    "communityName": "Section 🅿️",
+    "aboutCommunity": "🅿️G Section. ",
+    "userObjId": "6695ccdb7e9579eef565ea35",
+    "community_Members": [
+      "6695ccdb7e9579eef565ea35"
+    ],
+    "createdAt": "2024-07-12T05:39:43.925Z",
+    "is_public": 0,
+    "product_id": "",
+    "price_id": "",
+    "unique_id": "6587837931",
+    "communityId": 17,
+    "__v": 2,
+    "followersList": [],
+    "viewsCount": 3,
+    "socialScore": 0,
+    "xp": 0,
+    "dualTimeLine": false,
+    "lastTop10NotifiedUserIds": [],
+    "previousRank": 20,
+    "previousScore": 0,
+    "updatedAt": "2025-06-27T13:57:58.119Z",
+    "viewsTimeAndDateAndUserId": [
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-07T11:59:26.130Z",
+        "_id": "686bb69e54ff44277c0f80b5"
+      }
+    ],
+    "lastDecay": null,
+    "lastScoreChange": null,
+    "previousXP": 0
+  },
+  {
+    "_id": "669616f57e9579eef565f0d9",
+    "cliqk_type": "bussiness",
+    "subscrition_type": "free",
+    "Amount": "0",
+    "communityImage": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/7ea3320d-be05-4840-b57a-264f66b6b5fe1721112349.60426image.jpeg",
+        "_id": "6696171f7e9579eef565f0fe"
+      }
+    ],
+    "communityName": "red girls",
+    "aboutCommunity": "All red red",
+    "userObjId": "666824c2a9c95f379c7f4f8c",
+    "community_Members": [
+      "666824c2a9c95f379c7f4f8c",
+      "6663f108af09c97547bda51b",
+      "66e9348015566658df1ae14c",
+      "6663ef80af09c97547bda511"
+    ],
+    "createdAt": "2024-07-12T05:39:43.925Z",
+    "is_public": 0,
+    "product_id": "",
+    "price_id": "",
+    "unique_id": "2990511470",
+    "communityId": 18,
+    "__v": 6,
+    "socialScore": 0,
+    "updatedAt": "2025-03-29T08:24:46.518Z",
+    "xp": 0,
+    "followersList": [
+      "6663ef80af09c97547bda511"
+    ],
+    "viewsCount": 110,
+    "dualTimeLine": false,
+    "viewsTimeAndDateAndUserId": [
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "viewedAt": "2025-05-24T07:44:31.427Z",
+        "_id": "683178df1a124fdff436112f"
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "viewedAt": "2025-05-24T07:44:36.065Z",
+        "_id": "683178e41a124fdff436113a"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-26T17:37:57.778Z",
+        "_id": "6834a6f51a124fdff436194d"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-26T17:38:04.749Z",
+        "_id": "6834a6fc1a124fdff436195d"
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "viewedAt": "2025-05-26T18:43:28.865Z",
+        "_id": "6834b6501a124fdff436257e"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-26T18:43:41.346Z",
+        "_id": "6834b65d1a124fdff436258b"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-26T18:43:44.529Z",
+        "_id": "6834b6601a124fdff4362597"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-26T18:44:00.200Z",
+        "_id": "6834b6701a124fdff43625d1"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-26T18:44:05.191Z",
+        "_id": "6834b6751a124fdff43625e0"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-26T18:55:34.977Z",
+        "_id": "6834b9261a124fdff4362867"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-11T11:13:04.494Z",
+        "_id": "684964c0eab7ade3982c07ca"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-11T11:13:12.733Z",
+        "_id": "684964c8eab7ade3982c07d2"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-12T10:40:31.251Z",
+        "_id": "684aae9f3b5940b12aaa552b"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-12T10:42:04.161Z",
+        "_id": "684aaefc3b5940b12aaa559f"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-12T10:42:29.379Z",
+        "_id": "684aaf153b5940b12aaa55a7"
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "viewedAt": "2025-06-12T11:42:35.084Z",
+        "_id": "684abd2bb83b80192ed463a4"
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "viewedAt": "2025-06-12T11:50:19.429Z",
+        "_id": "684abefb66a2e7f8a4e61afd"
+      },
+      {
+        "userId": "6819c4025b62842d2960750c",
+        "viewedAt": "2025-06-15T19:46:54.165Z",
+        "_id": "684f232e54ff44277c0f299d"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-24T09:00:18.568Z",
+        "_id": "685a692254ff44277c0f4938"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-24T09:00:23.045Z",
+        "_id": "685a692754ff44277c0f4943"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-04T12:58:05.867Z",
+        "_id": "6867cfdd54ff44277c0f7177"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-04T12:58:19.948Z",
+        "_id": "6867cfeb54ff44277c0f7187"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-04T12:58:34.052Z",
+        "_id": "6867cffa54ff44277c0f718f"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-07T11:38:09.385Z",
+        "_id": "686bb1a154ff44277c0f7bc4"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-07T11:57:51.590Z",
+        "_id": "686bb63f54ff44277c0f8091"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-07T11:57:56.156Z",
+        "_id": "686bb64454ff44277c0f8099"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-13T17:55:34.993Z",
+        "_id": "6873f316868f4079bd1a2096"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-13T18:00:10.029Z",
+        "_id": "6873f42a868f4079bd1a21e2"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-14T12:13:56.784Z",
+        "_id": "6874f484868f4079bd1a5cc5"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T10:45:50.864Z",
+        "_id": "6880bd5e5e4b591d165da88e"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T10:46:01.893Z",
+        "_id": "6880bd695e4b591d165da89c"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T10:47:30.109Z",
+        "_id": "6880bdc25e4b591d165da8d2"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T10:49:31.829Z",
+        "_id": "6880be3b5e4b591d165da8da"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T10:49:37.299Z",
+        "_id": "6880be415e4b591d165da8e6"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T10:49:42.636Z",
+        "_id": "6880be465e4b591d165da8f6"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T10:57:59.529Z",
+        "_id": "6880c0375e4b591d165da929"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T11:03:20.964Z",
+        "_id": "6880c1785e4b591d165da9b7"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T11:04:48.855Z",
+        "_id": "6880c1d05e4b591d165da9ea"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T11:06:37.415Z",
+        "_id": "6880c23d5e4b591d165da9fa"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T11:06:40.904Z",
+        "_id": "6880c2405e4b591d165daa02"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T11:22:58.859Z",
+        "_id": "6880c6125e4b591d165daa50"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T11:39:43.043Z",
+        "_id": "6880c9ff5e4b591d165daa8a"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T11:40:06.120Z",
+        "_id": "6880ca165e4b591d165daada"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T11:49:09.001Z",
+        "_id": "6880cc355e4b591d165dab0d"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T11:53:29.663Z",
+        "_id": "6880cd395e4b591d165dab40"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T11:59:32.106Z",
+        "_id": "6880cea45e4b591d165dab73"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T12:00:54.922Z",
+        "_id": "6880cef65e4b591d165dabf9"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T12:05:41.685Z",
+        "_id": "6880d0155e4b591d165dac2c"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T12:11:59.860Z",
+        "_id": "6880d18f5e4b591d165dac79"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T12:13:44.296Z",
+        "_id": "6880d1f85e4b591d165dacac"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T12:18:37.694Z",
+        "_id": "6880d31d5e4b591d165dacdf"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T12:21:10.480Z",
+        "_id": "6880d3b65e4b591d165dad15"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T12:54:05.906Z",
+        "_id": "6880db6d5e4b591d165dae41"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-24T13:48:51.100Z",
+        "_id": "688239c35e4b591d165db735"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-24T13:49:42.354Z",
+        "_id": "688239f65e4b591d165db769"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-24T13:50:27.362Z",
+        "_id": "68823a235e4b591d165db775"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-24T13:54:18.659Z",
+        "_id": "68823b0a5e4b591d165db77d"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-24T13:57:29.697Z",
+        "_id": "68823bc95e4b591d165db78d"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-24T13:59:38.461Z",
+        "_id": "68823c4a5e4b591d165db7b4"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-24T14:00:00.335Z",
+        "_id": "68823c605e4b591d165db7c2"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-24T14:00:02.599Z",
+        "_id": "68823c625e4b591d165db7e5"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-24T14:02:13.397Z",
+        "_id": "68823ce55e4b591d165db82b"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-24T14:02:16.179Z",
+        "_id": "68823ce85e4b591d165db833"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-24T14:04:38.193Z",
+        "_id": "68823d765e4b591d165db85a"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-24T14:06:57.138Z",
+        "_id": "68823e015e4b591d165db892"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-24T14:07:00.958Z",
+        "_id": "68823e045e4b591d165db89e"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-24T14:11:17.093Z",
+        "_id": "68823f055e4b591d165db8c5"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-24T14:11:21.069Z",
+        "_id": "68823f095e4b591d165db8d5"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-24T14:11:25.943Z",
+        "_id": "68823f0d5e4b591d165db8e1"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-25T14:46:57.286Z",
+        "_id": "688398e15e4b591d165dc4da"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-25T14:47:05.949Z",
+        "_id": "688398e95e4b591d165dc4ea"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-08-11T10:11:16.886Z",
+        "_id": "6899c1c49e1a3212743ee58f"
+      },
+      {
+        "userId": "689ad8f29e1a3212743efeef",
+        "viewedAt": "2025-08-18T03:57:53.896Z",
+        "_id": "68a2a4c14839b40d079c7298"
+      }
+    ],
+    "lastScoreChange": "2025-08-31T18:30:00.000Z",
+    "lastTop10NotifiedUserIds": [
+      "666824c2a9c95f379c7f4f8c"
+    ],
+    "previousRank": 19,
+    "previousScore": 35,
+    "lastDecay": null,
+    "previousXP": 0
+  },
+  {
+    "_id": "6696e0a27e9579eef566097a",
+    "cliqk_type": "bussiness",
+    "subscrition_type": "free",
+    "Amount": "0",
+    "communityImage": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/e543735f-6054-496f-af94-024c1e2ed7f61721163936.6824121image.jpeg",
+        "_id": "6696e0a27e9579eef566097b"
+      }
+    ],
+    "communityName": "Quote for Growth",
+    "aboutCommunity": "Shared wisdom is wisdom multiplied…",
+    "userObjId": "668e40e1ebb46ed45c50223e",
+    "community_Members": [
+      "666acee4547c0608c2f348cb",
+      "668d8894ebb46ed45c500505",
+      "668db061ebb46ed45c501824",
+      "668d95a5ebb46ed45c50086f",
+      "669041ca864a822f8633a4ab",
+      "669021d3864a822f86339ae4",
+      "66bcb666b3ff2d867a09301b"
+    ],
+    "createdAt": "2024-07-12T05:39:43.925Z",
+    "is_public": 0,
+    "product_id": "",
+    "price_id": "",
+    "unique_id": "6537609279",
+    "communityId": 21,
+    "__v": 3,
+    "followersList": [],
+    "viewsCount": 14,
+    "socialScore": 0,
+    "xp": 0,
+    "viewsTimeAndDateAndUserId": [
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-23T16:54:32.269Z",
+        "_id": "6830a8482adbfd34ae8b5ca1"
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "viewedAt": "2025-05-24T07:43:11.755Z",
+        "_id": "6831788f1a124fdff4361114"
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "viewedAt": "2025-05-24T07:43:22.325Z",
+        "_id": "6831789a1a124fdff436111c"
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "viewedAt": "2025-05-24T08:49:38.122Z",
+        "_id": "683188221a124fdff4361446"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-07-17T17:17:50.970Z",
+        "_id": "6879303e868f4079bd1a8af6"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-30T11:14:09.828Z",
+        "_id": "6889fe819e1a3212743e6659"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-30T11:14:27.952Z",
+        "_id": "6889fe939e1a3212743e6664"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-30T11:14:36.938Z",
+        "_id": "6889fe9c9e1a3212743e666c"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-30T11:15:04.400Z",
+        "_id": "6889feb89e1a3212743e6679"
+      }
+    ],
+    "dualTimeLine": false,
+    "lastTop10NotifiedUserIds": [
+      "666acee4547c0608c2f348cb"
+    ],
+    "previousRank": 18,
+    "previousScore": 15,
+    "updatedAt": "2025-06-27T13:57:58.119Z",
+    "lastDecay": null,
+    "lastScoreChange": "2025-08-31T18:30:00.000Z",
+    "previousXP": 0
+  },
+  {
+    "_id": "66a746378856dfd8f4701560",
+    "cliqk_type": "bussiness",
+    "subscrition_type": "free",
+    "Amount": "0",
+    "communityImage": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/bed75a13-aa13-48a7-8565-cbbf3a60bd231722238517.23275image.jpeg",
+        "_id": "66a746378856dfd8f4701561"
+      },
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/3c5a68cb-c0aa-4fd0-bc77-15f1e1a16d521722238517.232775image.jpeg",
+        "_id": "66a746378856dfd8f4701562"
+      }
+    ],
+    "communityName": "New Section",
+    "aboutCommunity": "Regfwdqswvfvdc",
+    "userObjId": "66a745ad8856dfd8f470153d",
+    "community_Members": [],
+    "createdAt": "2024-07-27T12:51:54.555Z",
+    "is_public": 0,
+    "product_id": "",
+    "price_id": "",
+    "unique_id": "4282034363",
+    "communityId": 22,
+    "__v": 1,
+    "followersList": [],
+    "socialScore": 0,
+    "xp": 0,
+    "viewsCount": 1,
+    "viewsTimeAndDateAndUserId": [
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-26T18:42:54.502Z",
+        "_id": "6834b62e1a124fdff4362547"
+      }
+    ],
+    "dualTimeLine": false,
+    "lastTop10NotifiedUserIds": [],
+    "previousRank": 17,
+    "previousScore": 0,
+    "updatedAt": "2025-06-27T13:57:58.119Z",
+    "lastDecay": null,
+    "lastScoreChange": null,
+    "previousXP": 0
+  },
+  {
+    "_id": "66ccdbc4b3ff2d867a099092",
+    "cliqk_type": "private",
+    "subscrition_type": "",
+    "timescale": "",
+    "Amount": "0",
+    "communityImage": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/76b432fe-4dd6-4b2a-b70a-ae1d4fff3de01724701636.2311459image.jpeg",
+        "_id": "66ccdbc4b3ff2d867a099093"
+      }
+    ],
+    "communityName": "He Who Laughs Last....",
+    "aboutCommunity": "write about your section",
+    "userObjId": "66afd798aaff596fad1ff530",
+    "community_Members": [],
+    "createdAt": "2024-08-05T05:19:56.294Z",
+    "is_public": 0,
+    "product_id": "",
+    "price_id": "",
+    "unique_id": "2224372536",
+    "communityId": 23,
+    "__v": 1,
+    "followersList": [],
+    "socialScore": 0,
+    "xp": 0,
+    "dualTimeLine": false,
+    "lastTop10NotifiedUserIds": [],
+    "previousRank": 16,
+    "previousScore": 0,
+    "updatedAt": "2025-06-27T13:57:58.119Z",
+    "viewsCount": 1,
+    "viewsTimeAndDateAndUserId": [
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-14T14:23:48.200Z",
+        "_id": "687512f4868f4079bd1a645c"
+      }
+    ],
+    "lastDecay": null,
+    "lastScoreChange": null,
+    "previousXP": 0
+  },
+  {
+    "_id": "66d42a6156969a23c7751e17",
+    "cliqk_type": "bussiness",
+    "subscrition_type": "free",
+    "Amount": "0",
+    "communityImage": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/52cafb9b-9d06-4beb-aa05-ce4bb24b9c2d1725180512.272121image.jpeg",
+        "_id": "6703bd49770317c3e5eb05ef"
+      }
+    ],
+    "communityName": "FPL SZN",
+    "aboutCommunity": "if you don’t love this game then this section ain’t for you.",
+    "userObjId": "666acee4547c0608c2f348cb",
+    "community_Members": [
+      "669021d3864a822f86339ae4",
+      "668f96b3ebb46ed45c503e10",
+      "668e40e1ebb46ed45c50223e",
+      "668d8894ebb46ed45c500505",
+      "66bcb666b3ff2d867a09301b",
+      "66afd798aaff596fad1ff530",
+      "66d60c6756969a23c7753f1e",
+      "666824c2a9c95f379c7f4f8c",
+      "669972867e9579eef5661f2c",
+      "666acee4547c0608c2f348cb"
+    ],
+    "createdAt": "2024-08-28T11:58:53.349Z",
+    "is_public": 0,
+    "product_id": "",
+    "price_id": "",
+    "unique_id": "6894658391",
+    "communityId": 24,
+    "__v": 5,
+    "socialScore": 2,
+    "updatedAt": "2025-03-29T08:24:46.518Z",
+    "xp": 1,
+    "followersList": [
+      "6663ef80af09c97547bda511"
+    ],
+    "viewsCount": 67,
+    "dualTimeLine": false,
+    "viewsTimeAndDateAndUserId": [
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "viewedAt": "2025-05-24T07:44:56.356Z",
+        "_id": "683178f81a124fdff4361158"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-06-28T08:56:00.881Z",
+        "_id": "685fae2054ff44277c0f6292"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-07-04T14:52:43.690Z",
+        "_id": "6867eabb54ff44277c0f74a1"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-07-12T11:39:33.523Z",
+        "_id": "68724975868f4079bd1a0bb6"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-07-12T11:39:46.440Z",
+        "_id": "68724982868f4079bd1a0bc0"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-07-17T17:16:48.309Z",
+        "_id": "68793000868f4079bd1a88dc"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-07-17T17:16:58.849Z",
+        "_id": "6879300a868f4079bd1a898a"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-07-17T17:20:02.973Z",
+        "_id": "687930c2868f4079bd1a8cd4"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-07-17T17:20:42.291Z",
+        "_id": "687930ea868f4079bd1a8e1b"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-28T12:55:40.192Z",
+        "_id": "6887734c9e1a3212743e46b4"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-28T12:56:15.914Z",
+        "_id": "6887736f9e1a3212743e46f1"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-28T12:56:54.565Z",
+        "_id": "688773969e1a3212743e4768"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-28T12:57:22.116Z",
+        "_id": "688773b29e1a3212743e4774"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-28T12:58:11.135Z",
+        "_id": "688773e39e1a3212743e4788"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-07-29T12:17:20.888Z",
+        "_id": "6888bbd09e1a3212743e566a"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-07-30T08:00:04.043Z",
+        "_id": "6889d1049e1a3212743e6075"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-07-30T08:00:14.685Z",
+        "_id": "6889d10e9e1a3212743e60aa"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-07-30T08:04:37.471Z",
+        "_id": "6889d2159e1a3212743e60de"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-01T10:59:03.138Z",
+        "_id": "688c9df79e1a3212743e79bd"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-03T02:05:14.529Z",
+        "_id": "688ec3da9e1a3212743e887c"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-03T02:05:37.216Z",
+        "_id": "688ec3f19e1a3212743e888d"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-03T10:35:26.835Z",
+        "_id": "688f3b6e9e1a3212743e8bc1"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-03T10:35:47.828Z",
+        "_id": "688f3b839e1a3212743e8bcb"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-03T10:37:25.288Z",
+        "_id": "688f3be59e1a3212743e8bf9"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-03T12:09:01.097Z",
+        "_id": "688f515d9e1a3212743e8d26"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-03T12:09:05.803Z",
+        "_id": "688f51619e1a3212743e8d36"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-03T12:09:08.567Z",
+        "_id": "688f51649e1a3212743e8d42"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-03T13:10:13.064Z",
+        "_id": "688f5fb59e1a3212743e8dd0"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-03T13:11:36.958Z",
+        "_id": "688f60089e1a3212743e8e1d"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-11T10:01:44.189Z",
+        "_id": "6899bf889e1a3212743ee3b0"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-18T17:21:30.254Z",
+        "_id": "68a3611a4839b40d079c79e7"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-18T17:21:55.928Z",
+        "_id": "68a361334839b40d079c79f1"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-18T17:22:17.330Z",
+        "_id": "68a361494839b40d079c7a02"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-18T17:22:38.258Z",
+        "_id": "68a3615e4839b40d079c7a36"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-18T17:22:42.093Z",
+        "_id": "68a361624839b40d079c7a41"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-18T17:24:18.060Z",
+        "_id": "68a361c24839b40d079c7a4c"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-18T17:37:26.879Z",
+        "_id": "68a364d64839b40d079c7aa8"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-18T17:37:47.135Z",
+        "_id": "68a364eb4839b40d079c7ab2"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-18T17:39:40.199Z",
+        "_id": "68a3655c4839b40d079c7b03"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-18T17:40:07.225Z",
+        "_id": "68a365774839b40d079c7b0d"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-22T18:45:24.987Z",
+        "_id": "68a8bac44839b40d079c9dbf"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-22T18:47:04.006Z",
+        "_id": "68a8bb284839b40d079c9deb"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-22T19:41:52.353Z",
+        "_id": "68a8c8004839b40d079c9e5d"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-22T19:45:53.429Z",
+        "_id": "68a8c8f14839b40d079c9e90"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-22T19:46:19.751Z",
+        "_id": "68a8c90b4839b40d079c9e9a"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-31T11:02:32.134Z",
+        "_id": "68b42bc84839b40d079ceae3"
+      },
+      {
+        "userId": "66d60c6756969a23c7753f1e",
+        "viewedAt": "2025-09-02T19:32:52.221Z",
+        "_id": "68b746644839b40d079d00f0"
+      }
+    ],
+    "lastTop10NotifiedUserIds": [
+      "668e40e1ebb46ed45c50223e",
+      "668f96b3ebb46ed45c503e10"
+    ],
+    "previousRank": 1,
+    "previousScore": 16,
+    "lastDecay": null,
+    "lastScoreChange": "2025-08-31T18:30:00.000Z",
+    "previousXP": 0
+  },
+  {
+    "_id": "66d7578e56969a23c7754f41",
+    "cliqk_type": "private",
+    "subscrition_type": "",
+    "timescale": "",
+    "Amount": "0",
+    "communityImage": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/cf165769-c213-43a1-99be-a9e9094b16aa1725388684.0392652image.jpeg",
+        "_id": "66d7578e56969a23c7754f42"
+      }
+    ],
+    "communityName": "Life with Ty & Family only 🔐",
+    "aboutCommunity": "Private…",
+    "userObjId": "668d8894ebb46ed45c500505",
+    "community_Members": [
+      "666acee4547c0608c2f348cb",
+      "668d8894ebb46ed45c500505",
+      "66bcb666b3ff2d867a09301b",
+      "669041ca864a822f8633a4ab",
+      "668e40e1ebb46ed45c50223e",
+      "66dedb1a56969a23c77582a3",
+      "66dedb1a56969a23c77582a3",
+      "66dedb1a56969a23c77582a3",
+      "66dedb1a56969a23c77582a3",
+      "66bcb666b3ff2d867a09301b",
+      "66bcb666b3ff2d867a09301b"
+    ],
+    "createdAt": "2024-08-28T11:58:53.349Z",
+    "is_public": 0,
+    "product_id": "",
+    "price_id": "",
+    "unique_id": "1844325651",
+    "communityId": 25,
+    "__v": 5,
+    "socialScore": 0,
+    "updatedAt": "2025-02-24T10:33:44.619Z",
+    "xp": 0,
+    "followersList": [],
+    "viewsCount": 15,
+    "dualTimeLine": false,
+    "lastTop10NotifiedUserIds": [
+      "666acee4547c0608c2f348cb",
+      "668e40e1ebb46ed45c50223e"
+    ],
+    "previousRank": 15,
+    "previousScore": 0,
+    "viewsTimeAndDateAndUserId": [
+      {
+        "userId": "668d8894ebb46ed45c500505",
+        "viewedAt": "2025-07-02T12:34:38.148Z",
+        "_id": "6865275e54ff44277c0f69ce"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-14T12:31:27.726Z",
+        "_id": "6874f89f868f4079bd1a5f97"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-14T13:05:18.887Z",
+        "_id": "6875008e868f4079bd1a604c"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-07-17T17:17:22.604Z",
+        "_id": "68793022868f4079bd1a8a65"
+      },
+      {
+        "userId": "668d8894ebb46ed45c500505",
+        "viewedAt": "2025-07-27T00:35:40.992Z",
+        "_id": "6885745c9e1a3212743e330c"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-07-30T08:00:19.172Z",
+        "_id": "6889d1139e1a3212743e60b7"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-07-30T08:00:54.319Z",
+        "_id": "6889d1369e1a3212743e60c4"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-07-30T08:01:05.579Z",
+        "_id": "6889d1419e1a3212743e60d1"
+      }
+    ],
+    "lastDecay": null,
+    "lastScoreChange": null,
+    "previousXP": 0
+  },
+  {
+    "_id": "66dacb7056969a23c775710c",
+    "cliqk_type": "private",
+    "subscrition_type": "",
+    "timescale": "",
+    "Amount": "0",
+    "communityImage": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/b95d3f4c-a508-4e37-8e78-0998cc3d8d751725614959.791061image.jpeg",
+        "_id": "66dacb7056969a23c775710d"
+      }
+    ],
+    "communityName": "Money on My Mind",
+    "aboutCommunity": "Timeline of motivation ",
+    "userObjId": "66dac9e956969a23c77570ea",
+    "community_Members": [
+      "66dac9e956969a23c77570ea",
+      "66dad26d56969a23c7757250",
+      "666acee4547c0608c2f348cb"
+    ],
+    "createdAt": "2024-08-28T11:58:53.349Z",
+    "is_public": 0,
+    "product_id": "",
+    "price_id": "",
+    "unique_id": "0708963155",
+    "communityId": 26,
+    "__v": 3,
+    "followersList": [],
+    "socialScore": 0,
+    "xp": 0,
+    "dualTimeLine": false,
+    "lastTop10NotifiedUserIds": [
+      "666acee4547c0608c2f348cb"
+    ],
+    "previousRank": 14,
+    "previousScore": 0,
+    "updatedAt": "2025-06-27T13:57:58.119Z",
+    "viewsCount": 0,
+    "viewsTimeAndDateAndUserId": [],
+    "lastDecay": null,
+    "lastScoreChange": null,
+    "previousXP": 0
+  },
+  {
+    "_id": "66daf08856969a23c7757ac2",
+    "cliqk_type": "private",
+    "subscrition_type": "",
+    "timescale": "",
+    "Amount": "0",
+    "communityImage": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/bd727fb1-a361-4212-99ca-bd5e41e6510b1725624455.538391image.jpeg",
+        "_id": "66daf08856969a23c7757ac3"
+      }
+    ],
+    "communityName": "mum life.",
+    "aboutCommunity": "For the moms that still got it and getting back to it ✨🧘🏾‍♀️🤸🏽‍♀️",
+    "userObjId": "66d6e18156969a23c77546dc",
+    "community_Members": [],
+    "createdAt": "2024-08-28T11:58:53.349Z",
+    "is_public": 0,
+    "product_id": "",
+    "price_id": "",
+    "unique_id": "0755732459",
+    "communityId": 27,
+    "__v": 1,
+    "followersList": [],
+    "socialScore": 0,
+    "xp": 0,
+    "dualTimeLine": false,
+    "lastTop10NotifiedUserIds": [],
+    "previousRank": 13,
+    "previousScore": 0,
+    "updatedAt": "2025-06-27T13:57:58.119Z",
+    "viewsCount": 0,
+    "viewsTimeAndDateAndUserId": [],
+    "lastDecay": null,
+    "lastScoreChange": null,
+    "previousXP": 0
+  },
+  {
+    "_id": "66e07d3856969a23c77587fd",
+    "cliqk_type": "bussiness",
+    "subscrition_type": "free",
+    "Amount": "0",
+    "communityImage": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/ada8e875-6fda-47e9-8d21-253b6e48cdb31725988151.599915image.jpeg",
+        "_id": "66e07d3856969a23c77587fe"
+      },
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/8e8f3078-9e23-4840-bbb6-e6e3bd9afe571725988151.599936image.jpeg",
+        "_id": "66e07d3856969a23c77587ff"
+      }
+    ],
+    "communityName": "Governed",
+    "aboutCommunity": "write about your section",
+    "userObjId": "66e07c4956969a23c77587d9",
+    "community_Members": [
+      "66e07c4956969a23c77587d9"
+    ],
+    "createdAt": "2024-08-28T11:58:53.349Z",
+    "is_public": 0,
+    "product_id": "",
+    "price_id": "",
+    "unique_id": "7580315674",
+    "communityId": 28,
+    "__v": 2,
+    "followersList": [],
+    "socialScore": 0,
+    "xp": 0,
+    "dualTimeLine": false,
+    "lastTop10NotifiedUserIds": [],
+    "previousRank": 12,
+    "previousScore": 0,
+    "updatedAt": "2025-06-27T13:57:58.119Z",
+    "viewsCount": 0,
+    "viewsTimeAndDateAndUserId": [],
+    "lastDecay": null,
+    "lastScoreChange": null,
+    "previousXP": 0
+  },
+  {
+    "_id": "66e9916b9c3dca4f9105d2c7",
+    "cliqk_type": "bussiness",
+    "subscrition_type": "free",
+    "Amount": "0",
+    "communityImage": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/9154ab02-69ec-490f-a746-f16db9fe3a8b1726583146.5611482image.jpeg",
+        "_id": "66e9916b9c3dca4f9105d2c8"
+      }
+    ],
+    "communityName": "Faiz 1234",
+    "aboutCommunity": "Faiz",
+    "userObjId": "66e9348015566658df1ae14c",
+    "community_Members": [
+      "66e9348015566658df1ae14c",
+      "666824c2a9c95f379c7f4f8c"
+    ],
+    "createdAt": "2024-09-17T14:25:16.980Z",
+    "is_public": 0,
+    "product_id": "",
+    "price_id": "",
+    "unique_id": "8039227335",
+    "communityId": 45,
+    "__v": 6,
+    "followersList": [],
+    "viewsCount": 6,
+    "socialScore": 0,
+    "xp": 0,
+    "dualTimeLine": false,
+    "updatedAt": "2025-05-31T08:28:03.230Z",
+    "viewsTimeAndDateAndUserId": [
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-04T12:59:15.961Z",
+        "_id": "6867d02354ff44277c0f720b"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-04T12:59:26.690Z",
+        "_id": "6867d02e54ff44277c0f721d"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-13T17:53:56.195Z",
+        "_id": "6873f2b4868f4079bd1a1f8d"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-13T17:56:16.206Z",
+        "_id": "6873f340868f4079bd1a2116"
+      }
+    ],
+    "lastScoreChange": "2025-06-27T18:30:00.000Z",
+    "lastTop10NotifiedUserIds": [
+      "666824c2a9c95f379c7f4f8c"
+    ],
+    "previousRank": 11,
+    "previousScore": 6,
+    "lastDecay": null,
+    "previousXP": 0
+  },
+  {
+    "_id": "66ea81bd3dd0fe05754ec03a",
+    "cliqk_type": "bussiness",
+    "subscrition_type": "free",
+    "Amount": "0",
+    "communityImage": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/cb0f5a21-f110-46b1-beb8-21d3886c5d101726644669.20533image.jpeg",
+        "_id": "66ea81bd3dd0fe05754ec03b"
+      }
+    ],
+    "communityName": "ghhxcuxhc",
+    "aboutCommunity": " Jccycchdfhd",
+    "userObjId": "66e9348015566658df1ae14c",
+    "community_Members": [],
+    "createdAt": "2024-09-18T07:30:44.515Z",
+    "is_public": 0,
+    "product_id": "",
+    "price_id": "",
+    "unique_id": "9903080474",
+    "communityId": 55,
+    "__v": 1,
+    "followersList": [],
+    "viewsCount": 10,
+    "socialScore": 0,
+    "xp": 0,
+    "dualTimeLine": false,
+    "lastTop10NotifiedUserIds": [],
+    "previousRank": 10,
+    "previousScore": 0,
+    "updatedAt": "2025-06-27T13:57:58.119Z",
+    "viewsTimeAndDateAndUserId": [],
+    "lastDecay": null,
+    "lastScoreChange": null,
+    "previousXP": 0
+  },
+  {
+    "_id": "66ebc3b187bcc96acb4d9dc2",
+    "cliqk_type": "private",
+    "subscrition_type": "",
+    "timescale": "",
+    "Amount": "0",
+    "communityImage": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/10934f44-003d-4ce8-8373-386e8d648c801726727088.743551image.jpeg",
+        "_id": "66ebc3b187bcc96acb4d9dc3"
+      }
+    ],
+    "communityName": "The Round Table",
+    "aboutCommunity": "write about your section",
+    "userObjId": "66eb2bdd87bcc96acb4d9da1",
+    "community_Members": [],
+    "createdAt": "2024-09-18T10:28:28.471Z",
+    "is_public": 0,
+    "product_id": "",
+    "price_id": "",
+    "unique_id": "1998721822",
+    "communityId": 56,
+    "__v": 1,
+    "followersList": [],
+    "socialScore": 0,
+    "xp": 0,
+    "dualTimeLine": false,
+    "lastTop10NotifiedUserIds": [],
+    "previousRank": 9,
+    "previousScore": 0,
+    "updatedAt": "2025-06-27T13:57:58.119Z",
+    "viewsCount": 1,
+    "viewsTimeAndDateAndUserId": [
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-04T12:59:07.690Z",
+        "_id": "6867d01b54ff44277c0f7203"
+      }
+    ],
+    "lastDecay": null,
+    "lastScoreChange": null,
+    "previousXP": 0
+  },
+  {
+    "_id": "67a4c66e3a8fc09fba7ac839",
+    "cliqk_type": "bussiness",
+    "subscrition_type": "free",
+    "Amount": "0",
+    "communityImage": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/b3a7cfeb-68d6-47a0-a7d5-e1adb964f6e41738851949.259901image.jpeg",
+        "_id": "67a5e5a4e04baf0e583cae14"
+      }
+    ],
+    "communityName": "CLIQK OFFICIAL",
+    "aboutCommunity": "This is the official CLIQK section page.",
+    "userObjId": "67a4c5082f32b1680ef21c22",
+    "community_Members": [
+      "67a5a44be04baf0e583cab62",
+      "67a4c5082f32b1680ef21c22",
+      "67b41d09f1285cb1e385efae",
+      "67b54dc9f1285cb1e385f05d",
+      "6663ef80af09c97547bda511",
+      "6663f108af09c97547bda51b",
+      "666824c2a9c95f379c7f4f8c",
+      "666acee4547c0608c2f348cb",
+      "668d8894ebb46ed45c500505",
+      "668d95a5ebb46ed45c50086f",
+      "668db061ebb46ed45c501824",
+      "668e40e1ebb46ed45c50223e",
+      "668f0233ebb46ed45c50375d",
+      "668f96b3ebb46ed45c503e10",
+      "66900518864a822f8633964e",
+      "669021d3864a822f86339ae4",
+      "66903d95864a822f8633a18f",
+      "669041ca864a822f8633a4ab",
+      "669050bd864a822f8633a7f6",
+      "66906a21864a822f8633b26b",
+      "6693ed7b7e9579eef565c54f",
+      "6695ccdb7e9579eef565ea35",
+      "669972867e9579eef5661f2c",
+      "669a56317e9579eef56625eb",
+      "66a273c37e9579eef5664c5c",
+      "66a745ad8856dfd8f470153d",
+      "66af3e64aaff596fad1feee7",
+      "66afd798aaff596fad1ff530",
+      "66b05e35aaff596fad1ff5b9",
+      "66bc365db3ff2d867a092d00",
+      "66bcb666b3ff2d867a09301b",
+      "66d60a5956969a23c7753ea2",
+      "66d60b4f56969a23c7753ed2",
+      "66d60c6756969a23c7753f1e",
+      "66d61b3e56969a23c7754317",
+      "66d61b9956969a23c7754336",
+      "66d61f1456969a23c7754340",
+      "66d6231e56969a23c775436a",
+      "66d6e18156969a23c77546dc",
+      "66da09e056969a23c7756e02",
+      "66dac9e956969a23c77570ea",
+      "66dad26d56969a23c7757250",
+      "66db795556969a23c7757ea6",
+      "66dc8def56969a23c7758062",
+      "66dedb1a56969a23c77582a3",
+      "66e03e9c56969a23c77585b8",
+      "66e07c4956969a23c77587d9",
+      "66e68e1fb86ba16266cd1789",
+      "66e6d145b86ba16266cd18fc",
+      "66e8aa11b86ba16266cd1aa4",
+      "66e9348015566658df1ae14c",
+      "66eb2bdd87bcc96acb4d9da1",
+      "66f312c8fdd19c96a4101b64",
+      "670a3290770317c3e5eb263e",
+      "67126e71770317c3e5eb2fc6",
+      "672126cb770317c3e5eb487c",
+      "6721f29b770317c3e5eb48ab",
+      "67597b4ee0a0b37cf71b9439",
+      "676b606a41608a7716086bc3",
+      "677d24e43649439e56170c66",
+      "6791bbcd7de4d3cd0d0dc2e6",
+      "67a4a88c45b03a1f0f37ea42",
+      "67e286d8dcab0c52a54cd112",
+      "67e28877dcab0c52a54cd1c8",
+      "67e685a5c8c1a90cff698705",
+      "67e68628c8c1a90cff698729",
+      "67eade46f0f4eb2f00c7fa9f",
+      "6819c4025b62842d2960750c",
+      "68219917317e0b0f8394b368",
+      "6839c2a01a124fdff4364233",
+      "686083f754ff44277c0f6598",
+      "68650c6654ff44277c0f68f6",
+      "6867acb654ff44277c0f6adf",
+      "6867ad5354ff44277c0f6ae7",
+      "6867b0cd54ff44277c0f6b07",
+      "6867b2e954ff44277c0f6b1b",
+      "689996659e1a3212743edfb8",
+      "689ad8f29e1a3212743efeef",
+      "68b4627e4839b40d079cebf2",
+      "68b639d34839b40d079cf87c",
+      "68b7331e4839b40d079cffab"
+    ],
+    "createdAt": "2025-02-06T14:20:32.646Z",
+    "updatedAt": "2025-02-06T14:20:32.646Z",
+    "is_public": 0,
+    "product_id": "",
+    "price_id": "",
+    "unique_id": "9363105188",
+    "communityId": 58,
+    "__v": 7,
+    "followersList": [],
+    "dualTimeLine": false,
+    "socialScore": 0,
+    "viewsCount": 19,
+    "xp": 0,
+    "lastTop10NotifiedUserIds": [
+      "6663ef80af09c97547bda511",
+      "67a4c5082f32b1680ef21c22",
+      "668e40e1ebb46ed45c50223e"
+    ],
+    "previousRank": 8,
+    "previousScore": 2,
+    "viewsTimeAndDateAndUserId": [
+      {
+        "userId": "68650c6654ff44277c0f68f6",
+        "viewedAt": "2025-07-02T10:42:56.620Z",
+        "_id": "68650d3054ff44277c0f6966"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-13T17:56:09.201Z",
+        "_id": "6873f339868f4079bd1a210e"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-14T10:41:19.417Z",
+        "_id": "6874decf868f4079bd1a31bb"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-07-17T17:19:16.264Z",
+        "_id": "68793094868f4079bd1a8c58"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-28T12:59:58.555Z",
+        "_id": "6887744e9e1a3212743e4824"
+      }
+    ],
+    "lastDecay": null,
+    "lastScoreChange": "2025-08-31T18:30:00.000Z",
+    "previousXP": 0
+  },
+  {
+    "_id": "67e6879eadd853f47b4f1bd9",
+    "cliqk_type": "bussiness",
+    "subscrition_type": "free",
+    "Amount": "0",
+    "communityImage": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/bd238c72-f9ec-4b5a-b67e-15782989c5b7IMG_20250328_165605_859371814556037947%281%29.jpg",
+        "_id": "67e6879eadd853f47b4f1bda"
+      },
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/1fc17ad0-ba76-48b1-8b24-c4e821ee81d8IMG_20250328_165647_3533183679555543619%281%29.jpg",
+        "_id": "67e6879eadd853f47b4f1bdb"
+      }
+    ],
+    "communityName": "testing section",
+    "aboutCommunity": "bxnxbxbbx",
+    "userObjId": "67e685a5c8c1a90cff698705",
+    "community_Members": [
+      "67e68628c8c1a90cff698729",
+      "67e685a5c8c1a90cff698705"
+    ],
+    "createdAt": "2025-03-28T11:25:13.013Z",
+    "updatedAt": "2025-03-28T11:25:13.013Z",
+    "is_public": 0,
+    "product_id": "",
+    "price_id": "",
+    "unique_id": "8026287819",
+    "xp": 0,
+    "socialScore": 0,
+    "communityId": 65,
+    "__v": 5,
+    "followersList": [
+      "67e68628c8c1a90cff698729",
+      "6663ef80af09c97547bda511"
+    ],
+    "viewsCount": 22,
+    "dualTimeLine": false,
+    "viewsTimeAndDateAndUserId": [
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-23T15:58:46.950Z",
+        "_id": "68309b362adbfd34ae8b5a8a"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-23T15:59:52.781Z",
+        "_id": "68309b782adbfd34ae8b5a92"
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "viewedAt": "2025-05-24T07:44:03.025Z",
+        "_id": "683178c31a124fdff4361124"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-05-26T18:56:07.343Z",
+        "_id": "6834b9471a124fdff4362897"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-12T10:43:54.358Z",
+        "_id": "684aaf6a3b5940b12aaa55b7"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-15T20:03:41.933Z",
+        "_id": "684f271d54ff44277c0f2a93"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-15T20:09:14.432Z",
+        "_id": "684f286a54ff44277c0f2af3"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-16T17:39:31.962Z",
+        "_id": "685056d354ff44277c0f2b6d"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-16T18:32:28.936Z",
+        "_id": "6850633c54ff44277c0f3538"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-16T18:41:26.537Z",
+        "_id": "6850655654ff44277c0f35b2"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-16T19:22:45.081Z",
+        "_id": "68506f0554ff44277c0f3c9a"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-16T19:28:10.310Z",
+        "_id": "6850704a54ff44277c0f3e4a"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-13T17:49:38.960Z",
+        "_id": "6873f1b2868f4079bd1a1ecd"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-13T17:50:35.496Z",
+        "_id": "6873f1eb868f4079bd1a1f2d"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-14T10:37:16.729Z",
+        "_id": "6874dddc868f4079bd1a3017"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-07-29T12:27:29.337Z",
+        "_id": "6888be319e1a3212743e56d2"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-07-30T07:43:16.718Z",
+        "_id": "6889cd149e1a3212743e5fbe"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-07-30T07:43:22.963Z",
+        "_id": "6889cd1a9e1a3212743e5fc6"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-18T17:38:42.607Z",
+        "_id": "68a365224839b40d079c7aca"
+      }
+    ],
+    "lastScoreChange": "2025-06-27T18:30:00.000Z",
+    "lastTop10NotifiedUserIds": [
+      "67e68628c8c1a90cff698729"
+    ],
+    "previousRank": 7,
+    "previousScore": 9,
+    "lastDecay": null,
+    "previousXP": 0
+  },
+  {
+    "_id": "6849dab03b5940b12aaa4ead",
+    "cliqk_type": "bussiness",
+    "subscrition_type": "free",
+    "Amount": "0",
+    "communityImage": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/70176719-4cda-45b4-963b-e369d0f83b8c1000392785.jpg",
+        "_id": "6849dab03b5940b12aaa4eae"
+      }
+    ],
+    "communityName": "gigli art section",
+    "aboutCommunity": "this section requires you to me and I will be available for remote playback",
+    "userObjId": "666824c2a9c95f379c7f4f8c",
+    "community_Members": [],
+    "createdAt": "2025-06-11T13:55:19.648Z",
+    "updatedAt": "2025-06-11T13:55:19.648Z",
+    "is_public": 0,
+    "product_id": "",
+    "price_id": "",
+    "unique_id": "9909024555",
+    "xp": 0,
+    "socialScore": 0,
+    "followersList": [],
+    "dualTimeLine": false,
+    "viewsCount": 13,
+    "viewsTimeAndDateAndUserId": [
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-11T19:36:53.645Z",
+        "_id": "6849dad53b5940b12aaa4fe7"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-11T19:37:04.834Z",
+        "_id": "6849dae03b5940b12aaa4ff1"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-11T19:37:19.916Z",
+        "_id": "6849daef3b5940b12aaa4ffb"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-12T09:47:21.614Z",
+        "_id": "684aa2293b5940b12aaa5260"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-12T09:47:29.824Z",
+        "_id": "684aa2313b5940b12aaa5270"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-12T09:55:29.952Z",
+        "_id": "684aa4113b5940b12aaa52d1"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-12T09:55:33.952Z",
+        "_id": "684aa4153b5940b12aaa52dc"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-12T10:21:22.861Z",
+        "_id": "684aaa223b5940b12aaa54c1"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-12T10:40:51.613Z",
+        "_id": "684aaeb33b5940b12aaa553a"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-16T17:43:00.619Z",
+        "_id": "685057a454ff44277c0f2bdd"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-16T17:43:05.737Z",
+        "_id": "685057a954ff44277c0f2bef"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-06-16T17:44:08.626Z",
+        "_id": "685057e854ff44277c0f2bf7"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-14T14:10:16.935Z",
+        "_id": "68750fc8868f4079bd1a63f7"
+      }
+    ],
+    "communityId": 67,
+    "__v": 1,
+    "lastTop10NotifiedUserIds": [],
+    "previousRank": 6,
+    "previousScore": 0,
+    "lastDecay": null,
+    "lastScoreChange": null,
+    "previousXP": 0
+  },
+  {
+    "_id": "687df3295e4b591d165d810a",
+    "cliqk_type": "bussiness",
+    "subscrition_type": "free",
+    "Amount": "0",
+    "communityImage": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/922b7f19-8905-4097-bdb0-921f12977e031000118173.jpg",
+        "_id": "687df3295e4b591d165d810b"
+      },
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/e321ab61-9702-4849-8fee-9ddbabaeae591000118214.jpg",
+        "_id": "687df3295e4b591d165d810c"
+      }
+    ],
+    "communityName": "Watch Section",
+    "aboutCommunity": "This is premium watch section. ⌚",
+    "userObjId": "6663ef80af09c97547bda511",
+    "community_Members": [
+      "666acee4547c0608c2f348cb"
+    ],
+    "createdAt": "2025-07-18T12:40:40.314Z",
+    "updatedAt": "2025-07-18T12:40:40.314Z",
+    "is_public": 0,
+    "product_id": "",
+    "price_id": "",
+    "unique_id": "8098753375",
+    "xp": 0,
+    "socialScore": 0,
+    "followersList": [
+      "666acee4547c0608c2f348cb"
+    ],
+    "dualTimeLine": false,
+    "viewsCount": 13,
+    "viewsTimeAndDateAndUserId": [
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T10:59:07.715Z",
+        "_id": "6880c07b5e4b591d165da931"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T11:05:06.292Z",
+        "_id": "6880c1e25e4b591d165da9f2"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T12:21:13.537Z",
+        "_id": "6880d3b95e4b591d165dad1d"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T12:23:08.995Z",
+        "_id": "6880d42c5e4b591d165dad50"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T12:28:21.857Z",
+        "_id": "6880d5655e4b591d165dad83"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T12:33:38.660Z",
+        "_id": "6880d6a25e4b591d165dae0e"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-07-29T12:41:22.809Z",
+        "_id": "6888c1729e1a3212743e5701"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-30T11:13:05.945Z",
+        "_id": "6889fe419e1a3212743e65ea"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-30T13:10:32.620Z",
+        "_id": "688a19c89e1a3212743e6972"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-30T13:10:42.026Z",
+        "_id": "688a19d29e1a3212743e6982"
+      },
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-30T13:10:45.194Z",
+        "_id": "688a19d59e1a3212743e698e"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-03T13:10:23.058Z",
+        "_id": "688f5fbf9e1a3212743e8de0"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-03T13:11:22.334Z",
+        "_id": "688f5ffa9e1a3212743e8e12"
+      }
+    ],
+    "communityId": 68,
+    "__v": 1,
+    "lastTop10NotifiedUserIds": [],
+    "previousRank": 5,
+    "previousScore": 43,
+    "previousXP": 0,
+    "lastScoreChange": "2025-08-31T18:30:00.000Z"
+  },
+  {
+    "_id": "687df68c5e4b591d165d8228",
+    "cliqk_type": "private",
+    "subscrition_type": "",
+    "timescale": "",
+    "Amount": "0",
+    "communityImage": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/5f024378-4ef5-404f-a01d-269b581bcb431753085579.029866image.jpeg",
+        "_id": "687df68c5e4b591d165d8229"
+      }
+    ],
+    "communityName": "Decoration Section",
+    "aboutCommunity": "This is for test",
+    "userObjId": "6663ef80af09c97547bda511",
+    "community_Members": [],
+    "createdAt": "2025-07-18T12:40:40.314Z",
+    "updatedAt": "2025-07-18T12:40:40.314Z",
+    "is_public": 0,
+    "product_id": "",
+    "price_id": "",
+    "unique_id": "8843291926",
+    "xp": 0,
+    "socialScore": 0,
+    "followersList": [
+      "689996659e1a3212743edfb8"
+    ],
+    "dualTimeLine": false,
+    "viewsCount": 4,
+    "viewsTimeAndDateAndUserId": [
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "viewedAt": "2025-07-23T12:31:54.098Z",
+        "_id": "6880d63a5e4b591d165daddb"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-07-30T07:42:53.985Z",
+        "_id": "6889ccfd9e1a3212743e5fb6"
+      },
+      {
+        "userId": "689996659e1a3212743edfb8",
+        "viewedAt": "2025-08-11T10:43:50.452Z",
+        "_id": "6899c9669e1a3212743ee810"
+      },
+      {
+        "userId": "689996659e1a3212743edfb8",
+        "viewedAt": "2025-08-11T10:44:08.172Z",
+        "_id": "6899c9789e1a3212743ee820"
+      }
+    ],
+    "communityId": 69,
+    "__v": 1,
+    "lastTop10NotifiedUserIds": [],
+    "previousRank": 4,
+    "previousScore": 38,
+    "previousXP": 0,
+    "lastScoreChange": "2025-08-31T18:30:00.000Z"
+  },
+  {
+    "_id": "6882428f5e4b591d165db915",
+    "cliqk_type": "bussiness",
+    "subscrition_type": "free",
+    "Amount": "0",
+    "communityImage": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/9043a061-3728-4219-b2f5-4f5ec42ea4621000159328.jpg",
+        "_id": "6882428f5e4b591d165db916"
+      }
+    ],
+    "communityName": "Private Section",
+    "aboutCommunity": "This is test private Section.",
+    "userObjId": "6663ef80af09c97547bda511",
+    "community_Members": [
+      "689996659e1a3212743edfb8"
+    ],
+    "createdAt": "2025-07-18T12:40:40.314Z",
+    "updatedAt": "2025-07-18T12:40:40.314Z",
+    "is_public": 0,
+    "product_id": "",
+    "price_id": "",
+    "unique_id": "6988733209",
+    "xp": 0,
+    "socialScore": 0,
+    "followersList": [
+      "689996659e1a3212743edfb8"
+    ],
+    "dualTimeLine": false,
+    "viewsCount": 3,
+    "viewsTimeAndDateAndUserId": [
+      {
+        "userId": "689996659e1a3212743edfb8",
+        "viewedAt": "2025-08-11T10:44:21.495Z",
+        "_id": "6899c9859e1a3212743ee88b"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-18T17:19:43.454Z",
+        "_id": "68a360af4839b40d079c79ab"
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "viewedAt": "2025-08-18T17:19:53.259Z",
+        "_id": "68a360b94839b40d079c79b8"
+      }
+    ],
+    "communityId": 70,
+    "__v": 2,
+    "lastTop10NotifiedUserIds": [
+      "689996659e1a3212743edfb8"
+    ],
+    "previousRank": 2,
+    "previousScore": 32,
+    "previousXP": 0,
+    "lastScoreChange": "2025-08-31T18:30:00.000Z"
+  }
+]

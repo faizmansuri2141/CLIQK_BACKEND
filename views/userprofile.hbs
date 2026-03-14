@@ -1,0 +1,428 @@
+<body>
+    <style>
+        .dot {
+            height: 34px;
+            width: 45px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+
+        }
+    </style>
+    <div class="theme-loader">
+        <div class="ball-scale">
+            <div class='contain'>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="pcoded" class="pcoded">
+        <div class="pcoded-overlay-box"></div>
+        <div class="pcoded-container navbar-wrapper">
+            {{>header}}
+
+
+
+
+
+            <div class="pcoded-main-container">
+                <div class="pcoded-wrapper">
+                    {{>sidebar}}
+
+                    <div class="pcoded-content">
+                        <div class="pcoded-inner-content">
+
+                            <div class="main-body">
+                                <div class="page-wrapper">
+
+                                    <div class="page-header">
+                                        <div class="row align-items-end">
+                                            <div class="col-lg-8">
+                                                <div class="page-header-title">
+                                                    <div class="d-inline">
+                                                        <h4>User detail</h4>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="page-header-breadcrumb">
+                                                    {{!-- <ul class="breadcrumb-title">
+                                                        <li class="breadcrumb-item" style="float: left;">
+                                                            <a href="../index.html"> <i class="feather icon-home"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="breadcrumb-item" style="float: left;"><a
+                                                                href="#!">E-Commerce</a>
+                                                        </li>
+                                                        <li class="breadcrumb-item" style="float: left;"><a
+                                                                href="#!">Product Detail</a>
+                                                        </li>
+                                                    </ul> --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+                                    <div class="page-body">
+                                        <div class="row">
+                                            <div class="col-md-12">
+
+                                                <div class="card product-detail-page">
+                                                    <div class="card-block">
+
+                                                        <a href="/userlist" class="btn btn-primary pull-right" style="background-color: black;
+background-image: linear-gradient(315deg, 0%, black 110%);margin-left: 10px"><i class=""></i>Back</a>
+
+                                                        <tbody>
+                                                            {{#result}}
+                                                            {{!-- {{#with user_Id=this.id}} --}}
+
+                                                            <div class="row">
+                                                                <div class="col-lg-3">
+                                                                    <div class="port_details_all_img row">
+                                                                        <div class="col-lg-12 m-b-15">
+                                                                            <div id="big_banner">
+                                                                                <div class="port_big_img">
+
+                                                                                    <img class="img img-fluid"
+                                                                                        src="/{{image}}" width="175px"
+                                                                                        onerror="this.src='{{process.env.BASE_URL}}/assets/images/userImage.png'"
+                                                                                        alt="Big_ Details">
+                                                                                </div>
+
+                                                                            </div>
+
+                                                                        </div>
+                                                                        <div class="col-lg-12 text-center">
+                                                                            {{!-- <h4>{{fullname}}</h4> --}}
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-8   product-detail"
+                                                                    id="product-detail">
+                                                                    <div class="row">
+                                                                        <div>
+
+                                                                            <div class="col-lg-12">
+                                                                                <tr>
+                                                                                    <td class="col-lg-2"> <b>Full Name
+                                                                                            : </b></td>
+                                                                                    <td class="col-lg-10">{{fullname}}
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <br>
+                                                                                <br>
+                                                                            </div>
+                                                                            <div class="col-lg-12">
+                                                                                <tr>
+                                                                                    <td class="col-lg-2"> <b> User Name
+                                                                                            : </b></td>
+                                                                                    <td class="col-lg-10">{{username}}
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <br>
+                                                                                <br>
+                                                                            </div>
+                                                                            <div class="col-lg-12">
+                                                                                <tr>
+                                                                                    <td class="col-lg-2"> <b> Mobile
+                                                                                            Number
+                                                                                            : </b></td>
+                                                                                    <td class="col-lg-10">{{mobile}}
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <br>
+                                                                                <br>
+                                                                            </div>
+                                                                            <div class="col-lg-12">
+                                                                                <tr>
+                                                                                    <td class="col-lg-2"> <b> Email
+                                                                                            : </b></td>
+                                                                                    <td class="col-lg-10">{{email}}
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </div>
+                                                                            <div class="col-lg-12">
+                                                                                <tr>
+                                                                                    <td class="col-lg-2"> <b> Date of Birth
+                                                                                            : </b></td>
+                                                                                    <td class="col-lg-10">{{#if dateOfBirth}}{{dateOfBirth}}{{else}}<span class="text-muted">Not provided</span>{{/if}}
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <br>
+                                                                                <br>
+                                                                            </div>
+                                                                            <div class="col-lg-12">
+                                                                                <tr>
+                                                                                    <td class="col-lg-2"> <b> Age Group
+                                                                                            : </b></td>
+                                                                                    <td class="col-lg-10"><span class="badge {{#if (eq (getAgeCategory dateOfBirth) '18+')}}badge-success{{/if}}{{#if (eq (getAgeCategory dateOfBirth) '13-17')}}badge-info{{/if}}{{#if (eq (getAgeCategory dateOfBirth) 'Unverified')}}badge-secondary{{/if}}">{{getAgeCategory dateOfBirth}}</span>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <br>
+                                                                                <br>
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-lg-12 text-center">
+
+                                                                    <td class="text-center"> <b> My
+                                                                            Community </b></td>
+
+                                                                </div>
+                                                                <div class="col-lg-12 text-center">
+                                                                    <div class="card-block">
+                                                                        <div class="dt-responsive table-responsive">
+
+                                                                            <table id=""
+                                                                                class="table table-striped table-bordered nowrap text-center">
+
+                                                                                <thead>
+                                                                                    <tr>
+
+                                                                                        <th>Community Name
+                                                                                        </th>
+                                                                                        <th>Community Image
+                                                                                        </th>
+                                                                                        <th>Action
+                                                                                        </th>
+
+
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                {{#each My_community}}
+
+                                                                                <tbody>
+
+                                                                                    <tr>
+
+
+                                                                                        <td style="padding-top :25px;">
+                                                                                            {{this.communityName}}
+                                                                                        </td>
+
+                                                                                        <td> <img
+                                                                                                style=" border-radius: 50%"
+                                                                                                height="50px" ,
+                                                                                                width="50px"
+                                                                                                src="{{communityImage.[0].image}}"
+                                                                                                alt="this is database user image"
+                                                                                                onerror="this.src='{{process.env.BASE_URL}}/assets/images/userImage.png'"
+                                                                                                class="rounded-circle">
+                                                                                        </td>
+
+
+                                                                                        <td style="padding-top :10px;">
+                                                                                            <a
+                                                                                                href="/this_section_post/{{../_id}}/{{this._id}}">
+                                                                                                <button type="button"
+                                                                                                    class="block mr-0"
+                                                                                                    style="background-color: #E4D00A"><i
+                                                                                                        class="icofont icofont-eye-alt"></i></button></a>
+                                                                                        </td>
+
+                                                                                    </tr>
+
+                                                                                </tbody>
+                                                                                {{/each}}
+
+
+                                                                            </table>
+
+                                                                        </div>
+                                                                    </div>
+
+                                                                    {{!-- {{#each community_details}} --}}
+                                                                    {{!-- {{#each communityImage}} --}}
+
+                                                                    {{!-- <img src="{{communityImage.[0].image}}"
+                                                                        height="=50px" , width="50px"
+                                                                        class="rounded-circle"> --}}
+                                                                    {{!-- {{/each}} --}}
+                                                                    {{!-- {{/each}} --}}
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-lg-12 text-center">
+
+                                                                    <td class="text-center"> <b> Join
+                                                                            Community </b></td>
+
+                                                                </div>
+                                                                <div class="col-lg-12 text-center">
+                                                                    <div class="card-block">
+                                                                        <div class="dt-responsive table-responsive">
+
+                                                                            <table id=""
+                                                                                class="table table-striped table-bordered nowrap text-center">
+
+                                                                                <thead>
+                                                                                    <tr>
+
+                                                                                        <th>Community Name
+                                                                                        </th>
+                                                                                        <th>Community Image
+                                                                                        </th>
+                                                                                        <th>Action
+                                                                                        </th>
+
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                {{#each community_details}}
+
+                                                                                <tbody>
+
+                                                                                    <tr>
+                                                                                        <td style="padding-top :25px;">
+                                                                                            {{this.communityName}}
+                                                                                        </td>
+
+                                                                                        <td> <img
+                                                                                                src="{{communityImage.[0].image}}"
+                                                                                                style=" border-radius: 50%"
+                                                                                                height="50px" ,
+                                                                                                width="50px"
+                                                                                                alt="this is database user image"
+                                                                                                onerror="this.src='{{process.env.BASE_URL}}/assets/images/userImage.png'"
+                                                                                                height="=50px" ,
+                                                                                                width="50px"
+                                                                                                class="rounded-circle">
+                                                                                        </td>
+
+                                                                                        <td style="padding-top :10px;">
+                                                                                            <a
+                                                                                                href="/this_section_post/{{../_id}}/{{this._id}}">
+                                                                                                <button type="button"
+                                                                                                    class="block mr-0"
+                                                                                                    style="background-color: #E4D00A"><i
+                                                                                                        class="icofont icofont-eye-alt"></i></button></a>
+                                                                                        </td>
+
+                                                                                    </tr>
+
+                                                                                </tbody>
+                                                                                {{/each}}
+
+
+                                                                            </table>
+
+                                                                        </div>
+                                                                    </div>
+
+                                                                    {{!-- {{#each community_details}} --}}
+                                                                    {{!-- {{#each communityImage}} --}}
+
+                                                                    {{!-- <img src="{{communityImage.[0].image}}"
+                                                                        height="=50px" , width="50px"
+                                                                        class="rounded-circle"> --}}
+                                                                    {{!-- {{/each}} --}}
+                                                                    {{!-- {{/each}} --}}
+
+                                                                </div>
+                                                            </div>
+                                                            {{!-- {{/with}} --}}
+                                                            {{/result}}
+                                                        </tbody>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--[if lt IE 10]>
+<div class="ie-warning">
+    <h1>Warning!!</h1>
+    <p>You are using an outdated version of Internet Explorer, please upgrade <br/>to any of the following web browsers to access this website.</p>
+    <div class="iew-container">
+        <ul class="iew-download">
+            <li>
+                <a href="http://www.google.com/chrome/">
+                    <img src="../files/assets/images/browser/chrome.png" alt="Chrome">
+                    <div>Chrome</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.mozilla.org/en-US/firefox/new/">
+                    <img src="../files/assets/images/browser/firefox.png" alt="Firefox">
+                    <div>Firefox</div>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.opera.com">
+                    <img src="../files/assets/images/browser/opera.png" alt="Opera">
+                    <div>Opera</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.apple.com/safari/">
+                    <img src="../files/assets/images/browser/safari.png" alt="Safari">
+                    <div>Safari</div>
+                </a>
+            </li>
+            <li>
+                <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                    <img src="../files/assets/images/browser/ie.png" alt="">
+                    <div>IE (9 & above)</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <p>Sorry for the inconvenience!</p>
+</div>
+<![endif]-->
+
+
+
+</body>

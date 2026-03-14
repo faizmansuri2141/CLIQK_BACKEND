@@ -1,0 +1,310 @@
+<style>
+    .btn-official {
+        background-color: #4CAF50;
+        /* Green background color */
+        color: #fff;
+        /* White text color */
+        font-weight: bold;
+        font-size: 14px;
+        border: none;
+        border-radius: 12px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+    /* Hover effect for "Is Official" button */
+    .btn-official:hover {
+        background-color: #45a049;
+        /* Darker green on hover */
+    }
+
+    /* Styles for the "Is Not Official" button */
+    .btn-not-official {
+        background-color: #f44336;
+        /* Red background color */
+        color: #fff;
+        /* White text color */
+        font-weight: bold;
+        font-size: 14px;
+        border: none;
+        border-radius: 12px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+    /* Hover effect for "Is Not Official" button */
+    .btn-not-official:hover {
+        background-color: #d32f2f;
+        /* Darker red on hover */
+    }
+</style>
+
+<!-- Social Score Modal -->
+<div id="socialScoreModal" style="display:none; position:fixed; top:20%; left:50%; transform:translateX(-50%); background:white; padding:20px; border-radius:12px; box-shadow:0 0 10px rgba(0,0,0,0.2); z-index:10000;">
+    <h4 style="margin-bottom: 20px;">Update Social Score</h4>
+    <form id="socialScoreForm">
+        <input type="hidden" name="userId" id="socialScoreUserId">
+        <div style="margin-bottom: 10px;">
+            <label for="score">Score:</label>
+            <input type="number" name="score" id="score" required class="form-control">
+        </div>
+        <div style="margin-bottom: 10px;">
+            <label for="description">Description:</label>
+            <textarea name="description" id="description" required class="form-control"></textarea>
+        </div>
+        <button type="submit" class="btn btn-official">Save</button>
+        <button type="button" class="btn btn-not-official" onclick="closeSocialScoreModal()">Cancel</button>
+    </form>
+</div>
+
+
+
+
+<body>
+
+
+
+    <div class="theme-loader">
+        <div class="ball-scale">
+            <div class='contain'>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="pcoded" class="pcoded">
+        <div class="pcoded-overlay-box"></div>
+        <div class="pcoded-container navbar-wrapper">
+
+
+            {{>header}}
+
+            <div class="pcoded-main-container">
+                <div class="pcoded-wrapper">
+
+
+                    {{>sidebar}}
+                    <div class="pcoded-content">
+                        <div class="pcoded-inner-content">
+
+                            <div class="main-body">
+                                <div class="page-wrapper">
+
+                                    <div class="page-header">
+                                        <div class="row align-items-end">
+                                            <div class="col-lg-8">
+                                                <div class="page-header-title">
+                                                    <div class="d-inline">
+                                                        <h4>User List</h4>
+                                                        <span></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="page-header-breadcrumb">
+                                                    <ul class="breadcrumb-title">
+                                                        <li class="breadcrumb-item" style="float: left;">
+                                                            <a href="/"> <i class="feather icon-home"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="breadcrumb-item" style="float: left;"><a
+                                                                href="dashboard">Dashboard</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="page-body">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+
+                                                <div class="card">
+                                                    <div class="card-header table-card-header d-flex justify-content-between align-items-center flex-wrap">
+                                                        <h5>User List</h5>
+                                                        <div class="btn-group btn-group-sm" role="group">
+                                                            <a href="/userlist?ageGroup=all" class="btn {{#if (eq currentAgeFilter 'all')}}btn-primary{{else}}btn-outline-primary{{/if}}">All</a>
+                                                            <a href="/userlist?ageGroup=18plus" class="btn {{#if (eq currentAgeFilter '18+')}}btn-success{{else}}btn-outline-success{{/if}}">18+</a>
+                                                            <a href="/userlist?ageGroup=13-17" class="btn {{#if (eq currentAgeFilter '13-17')}}btn-info{{else}}btn-outline-info{{/if}}">13-17 (Under 18)</a>
+                                                            <a href="/userlist?ageGroup=unapproved" class="btn {{#if (eq currentAgeFilter 'unapproved')}}btn-warning{{else}}btn-outline-warning{{/if}}">Unapproved</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-block">
+                                                        <div class="dt-responsive table-responsive">
+                                                            <table id="basic-btn"
+                                                                class="table table-striped table-bordered nowrap text-center">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>User Name</th>
+                                                                        <th>Email</th>
+                                                                        <th>User Image</th>
+                                                                        <th>Age</th>
+                                                                        <th>Official Account</th>
+                                                                        {{!-- <th>Official Accoun</th> --}}
+                                                                        <th>Social Score</th>
+
+                                                                        <th>Action</th>
+                                                                        <th>Approved</th>
+
+
+
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    {{#each UserData}}
+                                                                    <tr>
+                                                                        {{!-- <td>{{this.fullname}}</td> --}}
+                                                                        <td>{{this.username}}</td>
+                                                                        <td>{{this.email}}</td>
+
+                                                                        {{!-- <td>{{this.name}}</td> --}}
+                                                                        <td><img src="{{this.image}}"
+                                                                                alt="this is database user image"
+                                                                                onerror="this.src='{{process.env.BASE_URL}}/assets/images/userImage.png'"
+                                                                                height="50" width="50"></td>
+
+                                                                        <td>
+                                                                            <span class="badge {{#if (eq (getAgeCategory this.dateOfBirth) '18+')}}badge-success{{/if}}{{#if (eq (getAgeCategory this.dateOfBirth) '13-17')}}badge-info{{/if}}{{#if (eq (getAgeCategory this.dateOfBirth) 'Unverified')}}badge-secondary{{/if}}">{{getAgeCategory this.dateOfBirth}}</span>
+                                                                        </td>
+
+                                                                        {{!-- <td><a href="/{{this._id}}"
+                                                                                class="btn btn-success"><i
+                                                                                    class="ion-compose"></i></a>
+                                                                            <a href="{{this._id}}"
+                                                                                class="btn btn-danger"><i
+                                                                                    class="fa fa-trash"></i></a></a>
+                                                                        </td> --}}
+
+                                                                        <td>
+                                                                            <span
+                                                                                class="label  {{#if (if_eq this.forTickStatus 0)}}badge badge-primary{{/if}}  {{#if (if_eq this.forTickStatus 3)}}label-primary{{/if}}{{#if (if_eq this.forTickStatus 1)}}label-success{{/if}}{{#if (if_eq this.forTickStatus 2)}}label-danger{{/if}} text-uppercase">{{this.forTickStatus}}</span>
+                                                                        </td>
+
+                                                                        <td>
+    <button type="button" class="btn btn-primary" onclick="openSocialScoreModal('{{this._id}}')">
+        Update Score
+    </button>
+</td>
+
+                                                                        <td style="padding-top :10px;"> <a
+                                                                                href="/userprofilee/{{this._id}}">
+                                                                                <button type="button" class="block mr-0"
+                                                                                    style="background-color: #E4D00A"><i
+                                                                                        class="icofont icofont-eye-alt"></i></button></a>
+                                                                            <a href="/deletetype/{{this._id}}"
+                                                                                onclick="return confirm('Are you sure to delete this record ?');"><button
+                                                                                    type="button"
+                                                                                    style="background-color: 		#B22222"
+                                                                                    class="block mr-0  "><i
+                                                                                        class="fa fa-trash"></i></button>
+
+                                                                            </a>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <form action="/approved_notapproved"
+                                                                                method="post">
+                                                                                <input type="hidden" name="user_list"
+                                                                                    value="user_list">
+                                                                                {{#if this.isApproved}}
+                                                                                <input type="hidden" name="id"
+                                                                                    value="{{this._id}}">
+                                                                                <button class="btn btn-official">Is
+                                                                                    Approved</button>
+                                                                                {{else}}
+                                                                                <input type="hidden" name="id"
+                                                                                    value="{{this._id}}">
+                                                                                <button class="btn btn-not-official">Is
+                                                                                    Not Approved</button>
+                                                                                {{/if}}
+                                                                            </form>
+                                                                        </td>
+                                                                    </tr>
+                                                                    {{/each}}
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+    function openSocialScoreModal(userId) {
+        document.getElementById("socialScoreUserId").value = userId;
+        document.getElementById("socialScoreModal").style.display = 'block';
+    }
+
+    function closeSocialScoreModal() {
+        document.getElementById("socialScoreModal").style.display = 'none';
+        document.getElementById("socialScoreForm").reset();
+    }
+
+    document.getElementById("socialScoreForm").addEventListener("submit", async function (e) {
+        e.preventDefault();
+
+        const userId = document.getElementById("socialScoreUserId").value;
+        const score = document.getElementById("score").value;
+        const description = document.getElementById("description").value;
+
+        try {
+            const response = await fetch('/api/update-social-score', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ userId, score, description })
+            });
+
+            const result = await response.json();
+            if (result.success) {
+                alert('Score updated successfully!');
+                closeSocialScoreModal();
+                location.reload();
+            } else {
+                alert('Failed to update score.');
+            }
+        } catch (err) {
+            alert('Error updating score.');
+        }
+    });
+</script>
+
+</body>

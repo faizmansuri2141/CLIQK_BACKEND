@@ -1,0 +1,36 @@
+[
+  {
+    "_id": "666b715b60b6e67aa7b20dbc",
+    "descriptionForTick": "verify me",
+    "uploadCertificate": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/0dcd9aa9-82e2-4f5d-89a3-18dd341451381718317401.9208121image.jpeg",
+        "_id": "666b715b60b6e67aa7b20dbd"
+      }
+    ],
+    "videoRecord": "https://clickq-app.s3.amazonaws.com/85144d33-3821-4aa2-8837-9c0c4160d3d31718317401.920812174001018993__5598ADFA-3FDA-4820-9BAF-568FB9F02216.MOV",
+    "instagramUserName": "n/a",
+    "xtwitterUserName": "n/a",
+    "tikTokUserName": "n/a",
+    "createdBy": "2024-06-13T13:32:59.921Z",
+    "userId": "666acee4547c0608c2f348cb",
+    "__v": 0
+  },
+  {
+    "_id": "668d95cdebb46ed45c50087f",
+    "descriptionForTick": "verify me bro",
+    "uploadCertificate": [
+      {
+        "image": "https://clickq-app.s3.amazonaws.com/7abd5794-3567-4bf6-9e01-ca2272647d191720554921.9734979image.jpeg",
+        "_id": "668d95cdebb46ed45c500880"
+      }
+    ],
+    "videoRecord": "https://clickq-app.s3.amazonaws.com/147d401f-b3ff-48ba-8df9-17ea5b45539c1720554921.973497974224769269__5C4A08AD-4E12-4C84-9487-A90F6D5A9F22.MOV",
+    "instagramUserName": "_tyb3",
+    "xtwitterUserName": "na",
+    "tikTokUserName": "na",
+    "createdBy": "2024-07-03T15:24:12.789Z",
+    "userId": "668d8894ebb46ed45c500505",
+    "__v": 0
+  }
+]

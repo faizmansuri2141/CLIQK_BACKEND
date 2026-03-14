@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="description" content="#">
+<meta name="keywords"
+    content="flat ui, admin Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
+<meta name="author" content="#">
+
+<link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="/assets/icon/feather/css/feather.css">
+
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/jquery.mCustomScrollbar.css">
+</head>
+
+<body>
+
+    <div class="theme-loader">
+        <div class="ball-scale">
+            <div class='contain'>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="pcoded" class="pcoded">
+        <div class="pcoded-overlay-box"></div>
+        <div class="pcoded-container navbar-wrapper">
+
+            {{>header}}
+
+            <div class="pcoded-main-container">
+                <div class="pcoded-wrapper">
+                    {{>sidebar}}
+
+
+                    <div class="pcoded-content">
+                        <div class="pcoded-inner-content">
+                            <div class="main-body">
+                                <div class="page-wrapper">
+                                    <div class="page-body">
+                                        <div class="row">
+                                            <div class="card product-detail-page">
+                                                <div class="card-block">
+                                                    <div class="row">
+                                                        <div class="col-lg-5  ">
+                                                            <div class="port_details_all_img row" style="margin:0 ; ">
+                                                                <div class="col-lg-12 m-b-15">
+                                                                    <div id="big_banner">
+                                                                        {{#each post_Deatails.post_Image}}
+                                                                        <div class="port_big_img">
+                                                                            <img class="img img-fluid" style="height: auto; width : 50% display: flex;
+    align-items: center;
+    justify-content: center;" src="{{this.image}}" alt="this is database user image"
+                                                                                onerror="this.src='{{process.env.BASE_URL}}/assets/images/userImage.png'">
+
+                                                                        </div>
+                                                                        {{/each}}
+                                                                        {{!-- <div class="port_big_img">
+                                                                            <img class="img img-fluid"
+                                                                                src="{{post_Deatails.post_Image.[1].image}}"
+                                                                                alt="Big_ Details">
+                                                                        </div>
+                                                                        <div class="port_big_img">
+                                                                            <img class="img img-fluid"
+                                                                                src="{{post_Deatails.post_Image.[2].image}}"
+                                                                                alt="Big_ Details">
+                                                                        </div>
+                                                                        <div class="port_big_img">
+                                                                            <img class="img img-fluid"
+                                                                                src="{{post_Deatails.post_Image.[3].image}}"
+                                                                                alt="Big_ Details">
+                                                                        </div>
+                                                                        <div class="port_big_img">
+                                                                            <img class="img img-fluid"
+                                                                                src="{{post_Deatails.post_Image.[4].image}}"
+                                                                                alt="this is database user image"
+                                                                                onerror="this.src='{{process.env.BASE_URL}}/assets/images/userImage.png'"
+                                                                                alt="Big_ Details">
+                                                                        </div> --}}
+
+                                                                    </div>
+                                                                </div>
+
+                                                                {{#each results}}
+                                                                <div class="col-lg-12 product-right">
+                                                                    <div id="small_banner">
+
+                                                                        {{#each createPost}}
+                                                                        <div>
+                                                                            <img class="img img-fluid"
+                                                                                style="height:auto ; width : 50%"
+                                                                                src="{{this.image}}" alt="Big_ Details"
+                                                                                alt="small-details">
+                                                                        </div>
+                                                                        {{/each}}
+
+                                                                        {{!-- <div>
+                                                                            <img class="img img-fluid"
+                                                                                src="{{post_Deatails.post_Image.[1].image}}"
+                                                                                alt="small-details">
+                                                                        </div>
+                                                                        <div>
+                                                                            <img class="img img-fluid"
+                                                                                src="{{post_Deatails.post_Image.[2].image}}"
+                                                                                alt="small-details">
+                                                                        </div>
+                                                                        <div>
+                                                                            <img class="img img-fluid"
+                                                                                src="{{post_Deatails.post_Image.[3].image}}"
+                                                                                alt="small-details">
+                                                                        </div>
+                                                                        <div>
+                                                                            <img class="img img-fluid"
+                                                                                src="{{post_Deatails.post_Image.[4].image}}"
+                                                                                alt="small-details">
+                                                                        </div> --}}
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-7   product-detail" id="product-detail">
+                                                            <div class="row">
+                                                                <div>
+
+                                                                    <div class="col-lg-12">
+                                                                        <h4 class="pro-desc">Post Details
+                                                                        </h4>
+                                                                    </div>
+                                                                    <div class="col-lg-12">
+                                                                        <span class="txt-muted"> <b> User Name :</b>
+                                                                            {{this.username}}
+                                                                        </span>
+                                                                    </div>
+
+                                                                    <div class="col-lg-12">
+
+                                                                        <hr>
+                                                                        <h6> <b> Description : </b></h6>
+                                                                        <p>
+                                                                            {{this.desc}}
+
+                                                                        </p>
+                                                                        <hr>
+
+                                                                    </div>
+
+                                                                    <div class="col-lg-12">
+
+                                                                        <hr>
+                                                                        <h6> <b> post Type : </b> {{this.post_type}}
+                                                                        </h6>
+                                                                        <hr>
+
+                                                                    </div>
+
+                                                                    {{/each}}
+
+                                                                    {{!-- <div
+                                                                        class="col-lg-12 col-sm-12 mob-product-btn">
+                                                                        <button type="button"
+                                                                            class="btn btn-primary waves-effect waves-light m-r-20">
+                                                                            <i
+                                                                                class="icofont icofont-cart-alt f-16"></i><span
+                                                                                class="m-l-10">ADD TO CART</span>
+                                                                        </button>
+                                                                        <button type="button"
+                                                                            class="btn btn-outline-primary waves-effect waves-light m-r-20"
+                                                                            data-toggle="tooltip"
+                                                                            title="Add to wishlist">
+                                                                            <i
+                                                                                class="icofont icofont-heart-alt f-16 m-0"></i>
+                                                                        </button>
+                                                                        <button type="button"
+                                                                            class="btn btn-outline-primary waves-effect waves-light"
+                                                                            data-toggle="tooltip" title="Quick view">
+                                                                            <i
+                                                                                class="icofont icofont-eye-alt f-16 m-0"></i>
+                                                                        </button>
+                                                                    </div> --}}
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+</body>
+
+
+</html>

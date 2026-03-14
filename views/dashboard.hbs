@@ -1,0 +1,420 @@
+<!-- Mirrored from demo.dashboardpack.com/adminty-html/default/dashboard-analytics.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 02 Mar 2022 11:53:53 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<head>
+    <title>Adminty - Premium Admin Template by Colorlib </title>
+
+    <style>
+        #chart {
+            max-width: 1000px;
+            margin: 35px auto;
+        }
+
+        /*@import url('https://fonts.googleapis.com/css?family=Lato:300,400,600,700');*/
+
+        * {
+            font-family: Arial;
+        }
+
+        body {
+            height: 100vh;
+            background: #f9f9f9;
+        }
+
+        #chart,
+        .chart-box {
+            padding-top: 20px;
+            padding-left: 10px;
+            background: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 22px 35px -16px rgba(0, 0, 0, 0.1);
+            width: 750px
+        }
+
+        select.flat-select {
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            appearance: none;
+            background: #008FFB url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'60px\' height=\'60px\'><polyline fill=\'white\' points=\'46.139,15.518 25.166,36.49 4.193,15.519\'/></svg>") no-repeat scroll right 2px top 9px / 16px 16px;
+            border: 0 none;
+            border-radius: 3px;
+            color: #fff;
+            font-family: arial, tahoma;
+            font-size: 16px;
+            font-weight: bold;
+            outline: 0 none;
+            height: 33px;
+            padding: 5px 20px 5px 10px;
+            text-align: center;
+            text-indent: 0.01px;
+            text-overflow: "";
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+            transition: all 0.3s ease 0s;
+            width: auto;
+            -webkit-transition: 0.3s ease all;
+            -moz-transition: 0.3s ease all;
+            -ms-transition: 0.3s ease all;
+            -o-transition: 0.3s ease all;
+            transition: 0.3s ease all;
+        }
+
+        select.flat-select:focus,
+        select.flat-select:hover {
+            border: 0;
+            outline: 0;
+        }
+
+
+        .apexcharts-canvas {
+            margin: 0 auto;
+        }
+
+        #html {
+            display: none;
+        }
+    </style>
+
+    <script>
+        window.Promise ||
+            document.write(
+                '<script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"><\/script>'
+            )
+        window.Promise ||
+            document.write(
+                '<script src="https://cdn.jsdelivr.net/npm/eligrey-classlist-js-polyfill@1.2.20171210/classList.min.js"><\/script>'
+            )
+        window.Promise ||
+            document.write(
+                '<script src="https://cdn.jsdelivr.net/npm/findindex_polyfill_mdn"><\/script>'
+            )
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+
+    <script>
+        // Replace Math.random() with a pseudo-random number generator to get reproducible results in e2e tests
+        // Based on https://gist.github.com/blixt/f17b47c62508be59987b
+        var _seed = 42;
+        Math.random = function () {
+            _seed = _seed * 16807 % 2147483647;
+            return (_seed - 1) / 2147483646;
+        };
+    </script>
+
+
+
+    <!--[if lt IE 10]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+</head>
+
+<body>
+
+    <div class="theme-loader">
+        <div class="ball-scale">
+            <div class='contain'>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="pcoded" class="pcoded">
+        <div class="pcoded-overlay-box"></div>
+        <div class="pcoded-container navbar-wrapper">
+
+            {{>header}}
+
+            <div id="sidebar" class="users p-chat-user showChat">
+                <div class="had-container">
+                    <div class="card card_main p-fixed users-main">
+                        <div class="user-box">
+                            <div class="chat-inner-header">
+                                <div class="back_chatBox">
+                                    <div class="right-icon-control">
+                                        <input type="text" class="form-control  search-text" placeholder="Search Friend"
+                                            id="search-friends">
+                                        <div class="form-icon">
+                                            <i class="icofont icofont-search"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-friend-list">
+                                <div class="media userlist-box" data-id="1" data-status="online"
+                                    data-username="Josephin Doe" data-toggle="tooltip" data-placement="left"
+                                    title="Josephin Doe">
+                                    <a class="media-left" href="#!">
+                                        <img class="media-object img-radius img-radius"
+                                            src="../files/assets/images/avatar-3.jpg" alt="Generic placeholder image ">
+                                        <div class="live-status bg-success"></div>
+                                    </a>
+                                    <div class="media-body">
+                                        <div class="f-13 chat-header">Josephin Doe</div>
+                                    </div>
+                                </div>
+                                <div class="media userlist-box" data-id="2" data-status="online"
+                                    data-username="Lary Doe" data-toggle="tooltip" data-placement="left"
+                                    title="Lary Doe">
+                                    <a class="media-left" href="#!">
+                                        <img class="media-object img-radius" src="../files/assets/images/avatar-2.jpg"
+                                            alt="Generic placeholder image">
+                                        <div class="live-status bg-success"></div>
+                                    </a>
+                                    <div class="media-body">
+                                        <div class="f-13 chat-header">Lary Doe</div>
+                                    </div>
+                                </div>
+                                <div class="media userlist-box" data-id="3" data-status="online" data-username="Alice"
+                                    data-toggle="tooltip" data-placement="left" title="Alice">
+                                    <a class="media-left" href="#!">
+                                        {{#each record}}
+                                        <img class="media-object img-radius" src="{{this.Image}}"
+                                            alt="Generic placeholder image">
+                                        {{/each}}
+                                        <div class="live-status bg-success"></div>
+                                    </a>
+                                    <div class="media-body">
+                                        <div class="f-13 chat-header">Alice</div>
+                                    </div>
+                                </div>
+                                <div class="media userlist-box" data-id="4" data-status="online" data-username="Alia"
+                                    data-toggle="tooltip" data-placement="left" title="Alia">
+                                    <a class="media-left" href="#!">
+                                        <img class="media-object img-radius" src="../files/assets/images/avatar-3.jpg"
+                                            alt="Generic placeholder image">
+                                        <div class="live-status bg-success"></div>
+                                    </a>
+                                    <div class="media-body">
+                                        <div class="f-13 chat-header">Alia</div>
+                                    </div>
+                                </div>
+                                <div class="media userlist-box" data-id="5" data-status="online" data-username="Suzen"
+                                    data-toggle="tooltip" data-placement="left" title="Suzen">
+                                    <a class="media-left" href="#!">
+                                        <img class="media-object img-radius" src="../files/assets/images/avatar-2.jpg"
+                                            alt="Generic placeholder image">
+                                        <div class="live-status bg-success"></div>
+                                    </a>
+                                    <div class="media-body">
+                                        <div class="f-13 chat-header">Suzen</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="pcoded-main-container">
+                <div class="pcoded-wrapper">
+                    {{>sidebar}}
+
+
+                    <div class="pcoded-content">
+                        <div class="pcoded-inner-content">
+                            <div class="main-body">
+                                <div class="page-wrapper">
+                                    <div class="page-body">
+                                        <div class="row">
+                                            <div class="col-xl-3 col-md-4">
+                                                <div class="card">
+                                                    <div class="card-block">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-8">
+                                                                <h4 class="text f-w-600" style="color: black">{{user}}
+                                                                </h4>
+                                                                <h6 class="text m-b-0">Users</h6>
+                                                            </div>
+                                                            <div class="col-4 text-right">
+                                                                <i class="fa fa-users f-28 "></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-footer" style="background-color: #032c40;
+background-image: linear-gradient(315deg, #17212D 0%, black 50%)">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-9">
+                                                                <a href="userlist">
+                                                                    <p class="text-white m-b-0">All Users</p>
+                                                                </a>
+                                                            </div>
+                                                            <div class="col-3 text-right">
+                                                                <i class="feather icon-trending-up text-white f-16"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-md-4">
+                                                <div class="card">
+                                                    <div class="card-block">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-8">
+                                                                <h4 class="text f-w-600" style="color: black">
+                                                                    {{community}}</h4>
+                                                                <h6 class="text m-b-0">Communitys</h6>
+                                                            </div>
+                                                            <div class="col-4 text-right">
+                                                                <i class="fas fa-object-group f-28 "></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-footer" style="background-color: #032c40;
+background-image: linear-gradient(315deg, #17212D 0%, black 50%)">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-9">
+                                                                <a href="communitylist">
+                                                                    <p class="text-white m-b-0">All Community</p>
+                                                                </a>
+                                                            </div>
+                                                            <div class="col-3 text-right">
+                                                                <i class="feather icon-trending-up text-white f-16"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        {{!-- <div class="col-xl-3 col-md-6">
+                                            <div id="chart"></div>
+                                        </div> --}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{!--
+    <script>
+        var options = {
+            series: [{
+                name: 'Revenue',
+                data: [10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            }],
+            chart: {
+                type: 'bar',
+                height: 350
+            },
+            plotOptions: {
+                bar: {
+                    horizontal: false,
+                    columnWidth: '55%',
+                    endingShape: 'rounded'
+                },
+            },
+            dataLabels: {
+                enabled: false
+            },
+            stroke: {
+                show: true,
+                width: 2,
+                colors: ['transparent']
+            },
+            xaxis: {
+                categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+            },
+            yaxis: {
+                title: {
+                    text: ''
+                }
+            },
+            fill: {
+                opacity: 1
+            },
+            tooltip: {
+                y: {
+                    formatter: function (val) {
+                        return "$ " + val
+                    }
+                }
+            }
+        };
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
+    </script> --}}
+
+
+
+    <!--[if lt IE 10]>
+<div class="ie-warning">
+    <h1>Warning!!</h1>
+    <p>You are using an outdated version of Internet Explorer, please upgrade <br/>to any of the following web browsers to access this website.</p>
+    <div class="iew-container">
+        <ul class="iew-download">
+            <li>
+                <a href="http://www.google.com/chrome/">
+                    <img src="../files/assets/images/browser/chrome.png" alt="Chrome">
+                    <div>Chrome</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.mozilla.org/en-US/firefox/new/">
+                    <img src="../files/assets/images/browser/firefox.png" alt="Firefox">
+                    <div>Firefox</div>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.opera.com">
+                    <img src="../files/assets/images/browser/opera.png" alt="Opera">
+                    <div>Opera</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.apple.com/safari/">
+                    <img src="../files/assets/images/browser/safari.png" alt="Safari">
+                    <div>Safari</div>
+                </a>
+            </li>
+            <li>
+                <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                    <img src="../files/assets/images/browser/ie.png" alt="">
+                    <div>IE (9 & above)</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <p>Sorry for the inconvenience!</p>
+</div>
+<![endif]-->
+
+</body>
+
+<!-- Mirrored from demo.dashboardpack.com/adminty-html/default/dashboard-analytics.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 02 Mar 2022 11:53:55 GMT -->

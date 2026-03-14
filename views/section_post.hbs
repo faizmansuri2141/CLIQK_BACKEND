@@ -1,0 +1,211 @@
+<body>
+    <style>
+        .dot {
+            height: 34px;
+            width: 45px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+
+        }
+    </style>
+    <div class="theme-loader">
+        <div class="ball-scale">
+            <div class='contain'>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="pcoded" class="pcoded">
+        <div class="pcoded-overlay-box"></div>
+        <div class="pcoded-container navbar-wrapper">
+            {{>header}}
+
+
+
+
+
+            <div class="pcoded-main-container">
+                <div class="pcoded-wrapper">
+                    {{>sidebar}}
+
+                    <div class="pcoded-content">
+                        <div class="pcoded-inner-content">
+
+                            <div class="main-body">
+                                <div class="page-wrapper">
+
+                                    <div class="page-header">
+                                        <div class="row align-items-end">
+                                            <div class="col-lg-8">
+                                                <div class="page-header-title">
+                                                    <div class="d-inline">
+                                                        <h4>User detail</h4>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="page-header-breadcrumb">
+                                                    {{!-- <ul class="breadcrumb-title">
+                                                        <li class="breadcrumb-item" style="float: left;">
+                                                            <a href="../index.html"> <i class="feather icon-home"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="breadcrumb-item" style="float: left;"><a
+                                                                href="#!">E-Commerce</a>
+                                                        </li>
+                                                        <li class="breadcrumb-item" style="float: left;"><a
+                                                                href="#!">Product Detail</a>
+                                                        </li>
+                                                    </ul> --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+                                    <div class="page-body">
+                                        <div class="row">
+                                            <div class="col-md-12">
+
+                                                <div class="card product-detail-page" style="    width: 90vw;">
+                                                    <div class="card-block" style="display: flex;">
+                                                        {{!--
+                                                        <a href="/userlist" class="btn btn-primary pull-right" style="background-color: black;
+background-image: linear-gradient(315deg, 0%, black 110%);margin-left: 10px"><i class=""></i>Back</a> --}}
+
+                                                        <tbody>
+                                                            {{#this_section_post}}
+                                                            {{!-- {{#with user_Id=this.id}} --}}
+                                                            {{#each createPost}}
+                                                            <div class="BOX_img" style="width: 150px;!important">
+
+                                                                <div class="col-lg-3">
+                                                                    <div class="port_details_all_img row "
+                                                                        style="width: 150px; dispaly:flex;aling_itme:center; ">
+                                                                        <div class="col-lg-12 m-b-15" style="display: flex;
+    align-items: center;
+    justify-content: center">
+                                                                            <div id="big_banner">
+                                                                                <div class="port_big_img">
+                                                                                    <img style=" border-radius: 75%"
+                                                                                        height="100px" , width="100px"
+                                                                                        src="{{this.image}}"
+                                                                                        onerror="this.src='{{process.env.BASE_URL}}/assets/images/userImage.png'"
+                                                                                        alt="Big_ Details">
+                                                                                </div>
+
+                                                                            </div>
+
+                                                                        </div>
+                                                                        <div class="col-lg-12 text-center"
+                                                                            style="    display: flex; align-items: center;  justify-content: center">
+                                                                            <h6>{{../this.desc}}</h6>
+                                                                        </div>
+
+                                                                    </div>
+
+                                                                </div>
+
+                                                            </div>
+
+                                                            {{/each}}
+
+                                                            {{/this_section_post}}
+                                                        </tbody>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--[if lt IE 10]>
+<div class="ie-warning">
+    <h1>Warning!!</h1>
+    <p>You are using an outdated version of Internet Explorer, please upgrade <br/>to any of the following web browsers to access this website.</p>
+    <div class="iew-container">
+        <ul class="iew-download">
+            <li>
+                <a href="http://www.google.com/chrome/">
+                    <img src="../files/assets/images/browser/chrome.png" alt="Chrome">
+                    <div>Chrome</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.mozilla.org/en-US/firefox/new/">
+                    <img src="../files/assets/images/browser/firefox.png" alt="Firefox">
+                    <div>Firefox</div>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.opera.com">
+                    <img src="../files/assets/images/browser/opera.png" alt="Opera">
+                    <div>Opera</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.apple.com/safari/">
+                    <img src="../files/assets/images/browser/safari.png" alt="Safari">
+                    <div>Safari</div>
+                </a>
+            </li>
+            <li>
+                <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                    <img src="../files/assets/images/browser/ie.png" alt="">
+                    <div>IE (9 & above)</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <p>Sorry for the inconvenience!</p>
+</div>
+<![endif]-->
+
+
+
+</body>

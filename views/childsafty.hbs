@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from demo.dashboardpack.com/adminty-html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 02 Mar 2022 11:51:17 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<head>
+
+
+
+</head>
+
+<body>
+    <div class="theme-loader">
+        <div class="ball-scale">
+            <div class='contain'>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="pcoded" class="pcoded">
+        <div class="pcoded-overlay-box"></div>
+        <div class="pcoded-container navbar-wrapper">
+            {{>header}}
+
+            <div class="pcoded-main-container">
+                <div class="pcoded-wrapper">
+
+                    {{>sidebar}}
+                    <div class="pcoded-content">
+                        <div class="pcoded-inner-content">
+                            <div class="main-body">
+                                <div class="page-wrapper">
+                                    <h3>Child safty</h3>
+                                    <div class="page-body">
+
+
+                                        <br class="row">
+                                        <form action="/child_safty" method="post">
+
+                                            <textarea name="text" id="summernote" cols="30"
+                                                rows="10">{{record.text}}</textarea>
+                                            <br>
+                                            <input class="form-control" type="hidden" name="id"
+                                                value="{{record._id}}" />
+                                            <div class="col-md-2">
+                                                <button type="submit" style="background-color: black"
+                                                    class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20">Update</button>
+                                            </div>
+
+                                        </form>
+
+                                        </br>
+
+                                        <script>
+                                            $('#summernote').summernote({
+                                                placeholder: 'Hello stand alone ui',
+                                                tabsize: 2,
+                                                height: 120,
+                                                toolbar: [
+                                                    ['style', ['style']],
+                                                    ['font', ['bold', 'underline', 'clear']],
+                                                    ['color', ['color']],
+                                                    ['para', ['ul', 'ol', 'paragraph']],
+                                                    ['table', ['table']],
+                                                    ['insert', ['link', 'picture', 'video']],
+                                                    ['view', ['fullscreen', 'codeview', 'help']]
+                                                ]
+                                            });
+                                        </script>
+
+
+
+                                        <div class="col-xl-9 col-md-12">
+                                            <div class="card">
+
+
+
+                                                {{!--
+                                                <script data-cfasync="false"
+                                                    src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                                                <script type="text/javascript"
+                                                    src="files/bower_components/jquery/dist/jquery.min.js"></script>
+                                                <script type="text/javascript"
+                                                    src="files/bower_components/jquery-ui/jquery-ui.min.js"></script>
+                                                <script type="text/javascript"
+                                                    src="files/bower_components/popper.js/dist/umd/popper.min.js"></script>
+                                                <script type="text/javascript"
+                                                    src="files/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+                                                <script type="text/javascript"
+                                                    src="files/bower_components/jquery-slimscroll/jquery.slimscroll.js"></script>
+
+                                                <script type="text/javascript"
+                                                    src="files/bower_components/modernizr/modernizr.js"></script>
+
+                                                <script type="text/javascript"
+                                                    src="files/bower_components/chart.js/dist/Chart.js"></script>
+
+                                                <script src="files/assets/pages/widget/amchart/amcharts.js"></script>
+                                                <script src="files/assets/pages/widget/amchart/serial.js"></script>
+                                                <script src="files/assets/pages/widget/amchart/light.js"></script>
+                                                <script
+                                                    src="files/assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+                                                <script type="text/javascript"
+                                                    src="files/assets/js/SmoothScroll.js"></script>
+                                                <script src="files/assets/js/pcoded.min.js"></script>
+
+                                                <script src="files/assets/js/vartical-layout.min.js"></script>
+                                                <script type="text/javascript"
+                                                    src="files/assets/pages/dashboard/custom-dashboard.js"></script>
+                                                <script type="text/javascript"
+                                                    src="files/assets/js/script.min.js"></script> --}}
+</body>
+
+<!-- Mirrored from demo.dashboardpack.com/adminty-html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 02 Mar 2022 11:53:20 GMT -->
+
+</html>

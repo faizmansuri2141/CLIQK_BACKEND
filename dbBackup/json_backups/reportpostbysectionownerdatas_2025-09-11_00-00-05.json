@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "668ddfabebb46ed45c501dfb",
+    "userId": "668d8894ebb46ed45c500505",
+    "postId": "668da9dfebb46ed45c501791",
+    "isReport": false,
+    "createdAt": "2024-07-03T15:24:12.876Z",
+    "UpdateAt": "2024-07-03T15:24:12.876Z",
+    "__v": 0
+  },
+  {
+    "_id": "67fb8930811fe7a65367d353",
+    "userId": "6663ef80af09c97547bda511",
+    "postId": "67fa49df7e2c1e4b7bde8cfa",
+    "isReport": false,
+    "createdAt": "2025-04-12T12:52:26.447Z",
+    "UpdateAt": "2025-04-12T12:52:26.447Z",
+    "__v": 0
+  }
+]

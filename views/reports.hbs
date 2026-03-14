@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reports Management - Admin Dashboard</title>
+    <!-- Admin Theme CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <style>
+        /* Reports table - prevent text overflow and layout issues */
+        #reports-table-wrapper { overflow-x: auto; }
+        #reports-table-wrapper table { table-layout: fixed; width: 100%; min-width: 1400px; }
+        #reports-table-wrapper th,
+        #reports-table-wrapper td {
+            vertical-align: middle !important;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            white-space: normal;
+        }
+        #reports-table-wrapper .col-report-id { width: 120px; }
+        #reports-table-wrapper .col-reason { width: 100px; }
+        #reports-table-wrapper .col-reported-by { width: 140px; }
+        #reports-table-wrapper .col-reported-user { width: 140px; }
+        #reports-table-wrapper .col-message-content { width: 180px; max-width: 180px; }
+        #reports-table-wrapper .col-message-content .message-content-cell {
+            max-width: 180px;
+            word-break: break-word;
+            overflow-wrap: break-word;
+            white-space: normal;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            line-height: 1.4;
+            text-align: left;
+        }
+        #reports-table-wrapper .col-section { width: 130px; }
+        #reports-table-wrapper .col-message-id { width: 120px; }
+        #reports-table-wrapper .col-user-id { width: 140px; }
+        #reports-table-wrapper .col-status { width: 90px; white-space: nowrap; }
+        #reports-table-wrapper .col-date { width: 110px; white-space: nowrap; }
+        #reports-table-wrapper .col-actions { width: 280px; white-space: nowrap; }
+        #reports-table-wrapper .col-actions .btn-group { flex-wrap: wrap; gap: 4px; justify-content: center; }
+        #reports-table-wrapper code { font-size: 11px; word-break: break-all; }
+    </style>
+</head>
+<body>
+
+    <div class="theme-loader">
+        <div class="ball-scale">
+            <div class='contain'>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="pcoded" class="pcoded">
+        <div class="pcoded-overlay-box"></div>
+        <div class="pcoded-container navbar-wrapper">
+
+            {{>header}}
+
+            <div class="pcoded-main-container">
+                <div class="pcoded-wrapper">
+
+                    {{>sidebar}}
+                    <div class="pcoded-content">
+                        <div class="pcoded-inner-content">
+
+                            <div class="main-body">
+                                <div class="page-wrapper">
+
+                                    <div class="page-header">
+                                        <div class="row align-items-end">
+                                            <div class="col-lg-8">
+                                                <div class="page-header-title">
+                                                    <div class="d-inline">
+                                                        <h4>Reports Management</h4>
+                                                        <span>Manage and review user reports</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="page-header-breadcrumb">
+                                                    <ul class="breadcrumb-title">
+                                                        <li class="breadcrumb-item" style="float: left;">
+                                                            <a href="/"> <i class="feather icon-home"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="breadcrumb-item" style="float: left;"><a
+                                                                href="/dashboard">Dashboard</a>
+                                                        </li>
+                                                        <li class="breadcrumb-item active" style="float: left;">
+                                                            <a href="/reports">Reports</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="page-body">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+
+                                                <div class="card">
+                                                    <div class="card-header table-card-header d-flex justify-content-between align-items-center flex-wrap">
+                                                        <h5>Reports List</h5>
+                                                        <div class="btn-group btn-group-sm" role="group">
+                                                            <a href="/reports?status=all" class="btn {{#if (eq currentStatus 'all')}}btn-primary{{else}}btn-outline-primary{{/if}}">All</a>
+                                                            <a href="/reports?status=pending" class="btn {{#if (eq currentStatus 'pending')}}btn-warning{{else}}btn-outline-warning{{/if}}">Pending</a>
+                                                            <a href="/reports?status=resolved" class="btn {{#if (eq currentStatus 'resolved')}}btn-success{{else}}btn-outline-success{{/if}}">Resolved</a>
+                                                            <a href="/reports?status=dismissed" class="btn {{#if (eq currentStatus 'dismissed')}}btn-secondary{{else}}btn-outline-secondary{{/if}}">Dismissed</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-block">
+                                                        <div id="reports-table-wrapper" class="dt-responsive table-responsive">
+                                                            <table id="basic-btn" class="table table-striped table-bordered text-center">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th class="col-report-id">Report ID</th>
+                                                                        <th class="col-reason">Reason</th>
+                                                                        <th class="col-reported-by">Reported By</th>
+                                                                        <th class="col-reported-user">Reported User</th>
+                                                                        <th class="col-message-content">Message Content</th>
+                                                                        <th class="col-section">Section</th>
+                                                                        <th class="col-message-id">Message ID</th>
+                                                                        <th class="col-user-id">User ID</th>
+                                                                        <th class="col-status">Status</th>
+                                                                        <th class="col-date">Date</th>
+                                                                        <th class="col-actions">Actions</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    {{#each reports}}
+                                                                    <tr>
+                                                                        <td>
+                                                                            <code>{{_id}}</code>
+                                                                        </td>
+                                                                        <td>
+                                                                            <span class="badge bg-info">
+                                                                                {{#if (eq reason 'spam_or_bot')}}Spam/Bot{{/if}}
+                                                                                {{#if (eq reason 'harassment_or_bullying')}}Harassment{{/if}}
+                                                                                {{#if (eq reason 'hate_speech')}}Hate Speech{{/if}}
+                                                                                {{#if (eq reason 'misinformation')}}Misinformation{{/if}}
+                                                                                {{#if (eq reason 'inappropriate_content')}}Inappropriate{{/if}}
+                                                                                {{#if (eq reason 'other')}}Other{{/if}}
+                                                                            </span>
+                                                                        </td>
+                                                                        <td>
+                                                                            {{#if reportedByUserId.fullname}}
+                                                                                {{reportedByUserId.fullname}}
+                                                                                <br><small class="text-muted">{{reportedByUserId.email}}</small>
+                                                                            {{else}}
+                                                                                <span class="text-muted">N/A</span>
+                                                                            {{/if}}
+                                                                        </td>
+                                                                        <td>
+                                                                            {{#if reportedUserId.fullname}}
+                                                                                {{reportedUserId.fullname}}
+                                                                                <br><small class="text-muted">{{reportedUserId.email}}</small>
+                                                                            {{else}}
+                                                                                <span class="text-muted">N/A</span>
+                                                                            {{/if}}
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="message-content-cell">
+                                                                                {{#if messageContent}}
+                                                                                    {{messageContent}}
+                                                                                {{else}}
+                                                                                    <span class="text-muted">No message content</span>
+                                                                                {{/if}}
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            {{#if sectionId}}
+                                                                                {{#if sectionId.communityName}}
+                                                                                    {{sectionId.communityName}}
+                                                                                {{else}}
+                                                                                    <span class="text-muted">Unknown Section</span>
+                                                                                {{/if}}
+                                                                            {{else}}
+                                                                                <span class="text-muted">No Section</span>
+                                                                            {{/if}}
+                                                                        </td>
+                                                                        <td>
+                                                                            <code>{{reportedMessageId}}</code>
+                                                                        </td>
+                                                                        <td>
+                                                                            <code>{{reportedUserId._id}}</code>
+                                                                            <br>
+                                                                            <span id="blockBtnContainer-{{reportedUserId._id}}">
+                                                                            {{#if reportedUserId.isSuspended}}
+                                                                                <button type="button" class="btn btn-success btn-sm" id="blockBtn-{{reportedUserId._id}}" onclick="unblockUser('{{reportedUserId._id}}', 'Reported User')">
+                                                                                    <i class="fas fa-unlock" id="blockIcon-{{reportedUserId._id}}"></i> <span id="blockText-{{reportedUserId._id}}">Unblock User</span>
+                                                                                </button>
+                                                                            {{else}}
+                                                                                <button type="button" class="btn btn-warning btn-sm" id="blockBtn-{{reportedUserId._id}}" onclick="blockUser('{{reportedUserId._id}}', 'Reported User')">
+                                                                                    <i class="fas fa-ban" id="blockIcon-{{reportedUserId._id}}"></i> <span id="blockText-{{reportedUserId._id}}">Block User</span>
+                                                                                </button>
+                                                                            {{/if}}
+                                                                            </span>
+                                                                        </td>
+                                                                        <td>
+                                                                            {{#if (eq status 'pending')}}
+                                                                                <span class="badge bg-warning">Pending</span>
+                                                                            {{/if}}
+                                                                            {{#if (eq status 'resolved')}}
+                                                                                <span class="badge bg-success">Resolved</span>
+                                                                            {{/if}}
+                                                                            {{#if (eq status 'dismissed')}}
+                                                                                <span class="badge bg-secondary">Dismissed</span>
+                                                                            {{/if}}
+                                                                        </td>
+                                                                        <td>{{#if createdAt}}{{createdAt}}{{/if}}</td>
+                                                                        <td style="padding-top: 10px;">
+                                                                            <div class="btn-group btn-group-sm" role="group">
+                                                                                <button type="button" class="btn btn-info btn-sm" onclick="viewReportDetails('{{_id}}')">
+                                                                                    <i class="fas fa-eye"></i> View
+                                                                                </button>
+                                                                                
+                                                                                {{#if (eq status 'pending')}}
+                                                                                    {{#if reportedMessageId}}
+                                                                                        <button type="button" class="btn btn-danger btn-sm" onclick="removeMessage('{{_id}}', '{{reportedMessageId}}')">
+                                                                                            <i class="fas fa-trash"></i> Remove Message
+                                                                                        </button>
+                                                                                    {{/if}}
+                                                                                    
+                                                                                    <button type="button" class="btn btn-warning btn-sm" onclick="banUserFromReport('{{_id}}', '{{reportedUserId._id}}', '{{reportedUserId.fullname}}')">
+                                                                                            <i class="fas fa-user-slash"></i> Ban User
+                                                                                    </button>
+                                                                                    
+                                                                                    <button type="button" class="btn btn-success btn-sm" onclick="updateReportStatus('{{_id}}', 'resolved')">
+                                                                                            <i class="fas fa-check"></i> Resolve
+                                                                                    </button>
+                                                                                    
+                                                                                    <button type="button" class="btn btn-secondary btn-sm" onclick="updateReportStatus('{{_id}}', 'dismissed')">
+                                                                                            <i class="fas fa-times"></i> Dismiss
+                                                                                    </button>
+                                                                                {{/if}}
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    {{/each}}
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Report Details Modal (per doc: reported user, reported by, section, timestamp, full message content, Remove/Ban/Dismiss) -->
+    <div class="modal fade" id="reportDetailsModal" tabindex="-1" aria-labelledby="reportDetailsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="reportDetailsModalLabel">Report Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="reportDetailsContent">
+                        <!-- Report details loaded via viewReportDetails() -->
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div id="reportDetailsActions" class="mr-auto">
+                        <!-- Action buttons: Remove Message, Ban User, Dismiss (for pending only) -->
+                    </div>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Admin Theme JS -->
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/jquery-ui.min.js"></script>
+    <script src="/assets/js/popper.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/waves.min.js"></script>
+    <script src="/assets/js/feather.min.js"></script>
+    <script src="/assets/js/sidebar-menu.js"></script>
+    <script src="/assets/js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="/assets/js/custom.js"></script>
+    <!-- Custom JS -->
+    <script>
+        // Helper: Update Block/Unblock button UI
+        function updateBlockButtonUI(userId, isSuspended) {
+            const btn = document.getElementById('blockBtn-' + userId);
+            const icon = document.getElementById('blockIcon-' + userId);
+            const text = document.getElementById('blockText-' + userId);
+            if (!btn || !icon || !text) return;
+
+            if (isSuspended) {
+                btn.classList.remove('btn-warning');
+                btn.classList.add('btn-success');
+                icon.classList.remove('fa-ban');
+                icon.classList.add('fa-unlock');
+                text.textContent = 'Unblock User';
+                btn.setAttribute('onclick', "unblockUser('" + userId + "', 'Reported User')");
+            } else {
+                btn.classList.remove('btn-success');
+                btn.classList.add('btn-warning');
+                icon.classList.remove('fa-unlock');
+                icon.classList.add('fa-ban');
+                text.textContent = 'Block User';
+                btn.setAttribute('onclick', "blockUser('" + userId + "', 'Reported User')");
+            }
+        }
+
+        // Remove Message Function
+        function removeMessage(reportId, messageId) {
+            console.log('removeMessage called with reportId:', reportId, 'messageId:', messageId);
+            
+            if (confirm('Are you sure you want to remove this message? This action cannot be undone.')) {
+                fetch('/remove-message/' + messageId, {
+                    method: 'DELETE',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    }
+                })
+                .then(response => {
+                    console.log('Response status:', response.status);
+                    return response.json();
+                })
+                .then(data => {
+                    console.log('Response data:', data);
+                    if (data.status === 1) {
+                        alert('Message removed successfully!');
+                        // Update report status to resolved
+                        updateReportStatus(reportId, 'resolved');
+                    } else {
+                        alert('Error removing message: ' + data.message);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('Error removing message');
+                });
+            }
+        }
+
+        // Ban User from Report Function
+        function banUserFromReport(reportId, userId, userName) {
+            console.log('banUserFromReport called with reportId:', reportId, 'userId:', userId, 'userName:', userName);
+            
+            const reason = prompt(`Enter ban reason for ${userName}:`);
+            if (!reason) {
+                alert('Ban reason is required');
+                return;
+            }
+
+            if (confirm(`Are you sure you want to ban ${userName}? This will suspend their account immediately.`)) {
+                fetch('/ban-user', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ 
+                        userId: userId,
+                        reason: reason,
+                        reportId: reportId
+                    })
+                })
+                .then(response => {
+                    console.log('Response status:', response.status);
+                    return response.json();
+                })
+                .then(data => {
+                    console.log('Response data:', data);
+                    if (data.status === 1) {
+                        alert(`${userName} has been banned successfully!`);
+                        // Update report status to resolved
+                        updateReportStatus(reportId, 'resolved');
+                        // Update block button UI
+                        updateBlockButtonUI(userId, true);
+                    } else {
+                        alert('Error banning user: ' + data.message);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('Error banning user');
+                });
+            }
+        }
+
+        // Block User Function
+        function blockUser(userId, userType) {
+            console.log('blockUser called with userId:', userId, 'userType:', userType);
+            
+            const reason = prompt(`Enter suspension reason for ${userType}:`);
+            if (!reason) {
+                alert('Suspension reason is required');
+                return;
+            }
+
+            if (confirm(`Are you sure you want to suspend this ${userType}?`)) {
+                fetch('/block-user', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ 
+                        userId: userId,
+                        reason: reason
+                    })
+                })
+                .then(response => {
+                    console.log('Response status:', response.status);
+                    return response.json();
+                })
+                .then(data => {
+                    console.log('Response data:', data);
+                    if (data.status === 1) {
+                        alert(`${userType} suspended successfully!`);
+                        // Update button immediately without reload
+                        updateBlockButtonUI(userId, true); // true = now suspended, show Unblock
+                    } else {
+                        alert('Error suspending user: ' + data.message);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('Error suspending user');
+                });
+            }
+        }
+
+        // Unblock User Function
+        function unblockUser(userId, userType) {
+            console.log('unblockUser called with userId:', userId, 'userType:', userType);
+            
+            if (confirm(`Are you sure you want to unsuspend this ${userType}?`)) {
+                fetch('/unblock-user', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ 
+                        userId: userId
+                    })
+                })
+                .then(response => {
+                    console.log('Response status:', response.status);
+                    return response.json();
+                })
+                .then(data => {
+                    console.log('Response data:', data);
+                    if (data.status === 1) {
+                        alert(`${userType} unsuspended successfully!`);
+                        // Update button immediately without reload
+                        updateBlockButtonUI(userId, false); // false = now unsuspended, show Block
+                    } else {
+                        alert('Error unsuspending user: ' + data.message);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('Error unsuspending user');
+                });
+            }
+        }
+
+        // Update Report Status Function
+        function updateReportStatus(reportId, status) {
+            console.log('updateReportStatus called with reportId:', reportId, 'status:', status);
+            const actionText = status === 'dismissed' ? 'dismiss' : status;
+            if (confirm(`Are you sure you want to ${actionText} this report?`)) {
+                fetch(`/reports/${reportId}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ status: status })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Response data:', data);
+                    if (data.status === 1) {
+                        alert('Report updated successfully!');
+                        location.reload();
+                    } else {
+                        alert('Error updating report: ' + data.message);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('Error updating report');
+                });
+            }
+        }
+
+        // View Report Details Function (per doc: reported user, reported by, section, timestamp, full message content, Remove/Ban/Dismiss)
+        function viewReportDetails(reportId) {
+            console.log('viewReportDetails called with reportId:', reportId);
+            
+            const reports = [
+                {{#each reports}}
+                {
+                    _id: "{{_id}}",
+                    reason: "{{reason}}",
+                    status: "{{status}}",
+                    createdAt: "{{createdAt}}",
+                    resolvedAt: "{{#if resolvedAt}}{{resolvedAt}}{{/if}}",
+                    reportedByUserId: { fullname: "{{#if reportedByUserId.fullname}}{{reportedByUserId.fullname}}{{/if}}" },
+                    reportedUserId: { fullname: "{{#if reportedUserId.fullname}}{{reportedUserId.fullname}}{{/if}}", _id: "{{#if reportedUserId._id}}{{reportedUserId._id}}{{/if}}" },
+                    reportedMessageId: "{{reportedMessageId}}",
+                    sectionName: "{{#if sectionId.communityName}}{{sectionId.communityName}}{{else}}No Section{{/if}}",
+                    messageContent: "{{#if messageContent}}{{messageContent}}{{/if}}"
+                },
+                {{/each}}
+            ];
+            const report = reports.find(r => r._id === reportId);
+            
+            if (report) {
+                const detailsHtml = `
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6>Report Information</h6>
+                            <p><strong>Report ID:</strong> <code>${report._id}</code></p>
+                            <p><strong>Reason:</strong> <span class="badge bg-info">${report.reason || 'N/A'}</span></p>
+                            <p><strong>Status:</strong> <span class="badge bg-${report.status === 'pending' ? 'warning' : report.status === 'resolved' ? 'success' : 'secondary'}">${report.status}</span></p>
+                            <p><strong>Timestamp:</strong> ${new Date(report.createdAt).toLocaleString()}</p>
+                            ${report.resolvedAt ? `<p><strong>Resolved:</strong> ${new Date(report.resolvedAt).toLocaleString()}</p>` : ''}
+                        </div>
+                        <div class="col-md-6">
+                            <h6>User & Section</h6>
+                            <p><strong>Reported By:</strong> ${report.reportedByUserId?.fullname || 'N/A'}</p>
+                            <p><strong>Reported User:</strong> ${report.reportedUserId?.fullname || 'N/A'}</p>
+                            <p><strong>Section:</strong> ${report.sectionName || 'N/A'}</p>
+                            <p><strong>Message ID:</strong> <code>${report.reportedMessageId}</code></p>
+                        </div>
+                    </div>
+                    ${report.messageContent ? `
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <h6>Full Message Content</h6>
+                                <div class="alert alert-info" style="white-space: pre-wrap; word-break: break-word;">${report.messageContent}</div>
+                            </div>
+                        </div>
+                    ` : '<div class="row mt-3"><div class="col-12"><p class="text-muted">No message content</p></div></div>'}
+                `;
+                
+                document.getElementById('reportDetailsContent').innerHTML = detailsHtml;
+                
+                // Action buttons per doc: Remove Message, Ban User, Dismiss (for pending only)
+                let actionsHtml = '';
+                if (report.status === 'pending') {
+                    if (report.reportedMessageId) {
+                        actionsHtml += `<button type="button" class="btn btn-danger btn-sm mr-1" onclick="$('#reportDetailsModal').modal('hide'); removeMessage('${report._id}', '${report.reportedMessageId}')"><i class="fas fa-trash"></i> Remove Message</button>`;
+                    }
+                    actionsHtml += `<button type="button" class="btn btn-warning btn-sm mr-1" onclick="$('#reportDetailsModal').modal('hide'); banUserFromReport('${report._id}', '${report.reportedUserId?._id}', '${(report.reportedUserId?.fullname || 'User').replace(/'/g, "\\'")}')"><i class="fas fa-user-slash"></i> Ban User</button>`;
+                    actionsHtml += `<button type="button" class="btn btn-secondary btn-sm" onclick="$('#reportDetailsModal').modal('hide'); updateReportStatus('${report._id}', 'dismissed')"><i class="fas fa-times"></i> Dismiss</button>`;
+                }
+                document.getElementById('reportDetailsActions').innerHTML = actionsHtml;
+                
+                $('#reportDetailsModal').modal('show');
+            }
+        }
+    </script>
+</body>
+</html>

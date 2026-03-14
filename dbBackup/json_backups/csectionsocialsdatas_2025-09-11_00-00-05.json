@@ -1,0 +1,699 @@
+[
+  {
+    "_id": "682da4a453b51be218ad7484",
+    "sectionId": "668d5372ebb46ed45c5002c9",
+    "scoresData": [
+      {
+        "score": 6,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "user_created_post",
+        "_id": "682da4a453b51be218ad7485"
+      },
+      {
+        "score": 2,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "post_like",
+        "_id": "687df70f5e4b591d165d82d4"
+      },
+      {
+        "score": 3,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "comment",
+        "_id": "687e2ffd5e4b591d165d89c0"
+      },
+      {
+        "score": 3,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "comment",
+        "_id": "687e301c5e4b591d165d89e1"
+      },
+      {
+        "score": -2,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "post_like",
+        "_id": "68809f525e4b591d165da0b9"
+      },
+      {
+        "score": 2,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "post_like",
+        "_id": "68809f545e4b591d165da0d0"
+      },
+      {
+        "score": 3,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "comment",
+        "_id": "68809f645e4b591d165da0f2"
+      },
+      {
+        "score": 4,
+        "_id": "68809f6f5e4b591d165da10e"
+      },
+      {
+        "score": 6,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "user_created_post",
+        "_id": "688486365e4b591d165dce96"
+      },
+      {
+        "score": 3,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "comment",
+        "_id": "6899c8e39e1a3212743ee738"
+      },
+      {
+        "score": 4,
+        "_id": "6899c9019e1a3212743ee767"
+      }
+    ],
+    "__v": 10
+  },
+  {
+    "_id": "683167d1444fc877af8a558c",
+    "sectionId": "669616f57e9579eef565f0d9",
+    "scoresData": [
+      {
+        "score": 3,
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "scoreFor": "comment",
+        "_id": "683167d1444fc877af8a558d"
+      },
+      {
+        "score": 4,
+        "_id": "683167e4444fc877af8a55ae"
+      },
+      {
+        "score": 2,
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "scoreFor": "post_like",
+        "_id": "683805311a124fdff4363f1b"
+      },
+      {
+        "score": 6,
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "scoreFor": "user_created_post",
+        "_id": "6838053c1a124fdff4363f30"
+      },
+      {
+        "score": 6,
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "scoreFor": "user_created_post",
+        "_id": "683ad46ec706cf637875dbfd"
+      },
+      {
+        "score": 6,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "user_created_post",
+        "_id": "684180ffcab787d99a0f8560"
+      },
+      {
+        "score": 6,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "user_created_post",
+        "_id": "68418147cab787d99a0f868a"
+      },
+      {
+        "score": 6,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "user_created_post",
+        "_id": "6841814bcab787d99a0f8702"
+      },
+      {
+        "score": 6,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "user_created_post",
+        "_id": "68418158cab787d99a0f8780"
+      },
+      {
+        "score": 6,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "user_created_post",
+        "_id": "6841815dcab787d99a0f87f9"
+      },
+      {
+        "score": 2,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "post_like",
+        "_id": "684181e3cab787d99a0f891d"
+      },
+      {
+        "score": 2,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "post_like",
+        "_id": "687df9bd5e4b591d165d8432"
+      },
+      {
+        "score": 2,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "post_like",
+        "_id": "68809fd05e4b591d165da1d3"
+      },
+      {
+        "score": 6,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "user_created_post",
+        "_id": "6880a2c95e4b591d165da2d6"
+      },
+      {
+        "score": 6,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "user_created_post",
+        "_id": "6880a31b5e4b591d165da331"
+      },
+      {
+        "score": 2,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "post_like",
+        "_id": "688398975e4b591d165dc4b3"
+      },
+      {
+        "score": 6,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "user_created_post",
+        "_id": "6899e83b9e1a3212743eef5c"
+      },
+      {
+        "score": 2,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "post_like",
+        "_id": "6899ee009e1a3212743ef473"
+      }
+    ],
+    "__v": 17
+  },
+  {
+    "_id": "6834a75b1a124fdff4361ae7",
+    "sectionId": "666be3f460b6e67aa7b20fdf",
+    "scoresData": [
+      {
+        "score": 3,
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "scoreFor": "comment",
+        "_id": "6834a75b1a124fdff4361ae8"
+      },
+      {
+        "score": 3,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "comment",
+        "_id": "6834a7711a124fdff4361b09"
+      },
+      {
+        "score": 3,
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "scoreFor": "comment",
+        "_id": "6834a7861a124fdff4361b2a"
+      },
+      {
+        "score": 3,
+        "_id": "6834a7961a124fdff4361b4c"
+      },
+      {
+        "score": 4,
+        "_id": "6834a7c41a124fdff4361c7a"
+      },
+      {
+        "score": 6,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "user_created_post",
+        "_id": "6880a21b5e4b591d165da230"
+      },
+      {
+        "score": 6,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "user_created_post",
+        "_id": "6880a2465e4b591d165da25a"
+      },
+      {
+        "score": 2,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "post_like",
+        "_id": "6880b91c5e4b591d165da68e"
+      },
+      {
+        "score": 2,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "post_like",
+        "_id": "6880b9935e4b591d165da6f1"
+      }
+    ],
+    "__v": 8
+  },
+  {
+    "_id": "6834a7cf1a124fdff4361c8c",
+    "scoresData": [
+      {
+        "score": 2,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "comment_like",
+        "_id": "6834a7cf1a124fdff4361c8d"
+      },
+      {
+        "score": 2,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "comment_like",
+        "_id": "6834a7d51a124fdff4361ca0"
+      },
+      {
+        "score": 2,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "comment_like",
+        "_id": "68448adce5a3d1f73bd72608"
+      },
+      {
+        "score": 2,
+        "userId": "666acee4547c0608c2f348cb",
+        "scoreFor": "comment_like",
+        "_id": "6885eb859e1a3212743e3735"
+      },
+      {
+        "score": 2,
+        "userId": "668e40e1ebb46ed45c50223e",
+        "scoreFor": "comment_like",
+        "_id": "6887c54b9e1a3212743e4cbb"
+      },
+      {
+        "score": 2,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "comment_like",
+        "_id": "6899c8f49e1a3212743ee74f"
+      },
+      {
+        "score": 2,
+        "userId": "689996659e1a3212743edfb8",
+        "scoreFor": "comment_like",
+        "_id": "6899d2fb9e1a3212743eeba5"
+      },
+      {
+        "score": -2,
+        "userId": "689996659e1a3212743edfb8",
+        "scoreFor": "comment_like",
+        "_id": "6899d2fc9e1a3212743eebb7"
+      },
+      {
+        "score": 2,
+        "userId": "689996659e1a3212743edfb8",
+        "scoreFor": "comment_like",
+        "_id": "6899d3029e1a3212743eebca"
+      }
+    ],
+    "__v": 8
+  },
+  {
+    "_id": "683ac3ffc706cf637875d14f",
+    "sectionId": "668f8992ebb46ed45c503cef",
+    "scoresData": [
+      {
+        "score": 6,
+        "userId": "668e40e1ebb46ed45c50223e",
+        "scoreFor": "user_created_post",
+        "_id": "683ac3ffc706cf637875d150"
+      },
+      {
+        "score": 2,
+        "userId": "668d95a5ebb46ed45c50086f",
+        "scoreFor": "post_like",
+        "_id": "683aca81c706cf637875d91a"
+      },
+      {
+        "score": 2,
+        "userId": "666acee4547c0608c2f348cb",
+        "scoreFor": "post_like",
+        "_id": "685fae1154ff44277c0f6192"
+      },
+      {
+        "score": 6,
+        "userId": "668e40e1ebb46ed45c50223e",
+        "scoreFor": "user_created_post",
+        "_id": "6885709f9e1a3212743e30e5"
+      },
+      {
+        "score": 2,
+        "userId": "666acee4547c0608c2f348cb",
+        "scoreFor": "post_like",
+        "_id": "688570f39e1a3212743e3169"
+      }
+    ],
+    "__v": 4
+  },
+  {
+    "_id": "683ad435c706cf637875dafb",
+    "sectionId": "66e9916b9c3dca4f9105d2c7",
+    "scoresData": [
+      {
+        "score": 6,
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "scoreFor": "user_created_post",
+        "_id": "683ad435c706cf637875dafc"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "6842ce0ce3d83d057f2c5732",
+    "sectionId": "67e6879eadd853f47b4f1bd9",
+    "scoresData": [
+      {
+        "score": 6,
+        "userId": "67e68628c8c1a90cff698729",
+        "scoreFor": "user_created_post",
+        "_id": "6842ce0ce3d83d057f2c5733"
+      },
+      {
+        "score": 6,
+        "userId": "67e68628c8c1a90cff698729",
+        "scoreFor": "user_created_post",
+        "_id": "6842ce70e3d83d057f2c5782"
+      },
+      {
+        "score": 6,
+        "userId": "67e685a5c8c1a90cff698705",
+        "scoreFor": "user_created_post",
+        "_id": "684ac64d2a2808b0d47bf77f"
+      },
+      {
+        "score": 6,
+        "userId": "67e685a5c8c1a90cff698705",
+        "scoreFor": "user_created_post",
+        "_id": "684ac7013f55f23554d98a8f"
+      },
+      {
+        "score": 6,
+        "userId": "67e685a5c8c1a90cff698705",
+        "scoreFor": "user_created_post",
+        "_id": "684ac75f1c30ec47e3b71316"
+      },
+      {
+        "score": 6,
+        "userId": "67e685a5c8c1a90cff698705",
+        "scoreFor": "user_created_post",
+        "_id": "684ac9642e337a2edc1f68da"
+      },
+      {
+        "score": 6,
+        "userId": "67e685a5c8c1a90cff698705",
+        "scoreFor": "user_created_post",
+        "_id": "684acc4792f0ad7466bc5da3"
+      },
+      {
+        "score": 6,
+        "userId": "67e685a5c8c1a90cff698705",
+        "scoreFor": "user_created_post",
+        "_id": "684accfa0e33dc244aa626cd"
+      },
+      {
+        "score": 6,
+        "userId": "67e68628c8c1a90cff698729",
+        "scoreFor": "user_created_post",
+        "_id": "684adf794c7f43475f39f71b"
+      },
+      {
+        "score": 6,
+        "userId": "67e68628c8c1a90cff698729",
+        "scoreFor": "user_created_post",
+        "_id": "684ae475c79f56f38a305abb"
+      },
+      {
+        "score": 6,
+        "userId": "67e68628c8c1a90cff698729",
+        "scoreFor": "repost_user_created_post",
+        "_id": "684d7e710d7a4d917bcf1f1e"
+      },
+      {
+        "score": 6,
+        "userId": "67e68628c8c1a90cff698729",
+        "scoreFor": "repost_user_created_post",
+        "_id": "684d7f123076e734da04a395"
+      },
+      {
+        "score": 6,
+        "userId": "67e68628c8c1a90cff698729",
+        "scoreFor": "repost_user_created_post",
+        "_id": "684d7f990480f6c31bfc625d"
+      }
+    ],
+    "__v": 12
+  },
+  {
+    "_id": "68448b57e5a3d1f73bd72699",
+    "sectionId": "66672f9fa9c95f379c7f4e7c",
+    "scoresData": [
+      {
+        "score": 4,
+        "_id": "68448b57e5a3d1f73bd7269a"
+      },
+      {
+        "score": 3,
+        "_id": "68495a11eab7ade3982c0310"
+      }
+    ],
+    "__v": 1
+  },
+  {
+    "_id": "68650d2554ff44277c0f695a",
+    "sectionId": "67a4c66e3a8fc09fba7ac839",
+    "scoresData": [
+      {
+        "score": 2,
+        "userId": "68650c6654ff44277c0f68f6",
+        "scoreFor": "post_like",
+        "_id": "68650d2554ff44277c0f695b"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "687931fd868f4079bd1a8f83",
+    "sectionId": "66d42a6156969a23c7751e17",
+    "scoresData": [
+      {
+        "score": 6,
+        "userId": "666acee4547c0608c2f348cb",
+        "scoreFor": "user_created_post",
+        "_id": "687931fd868f4079bd1a8f84"
+      },
+      {
+        "score": 6,
+        "userId": "668f96b3ebb46ed45c503e10",
+        "scoreFor": "user_created_post",
+        "_id": "68aa0af64839b40d079ca70b"
+      },
+      {
+        "score": 2,
+        "userId": "66bcb666b3ff2d867a09301b",
+        "scoreFor": "post_like",
+        "_id": "68aa0b1e4839b40d079ca850"
+      },
+      {
+        "score": 2,
+        "userId": "666acee4547c0608c2f348cb",
+        "scoreFor": "post_like",
+        "_id": "68ab30284839b40d079cb027"
+      },
+      {
+        "score": 2,
+        "userId": "668e40e1ebb46ed45c50223e",
+        "scoreFor": "post_like",
+        "_id": "68bd4cd64839b40d079d2a8d"
+      }
+    ],
+    "__v": 4
+  },
+  {
+    "_id": "687e28e85e4b591d165d8703",
+    "sectionId": "687df3295e4b591d165d810a",
+    "scoresData": [
+      {
+        "score": 6,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "user_created_post",
+        "_id": "687e28e85e4b591d165d8704"
+      },
+      {
+        "score": 2,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "post_like",
+        "_id": "687e36dd5e4b591d165d8a5a"
+      },
+      {
+        "score": -2,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "post_like",
+        "_id": "687e36dd5e4b591d165d8a6e"
+      },
+      {
+        "score": 2,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "post_like",
+        "_id": "687e36de5e4b591d165d8a7f"
+      },
+      {
+        "score": 3,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "comment",
+        "_id": "687e393f5e4b591d165d8a94"
+      },
+      {
+        "score": 6,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "user_created_post",
+        "_id": "687e4bc25e4b591d165d8e7b"
+      },
+      {
+        "score": 6,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "user_created_post",
+        "_id": "688485085e4b591d165dce12"
+      },
+      {
+        "score": 6,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "user_created_post",
+        "_id": "688774289e1a3212743e47cd"
+      },
+      {
+        "score": 5,
+        "userId": "666acee4547c0608c2f348cb",
+        "scoreFor": "comment",
+        "_id": "68891f429e1a3212743e5aa0"
+      },
+      {
+        "score": 6,
+        "userId": "666acee4547c0608c2f348cb",
+        "scoreFor": "user_created_post",
+        "_id": "68a2d7ca4839b40d079c74d5"
+      },
+      {
+        "score": 3,
+        "userId": "666acee4547c0608c2f348cb",
+        "scoreFor": "comment",
+        "_id": "68a2d8814839b40d079c750c"
+      }
+    ],
+    "__v": 10
+  },
+  {
+    "_id": "687e29955e4b591d165d875f",
+    "sectionId": "687df68c5e4b591d165d8228",
+    "scoresData": [
+      {
+        "score": 6,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "user_created_post",
+        "_id": "687e29955e4b591d165d8760"
+      },
+      {
+        "score": 6,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "user_created_post",
+        "_id": "688481325e4b591d165dcc92"
+      },
+      {
+        "score": 5,
+        "userId": "689996659e1a3212743edfb8",
+        "scoreFor": "comment",
+        "_id": "6899c9ad9e1a3212743ee8cd"
+      },
+      {
+        "score": 3,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "comment",
+        "_id": "6899c9df9e1a3212743ee943"
+      },
+      {
+        "score": 3,
+        "_id": "6899c9fb9e1a3212743ee96e"
+      },
+      {
+        "score": 4,
+        "_id": "6899dbd69e1a3212743eed0a"
+      },
+      {
+        "score": 5,
+        "userId": "689996659e1a3212743edfb8",
+        "scoreFor": "comment",
+        "_id": "6899dfe59e1a3212743eed76"
+      },
+      {
+        "score": 6,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "user_created_post",
+        "_id": "6899fc469e1a3212743ef63a"
+      }
+    ],
+    "__v": 7
+  },
+  {
+    "_id": "6884819d5e4b591d165dcd2b",
+    "sectionId": "6882428f5e4b591d165db915",
+    "scoresData": [
+      {
+        "score": 6,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "user_created_post",
+        "_id": "6884819d5e4b591d165dcd2c"
+      },
+      {
+        "score": 6,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "user_created_post",
+        "_id": "68935f649e1a3212743ead85"
+      },
+      {
+        "score": 6,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "user_created_post",
+        "_id": "68936ccf9e1a3212743eaffd"
+      },
+      {
+        "score": 6,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "user_created_post",
+        "_id": "68936ec69e1a3212743eb167"
+      },
+      {
+        "score": 6,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "user_created_post",
+        "_id": "689a003a9e1a3212743ef864"
+      },
+      {
+        "score": 2,
+        "userId": "6663ef80af09c97547bda511",
+        "scoreFor": "post_like",
+        "_id": "689a005f9e1a3212743ef927"
+      }
+    ],
+    "__v": 5
+  },
+  {
+    "_id": "6885742e9e1a3212743e31f2",
+    "sectionId": "6696e0a27e9579eef566097a",
+    "scoresData": [
+      {
+        "score": 6,
+        "userId": "668e40e1ebb46ed45c50223e",
+        "scoreFor": "user_created_post",
+        "_id": "6885742e9e1a3212743e31f3"
+      },
+      {
+        "score": 2,
+        "userId": "668d95a5ebb46ed45c50086f",
+        "scoreFor": "post_like",
+        "_id": "688574439e1a3212743e3296"
+      },
+      {
+        "score": 5,
+        "userId": "668d95a5ebb46ed45c50086f",
+        "scoreFor": "comment",
+        "_id": "688574489e1a3212743e32a8"
+      },
+      {
+        "score": 2,
+        "userId": "666acee4547c0608c2f348cb",
+        "scoreFor": "post_like",
+        "_id": "6885eb849e1a3212743e3724"
+      }
+    ],
+    "__v": 3
+  }
+]

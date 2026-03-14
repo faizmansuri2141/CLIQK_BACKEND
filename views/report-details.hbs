@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Details - Admin Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Admin Theme CSS -->
+    <link rel="stylesheet" href="/css/admin-style.css">
+</head>
+<body>
+    <!-- Admin Header -->
+    {{> admin-header}}
+    
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            {{> admin-sidebar}}
+            
+            <!-- Main Content -->
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="h2">Report Details</h1>
+                    <div class="btn-toolbar mb-2 mb-md-0">
+                        <div class="btn-group me-2">
+                            <a href="/admin/reports" class="btn btn-sm btn-secondary">
+                                <i class="fas fa-arrow-left"></i> Back to Reports
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Report Details Card -->
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="card">
+                            <div class="card-header d-flex justify-content-between align-items-center">
+                                <h5 class="mb-0">Report Information</h5>
+                                <div>
+                                    {{#if (eq report.status 'pending')}}
+                                    <span class="badge bg-warning">Pending</span>
+                                    {{/if}}
+                                    {{#if (eq report.status 'resolved')}}
+                                    <span class="badge bg-success">Resolved</span>
+                                    {{/if}}
+                                    {{#if (eq report.status 'dismissed')}}
+                                    <span class="badge bg-secondary">Dismissed</span>
+                                    {{/if}}
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h6>Report ID</h6>
+                                        <p><code>{{report._id}}</code></p>
+                                        
+                                        <h6>Reason</h6>
+                                        <p>
+                                            <span class="badge bg-info">
+                                                {{#if (eq report.reason 'spam_or_bot')}}Spam or Bot{{/if}}
+                                                {{#if (eq report.reason 'harassment_or_bullying')}}Harassment or Bullying{{/if}}
+                                                {{#if (eq report.reason 'hate_speech')}}Hate Speech{{/if}}
+                                                {{#if (eq report.reason 'misinformation')}}Misinformation{{/if}}
+                                                {{#if (eq report.reason 'inappropriate_content')}}Inappropriate Content{{/if}}
+                                                {{#if (eq report.reason 'other')}}Other{{/if}}
+                                            </span>
+                                        </p>
+                                        
+                                        <h6>Message ID</h6>
+                                        <p><code>{{report.reportedMessageId}}</code></p>
+                                        
+                                        <h6>Section ID</h6>
+                                        <p>{{#if report.sectionId}}<code>{{report.sectionId}}</code>{{else}}N/A{{/if}}</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6>Reported Date</h6>
+                                        <p>{{moment report.createdAt format="MMMM DD, YYYY at HH:mm"}}</p>
+                                        
+                                        {{#if report.resolvedAt}}
+                                        <h6>Resolved Date</h6>
+                                        <p>{{moment report.resolvedAt format="MMMM DD, YYYY at HH:mm"}}</p>
+                                        {{/if}}
+                                        
+                                        {{#if report.resolvedBy}}
+                                        <h6>Resolved By</h6>
+                                        <p>{{report.resolvedBy.name}} ({{report.resolvedBy.email}})</p>
+                                        {{/if}}
+                                    </div>
+                                </div>
+                                
+                                {{#if report.messageContent}}
+                                <h6>Message Content</h6>
+                                <div class="alert alert-light">
+                                    <pre class="mb-0">{{report.messageContent}}</pre>
+                                </div>
+                                {{/if}}
+                                
+                                <!-- Action Buttons -->
+                                <div class="mt-4">
+                                    {{#if (eq report.status 'pending')}}
+                                    <div class="btn-group" role="group">
+                                        <button class="btn btn-success" onclick="updateReportStatus('{{report._id}}', 'resolved')">
+                                            <i class="fas fa-check"></i> Mark as Resolved
+                                        </button>
+                                        <button class="btn btn-secondary" onclick="updateReportStatus('{{report._id}}', 'dismissed')">
+                                            <i class="fas fa-times"></i> Dismiss Report
+                                        </button>
+                                        <button class="btn btn-danger" onclick="deleteReport('{{report._id}}')">
+                                            <i class="fas fa-trash"></i> Delete Report
+                                        </button>
+                                    </div>
+                                    {{else}}
+                                    <div class="btn-group" role="group">
+                                        <button class="btn btn-warning" onclick="updateReportStatus('{{report._id}}', 'pending')">
+                                            <i class="fas fa-undo"></i> Reopen Report
+                                        </button>
+                                        <button class="btn btn-danger" onclick="deleteReport('{{report._id}}')">
+                                            <i class="fas fa-trash"></i> Delete Report
+                                        </button>
+                                    </div>
+                                    {{/if}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <!-- Reporter Information -->
+                        <div class="card mb-3">
+                            <div class="card-header">
+                                <h6 class="mb-0">Reported By</h6>
+                            </div>
+                            <div class="card-body">
+                                {{#if report.reportedByUserId}}
+                                <div class="d-flex align-items-center mb-3">
+                                    {{#if report.reportedByUserId.image}}
+                                    <img src="{{report.reportedByUserId.image}}" alt="Avatar" class="rounded-circle me-3" width="50" height="50">
+                                    {{else}}
+                                    <div class="rounded-circle bg-secondary d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px;">
+                                        <i class="fas fa-user text-white"></i>
+                                    </div>
+                                    {{/if}}
+                                    <div>
+                                        <h6 class="mb-0">{{report.reportedByUserId.fullname}}</h6>
+                                        <small class="text-muted">@{{report.reportedByUserId.username}}</small>
+                                    </div>
+                                </div>
+                                <p><strong>Email:</strong> {{report.reportedByUserId.email}}</p>
+                                <p><strong>User ID:</strong> <code>{{report.reportedByUserId._id}}</code></p>
+                                {{else}}
+                                <p class="text-muted">Reporter information not available</p>
+                                {{/if}}
+                            </div>
+                        </div>
+                        
+                        <!-- Reported User Information -->
+                        <div class="card">
+                            <div class="card-header">
+                                <h6 class="mb-0">Reported User</h6>
+                            </div>
+                            <div class="card-body">
+                                {{#if report.reportedUserId}}
+                                <div class="d-flex align-items-center mb-3">
+                                    {{#if report.reportedUserId.image}}
+                                    <img src="{{report.reportedUserId.image}}" alt="Avatar" class="rounded-circle me-3" width="50" height="50">
+                                    {{else}}
+                                    <div class="rounded-circle bg-secondary d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px;">
+                                        <i class="fas fa-user text-white"></i>
+                                    </div>
+                                    {{/if}}
+                                    <div>
+                                        <h6 class="mb-0">{{report.reportedUserId.fullname}}</h6>
+                                        <small class="text-muted">@{{report.reportedUserId.username}}</small>
+                                    </div>
+                                </div>
+                                <p><strong>Email:</strong> {{report.reportedUserId.email}}</p>
+                                <p><strong>User ID:</strong> <code>{{report.reportedUserId._id}}</code></p>
+                                {{else}}
+                                <p class="text-muted">Reported user information not available</p>
+                                {{/if}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script>
+        // Update report status
+        async function updateReportStatus(reportId, status) {
+            const statusText = status === 'resolved' ? 'resolved' : status === 'dismissed' ? 'dismissed' : 'reopened';
+            
+            if (!confirm(`Are you sure you want to mark this report as ${statusText}?`)) {
+                return;
+            }
+
+            try {
+                const response = await fetch(`/admin/reports/${reportId}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ status })
+                });
+
+                const result = await response.json();
+                
+                if (result.status === 1) {
+                    alert(`Report ${statusText} successfully!`);
+                    location.reload();
+                } else {
+                    alert('Error updating report: ' + result.message);
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Error updating report');
+            }
+        }
+
+        // Delete report
+        async function deleteReport(reportId) {
+            if (!confirm('Are you sure you want to delete this report? This action cannot be undone.')) {
+                return;
+            }
+
+            try {
+                const response = await fetch(`/admin/reports/${reportId}`, {
+                    method: 'DELETE'
+                });
+
+                const result = await response.json();
+                
+                if (result.status === 1) {
+                    alert('Report deleted successfully!');
+                    window.location.href = '/admin/reports';
+                } else {
+                    alert('Error deleting report: ' + result.message);
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Error deleting report');
+            }
+        }
+    </script>
+</body>
+</html>

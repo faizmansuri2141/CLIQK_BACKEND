@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from demo.dashboardpack.com/adminty-html/default/auth-lock-screen.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 02 Mar 2022 11:53:49 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<head>
+
+<body class="fix-menu">
+
+    <div class="theme-loader">
+        <div class="ball-scale">
+            <div class='contain'>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="login-block"style="">
+
+{{!-- linear-gradient(to bottom, #000000 0%, #ffffff 100% --}}
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+
+                    <form class="md-float-material form-material" method="post" action="/">
+                        <div class="text-center">
+                            {{!-- <img src="../files/assets/images/logo.png" alt="logo.png"> --}}
+                        </div>
+                        <div class="auth-box card">
+                            <div class="card-block" style="background-color: #032c40;
+background-image: linear-gradient(315deg, #17212D 0%, black 50%)">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="text-center">
+                                            <img src="/assets/images/splash_logo_CLIQK.png" alt="logo.png"
+                                                class="text-center" height="80px" width="80px" />
+
+                                        </div>
+                                        <br>
+                                        {{#if message}}
+                                        <div class="alert alert-danger border-danger">
+                                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                                <i class="icofont icofont-close-line-circled"></i>
+                                            </button>
+                                            <strong>{{message}}</strong>
+                                        </div>
+                                        {{/if}}
+
+                                        
+                                        {{!-- <h3 class="text-center"><i
+                                                class="feather icon-lock text-primary f-60 p-t-15 p-b-20 d-block"></i>
+                                        </h3> --}}
+                                    </div>
+                                </div>
+
+                                <div class="form-group form-primary">
+                                    <input type="email" name="email" class="form-control" required=""
+                                        placeholder="Your Email Address" value="{{adminData.email}}">
+                                    <span class="form-bar"></span>
+                                </div>
+                                <div class="form-group form-primary">
+                                    <input type="password" name="password" class="form-control" required=""
+                                        placeholder="Your Password" value="{{adminData.password}}">
+                                    <span class="form-bar"></span>
+                                </div>
+                                <div class="row">
+
+                                    <div class="col-md-12">
+                                        <button type="submit"
+                                            class="btn btn-primary btn-md btn-block waves-effect waves-light text-center m-b-20"
+                                            style="background-color: black;">Sign in
+                                        </button>
+
+                                    </div>
+                                    {{!-- <div class="col-md-12">
+                                        <button type="button"
+                                            class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20"><i
+                                                class="icofont icofont-lock"></i> Lock Screen </button>
+                                    </div> --}}
+                                </div>
+                                {{!-- <p class="text-inverse text-right">Back to <a
+                                        href="auth-normal-sign-in.html">Login</a> --}}
+                                </p>
+                                <div class="row">
+                                    {{!-- <div class="col-md-10">
+                                        <p class="text-inverse text-left m-b-0">Thank you.</p>
+                                        <p class="text-inverse text-left"><a href="../index.html"><b
+                                                    class="f-w-600">Back
+                                                    to website</b></a></p>
+                                    </div> --}}
+                                    <div class="col-md-2">
+                                        {{!-- <img src="../files/assets/images/auth/Logo-small-bottom.png"
+                                            alt="small-logo.png"> --}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--[if lt IE 10]>
+<div class="ie-warning">
+    <h1>Warning!!</h1>
+    <p>You are using an outdated version of Internet Explorer, please upgrade <br/>to any of the following web browsers to access this website.</p>
+    <div class="iew-container">
+        <ul class="iew-download">
+            <li>
+                <a href="http://www.google.com/chrome/">
+                    <img src="../files/assets/images/browser/chrome.png" alt="Chrome">
+                    <div>Chrome</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.mozilla.org/en-US/firefox/new/">
+                    <img src="../files/assets/images/browser/firefox.png" alt="Firefox">
+                    <div>Firefox</div>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.opera.com">
+                    <img src="../files/assets/images/browser/opera.png" alt="Opera">
+                    <div>Opera</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.apple.com/safari/">
+                    <img src="../files/assets/images/browser/safari.png" alt="Safari">
+                    <div>Safari</div>
+                </a>
+            </li>
+            <li>
+                <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                    <img src="../files/assets/images/browser/ie.png" alt="">
+                    <div>IE (9 & above)</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <p>Sorry for the inconvenience!</p>
+</div>
+<![endif]-->
+
+
+</body>
+
+<!-- Mirrored from demo.dashboardpack.com/adminty-html/default/auth-lock-screen.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 02 Mar 2022 11:53:49 GMT -->
+
+</html>

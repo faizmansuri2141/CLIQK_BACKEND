@@ -1,0 +1,1702 @@
+[
+  {
+    "_id": "673dd4864450e328ff64278e",
+    "post_Id": "6709056e770317c3e5eb2227",
+    "text": "deswdw",
+    "is_comment": "deswdw",
+    "commentdetails": {
+      "_id": "666824c2a9c95f379c7f4f8c",
+      "image": "https://clickq-app.s3.amazonaws.com/3b2db5c7-cf6b-43b0-bc08-ed317aa37d891721112216.7996101image.jpeg"
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 1,
+    "user_Id": "666824c2a9c95f379c7f4f8c",
+    "post_User_Id": "666824c2a9c95f379c7f4f8c",
+    "commentlikerDetails": [],
+    "subComments": [
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "content": "Kskdkdkd",
+        "totalLikes": 0,
+        "createdAt": "2024-11-20T14:24:05.703Z",
+        "_id": "673df105e0a0b37cf71b75f8",
+        "likeUsers": []
+      }
+    ],
+    "createdAt": "2024-11-20T12:22:30.545Z",
+    "updatedAt": "2024-11-20T14:24:05.796Z",
+    "__v": 0
+  },
+  {
+    "_id": "673deb86e0a0b37cf71b750f",
+    "post_Id": "6709056e770317c3e5eb2227",
+    "text": "Huhgy",
+    "is_comment": "Huhgy",
+    "commentdetails": {
+      "_id": "666824c2a9c95f379c7f4f8c",
+      "username": "anas_parekh",
+      "image": "https://clickq-app.s3.amazonaws.com/3b2db5c7-cf6b-43b0-bc08-ed317aa37d891721112216.7996101image.jpeg"
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 1,
+    "user_Id": "666824c2a9c95f379c7f4f8c",
+    "post_User_Id": "666824c2a9c95f379c7f4f8c",
+    "commentlikerDetails": [],
+    "subComments": [
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "content": "Fdgbbn",
+        "totalLikes": 0,
+        "createdAt": "2024-11-20T14:13:55.084Z",
+        "_id": "673deea3e0a0b37cf71b7545",
+        "likeUsers": []
+      }
+    ],
+    "createdAt": "2024-11-20T14:00:38.167Z",
+    "updatedAt": "2024-11-20T14:13:55.183Z",
+    "__v": 0
+  },
+  {
+    "_id": "673deb90e0a0b37cf71b7517",
+    "post_Id": "6709056e770317c3e5eb2227",
+    "text": "Jyggg",
+    "is_comment": "Jyggg",
+    "commentdetails": {
+      "_id": "666824c2a9c95f379c7f4f8c",
+      "username": "anas_parekh",
+      "image": "https://clickq-app.s3.amazonaws.com/3b2db5c7-cf6b-43b0-bc08-ed317aa37d891721112216.7996101image.jpeg"
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "666824c2a9c95f379c7f4f8c",
+    "post_User_Id": "666824c2a9c95f379c7f4f8c",
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2024-11-20T14:00:48.869Z",
+    "updatedAt": "2024-11-20T14:00:48.869Z",
+    "__v": 0
+  },
+  {
+    "_id": "673df017e0a0b37cf71b7558",
+    "post_Id": "6709056e770317c3e5eb2227",
+    "text": "@anas",
+    "is_comment": "@anas",
+    "commentdetails": {
+      "_id": "666824c2a9c95f379c7f4f8c",
+      "username": "anas_parekh",
+      "image": "https://clickq-app.s3.amazonaws.com/3b2db5c7-cf6b-43b0-bc08-ed317aa37d891721112216.7996101image.jpeg"
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "666824c2a9c95f379c7f4f8c",
+    "post_User_Id": "666824c2a9c95f379c7f4f8c",
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2024-11-20T14:20:07.401Z",
+    "updatedAt": "2024-11-20T14:20:07.401Z",
+    "__v": 0
+  },
+  {
+    "_id": "673df073e0a0b37cf71b75b6",
+    "post_Id": "6709056e770317c3e5eb2227",
+    "text": "Isidjdhd",
+    "is_comment": "Isidjdhd",
+    "commentdetails": {
+      "_id": "666824c2a9c95f379c7f4f8c",
+      "username": "anas_parekh",
+      "image": "https://clickq-app.s3.amazonaws.com/3b2db5c7-cf6b-43b0-bc08-ed317aa37d891721112216.7996101image.jpeg"
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "666824c2a9c95f379c7f4f8c",
+    "post_User_Id": "666824c2a9c95f379c7f4f8c",
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2024-11-20T14:21:39.303Z",
+    "updatedAt": "2024-11-20T14:21:39.303Z",
+    "__v": 0
+  },
+  {
+    "_id": "673df080e0a0b37cf71b75bf",
+    "post_Id": "6709056e770317c3e5eb2227",
+    "text": "Eiejddjdj",
+    "is_comment": "Eiejddjdj",
+    "commentdetails": {
+      "_id": "666824c2a9c95f379c7f4f8c",
+      "username": "anas_parekh",
+      "image": "https://clickq-app.s3.amazonaws.com/3b2db5c7-cf6b-43b0-bc08-ed317aa37d891721112216.7996101image.jpeg"
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "666824c2a9c95f379c7f4f8c",
+    "post_User_Id": "666824c2a9c95f379c7f4f8c",
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2024-11-20T14:21:52.032Z",
+    "updatedAt": "2024-11-20T14:21:52.032Z",
+    "__v": 0
+  },
+  {
+    "_id": "673df087e0a0b37cf71b75c8",
+    "post_Id": "6709056e770317c3e5eb2227",
+    "text": "Kddjdjdj",
+    "is_comment": "Kddjdjdj",
+    "commentdetails": {
+      "_id": "666824c2a9c95f379c7f4f8c",
+      "username": "anas_parekh",
+      "image": "https://clickq-app.s3.amazonaws.com/3b2db5c7-cf6b-43b0-bc08-ed317aa37d891721112216.7996101image.jpeg"
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "666824c2a9c95f379c7f4f8c",
+    "post_User_Id": "666824c2a9c95f379c7f4f8c",
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2024-11-20T14:21:59.732Z",
+    "updatedAt": "2024-11-20T14:21:59.732Z",
+    "__v": 0
+  },
+  {
+    "_id": "67429377e0a0b37cf71b7ef1",
+    "post_Id": "6742489ee0a0b37cf71b7d6f",
+    "text": "",
+    "is_comment": "🤣🤣🤣",
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "666acee4547c0608c2f348cb",
+    "post_type": "text",
+    "post_User_Id": "668d8894ebb46ed45c500505",
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2024-11-24T02:46:15.860Z",
+    "updatedAt": "2024-11-24T02:46:15.860Z",
+    "__v": 0
+  },
+  {
+    "_id": "6755e6d2e0a0b37cf71b8a40",
+    "post_Id": "6755dfa5e0a0b37cf71b8907",
+    "text": "",
+    "is_comment": "kmt he’s done me so dirty this season",
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "666acee4547c0608c2f348cb",
+    "post_type": "image",
+    "post_User_Id": "668d8894ebb46ed45c500505",
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2024-12-08T18:34:58.729Z",
+    "updatedAt": "2024-12-08T18:34:58.729Z",
+    "__v": 0
+  },
+  {
+    "_id": "6755e6e2e0a0b37cf71b8ab3",
+    "post_Id": "6755dfa5e0a0b37cf71b8907",
+    "text": "",
+    "is_comment": "😂😂😂",
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "668d8894ebb46ed45c500505",
+    "post_type": "image",
+    "post_User_Id": "668d8894ebb46ed45c500505",
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2024-12-08T18:35:14.830Z",
+    "updatedAt": "2024-12-08T18:35:14.830Z",
+    "__v": 0
+  },
+  {
+    "_id": "67770db5618ac65bd67568ae",
+    "post_Id": "677594ac618ac65bd67566fa",
+    "text": "",
+    "is_comment": "🤣.. your time will come bro, good start",
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "666acee4547c0608c2f348cb",
+    "post_type": "text",
+    "post_User_Id": "66d60c6756969a23c7753f1e",
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2025-01-02T22:05:41.580Z",
+    "updatedAt": "2025-01-02T22:05:41.580Z",
+    "__v": 0
+  },
+  {
+    "_id": "677bc709390eaf5a5243ab47",
+    "post_Id": "67090528770317c3e5eb21d6",
+    "text": "Hii",
+    "is_comment": "Hii",
+    "commentdetails": {
+      "_id": "666824c2a9c95f379c7f4f8c",
+      "image": "https://clickq-app.s3.amazonaws.com/3b2db5c7-cf6b-43b0-bc08-ed317aa37d891721112216.7996101image.jpeg"
+    },
+    "totallikesofcomments": 1,
+    "totalCommentsReply": 0,
+    "user_Id": "666824c2a9c95f379c7f4f8c",
+    "post_User_Id": "666824c2a9c95f379c7f4f8c",
+    "tagPeoples": [],
+    "commentlikerDetails": [
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "_id": "6784b4437de4d3cd0d0dbaab"
+      }
+    ],
+    "subComments": [],
+    "createdAt": "2025-01-06T12:05:29.581Z",
+    "updatedAt": "2025-01-13T06:35:47.187Z",
+    "__v": 0
+  },
+  {
+    "_id": "677bc76d390eaf5a5243ab50",
+    "post_Id": "67090528770317c3e5eb21d6",
+    "text": "New",
+    "is_comment": "New",
+    "commentdetails": {
+      "_id": "666824c2a9c95f379c7f4f8c",
+      "image": "https://clickq-app.s3.amazonaws.com/3b2db5c7-cf6b-43b0-bc08-ed317aa37d891721112216.7996101image.jpeg"
+    },
+    "totallikesofcomments": 1,
+    "totalCommentsReply": 0,
+    "user_Id": "666824c2a9c95f379c7f4f8c",
+    "post_User_Id": "666824c2a9c95f379c7f4f8c",
+    "tagPeoples": [],
+    "commentlikerDetails": [
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "_id": "6784b43f7de4d3cd0d0dbaa0"
+      }
+    ],
+    "subComments": [],
+    "createdAt": "2025-01-06T12:07:09.348Z",
+    "updatedAt": "2025-01-13T06:35:44.084Z",
+    "__v": 0
+  },
+  {
+    "_id": "677fa3ba0ddf1e97ceb02ef5",
+    "post_Id": "67090528770317c3e5eb21d6",
+    "text": "@anas_parekh ",
+    "is_comment": "@anas_parekh ",
+    "commentdetails": {
+      "_id": "666824c2a9c95f379c7f4f8c",
+      "image": "https://clickq-app.s3.amazonaws.com/3b2db5c7-cf6b-43b0-bc08-ed317aa37d891721112216.7996101image.jpeg"
+    },
+    "totallikesofcomments": 1,
+    "totalCommentsReply": 13,
+    "user_Id": "666824c2a9c95f379c7f4f8c",
+    "post_User_Id": "666824c2a9c95f379c7f4f8c",
+    "tagPeoples": [
+      {
+        "user_id": "666824c2a9c95f379c7f4f8c",
+        "username": "anas_parekh",
+        "_id": "677fa3ba0ddf1e97ceb02ef6"
+      }
+    ],
+    "commentlikerDetails": [
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "_id": "6784b4467de4d3cd0d0dbab6"
+      }
+    ],
+    "subComments": [
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "content": "Hello my name is @anas_parekh friend hello",
+        "totalLikes": 0,
+        "tagPeoples": [
+          {
+            "user_id": "66449784998b321a8f3bfc89",
+            "username": "ahsan",
+            "_id": "6780b6a633cdfad968e0543b"
+          }
+        ],
+        "createdAt": "2025-01-10T05:56:54.025Z",
+        "_id": "6780b6a633cdfad968e0543a",
+        "likeUsers": []
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "content": "Hello my name is @anas_parekh friend hello",
+        "totalLikes": 0,
+        "tagPeoples": [
+          {
+            "user_id": "66449784998b321a8f3bfc89",
+            "username": "ahsan",
+            "_id": "67bc5a6d0ac2cc80a30d3db4"
+          }
+        ],
+        "createdAt": "2025-02-24T11:39:25.155Z",
+        "_id": "67bc5a6d0ac2cc80a30d3db3",
+        "likeUsers": []
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "content": "Hello my name is @anas_parekh friend hello",
+        "totalLikes": 0,
+        "tagPeoples": [
+          {
+            "user_id": "66449784998b321a8f3bfc89",
+            "username": "ahsan",
+            "_id": "67bc5ab2250c3cc1c02fd2fa"
+          }
+        ],
+        "createdAt": "2025-02-24T11:40:34.305Z",
+        "_id": "67bc5ab2250c3cc1c02fd2f9",
+        "likeUsers": []
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "content": "Hello my name is @anas_parekh friend hello",
+        "totalLikes": 0,
+        "tagPeoples": [
+          {
+            "user_id": "66449784998b321a8f3bfc89",
+            "username": "ahsan",
+            "_id": "67bc60c40183e786e77db911"
+          }
+        ],
+        "createdAt": "2025-02-24T12:06:28.262Z",
+        "_id": "67bc60c40183e786e77db910",
+        "likeUsers": []
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "content": "Hello my name is @anas_parekh friend hello",
+        "totalLikes": 0,
+        "tagPeoples": [
+          {
+            "user_id": "66449784998b321a8f3bfc89",
+            "username": "ahsan",
+            "_id": "67beff55cff9e3d49d77fb36"
+          }
+        ],
+        "createdAt": "2025-02-26T11:47:33.071Z",
+        "_id": "67beff55cff9e3d49d77fb35",
+        "likeUsers": []
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "content": "Hello my name is @anas_parekh friend hello",
+        "totalLikes": 0,
+        "tagPeoples": [
+          {
+            "user_id": "66449784998b321a8f3bfc89",
+            "username": "ahsan",
+            "_id": "67beff96b12c94ab1cfa26da"
+          }
+        ],
+        "createdAt": "2025-02-26T11:48:38.659Z",
+        "_id": "67beff96b12c94ab1cfa26d9",
+        "likeUsers": []
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "content": "Hello my name is @anas_parekh friend hello",
+        "totalLikes": 0,
+        "tagPeoples": [
+          {
+            "user_id": "66449784998b321a8f3bfc89",
+            "username": "ahsan",
+            "_id": "67beffe8e862b00624da9f8b"
+          }
+        ],
+        "createdAt": "2025-02-26T11:50:00.754Z",
+        "_id": "67beffe8e862b00624da9f8a",
+        "likeUsers": []
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "content": "Hello my name is @anas_parekh friend hello",
+        "totalLikes": 0,
+        "tagPeoples": [
+          {
+            "user_id": "66449784998b321a8f3bfc89",
+            "username": "ahsan",
+            "_id": "67bf0076bbf97af228a8496e"
+          }
+        ],
+        "createdAt": "2025-02-26T11:52:22.038Z",
+        "_id": "67bf0076bbf97af228a8496d",
+        "likeUsers": []
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "content": "Hello my name is @anas_parekh friend hello",
+        "totalLikes": 0,
+        "tagPeoples": [
+          {
+            "user_id": "66449784998b321a8f3bfc89",
+            "username": "ahsan",
+            "_id": "67bf08a552abcd39ea07aa6d"
+          }
+        ],
+        "createdAt": "2025-02-26T12:27:17.306Z",
+        "_id": "67bf08a552abcd39ea07aa6c",
+        "likeUsers": []
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "content": "Hello my name is @anas_parekh friend hello",
+        "totalLikes": 0,
+        "tagPeoples": [
+          {
+            "user_id": "6663ef80af09c97547bda511",
+            "username": "androidtest",
+            "_id": "67bf0a52bbc9f460d252d465"
+          }
+        ],
+        "createdAt": "2025-02-26T12:34:26.357Z",
+        "_id": "67bf0a52bbc9f460d252d464",
+        "likeUsers": []
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "content": "Hello my name is @anas_parekh friend hello",
+        "totalLikes": 0,
+        "tagPeoples": [
+          {
+            "user_id": "6663ef80af09c97547bda511",
+            "username": "androidtest",
+            "_id": "67bf0afcd02b1c8ad4263a7f"
+          }
+        ],
+        "createdAt": "2025-02-26T12:37:16.025Z",
+        "_id": "67bf0afcd02b1c8ad4263a7e",
+        "likeUsers": []
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "content": "Hello my name is @anas_parekh friend hello",
+        "totalLikes": 0,
+        "tagPeoples": [
+          {
+            "user_id": "6663ef80af09c97547bda511",
+            "username": "androidtest",
+            "_id": "67bf0b13b45782e87e7eabfe"
+          }
+        ],
+        "createdAt": "2025-02-26T12:37:39.860Z",
+        "_id": "67bf0b13b45782e87e7eabfd",
+        "likeUsers": []
+      },
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "content": "Hello my name is @anas_parekh friend hello",
+        "totalLikes": 0,
+        "tagPeoples": [
+          {
+            "user_id": "6663ef80af09c97547bda511",
+            "username": "androidtest",
+            "_id": "67bf110ef0b85bc95ff92e41"
+          }
+        ],
+        "createdAt": "2025-02-26T13:03:10.565Z",
+        "_id": "67bf110ef0b85bc95ff92e40",
+        "likeUsers": []
+      }
+    ],
+    "createdAt": "2025-01-09T10:23:54.384Z",
+    "updatedAt": "2025-02-26T13:03:10.765Z",
+    "__v": 0
+  },
+  {
+    "_id": "6780be5d7de4d3cd0d0db81c",
+    "post_Id": "67090528770317c3e5eb21d6",
+    "text": "Hello",
+    "is_comment": "Hello",
+    "commentdetails": {
+      "_id": "666824c2a9c95f379c7f4f8c",
+      "image": "https://clickq-app.s3.amazonaws.com/3b2db5c7-cf6b-43b0-bc08-ed317aa37d891721112216.7996101image.jpeg"
+    },
+    "totallikesofcomments": 1,
+    "totalCommentsReply": 1,
+    "user_Id": "666824c2a9c95f379c7f4f8c",
+    "post_User_Id": "666824c2a9c95f379c7f4f8c",
+    "tagPeoples": [],
+    "commentlikerDetails": [
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "_id": "6784b3757de4d3cd0d0dba6b"
+      }
+    ],
+    "subComments": [
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "content": "@anas_parekh hello",
+        "totalLikes": 0,
+        "tagPeoples": [
+          {
+            "user_id": "666824c2a9c95f379c7f4f8c",
+            "username": "anas_parekh",
+            "_id": "6780be997de4d3cd0d0db828"
+          }
+        ],
+        "createdAt": "2025-01-10T06:30:49.989Z",
+        "_id": "6780be997de4d3cd0d0db827",
+        "likeUsers": []
+      }
+    ],
+    "createdAt": "2025-01-10T06:29:49.039Z",
+    "updatedAt": "2025-01-13T06:32:21.281Z",
+    "__v": 0
+  },
+  {
+    "_id": "6794c7b47de4d3cd0d0dc909",
+    "post_Id": "678996ae7de4d3cd0d0dbc4b",
+    "text": "Nice post",
+    "is_comment": "Nice post",
+    "commentdetails": {
+      "_id": "666824c2a9c95f379c7f4f8c",
+      "image": "https://clickq-app.s3.amazonaws.com/3b2db5c7-cf6b-43b0-bc08-ed317aa37d891721112216.7996101image.jpeg"
+    },
+    "totallikesofcomments": 1,
+    "totalCommentsReply": 1,
+    "user_Id": "666824c2a9c95f379c7f4f8c",
+    "post_User_Id": "666acee4547c0608c2f348cb",
+    "tagPeoples": [],
+    "commentlikerDetails": [
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "_id": "6794faf745b03a1f0f37b801"
+      }
+    ],
+    "subComments": [
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "content": "check @anas_parekh ",
+        "totalLikes": 0,
+        "tagPeoples": [
+          {
+            "user_id": "666824c2a9c95f379c7f4f8c",
+            "username": "anas_parekh",
+            "_id": "6794fb1945b03a1f0f37b80d"
+          }
+        ],
+        "createdAt": "2025-01-25T14:54:17.436Z",
+        "_id": "6794fb1945b03a1f0f37b80c",
+        "likeUsers": []
+      }
+    ],
+    "createdAt": "2025-01-25T11:15:00.760Z",
+    "updatedAt": "2025-01-27T13:23:45.468Z",
+    "__v": 0
+  },
+  {
+    "_id": "6794e06a59a123ca3954abc1",
+    "post_Id": "6794c5d47de4d3cd0d0dc4d5",
+    "text": "Hii",
+    "is_comment": "Hii",
+    "commentdetails": {
+      "_id": "66e9348015566658df1ae14c",
+      "image": "https://clickq-app.s3.amazonaws.com/bdb7badf-6290-4b82-965f-00ed8e1b63dd1726559672.924655image.jpeg"
+    },
+    "totallikesofcomments": 1,
+    "totalCommentsReply": 1,
+    "user_Id": "66e9348015566658df1ae14c",
+    "post_User_Id": "66e9348015566658df1ae14c",
+    "tagPeoples": [],
+    "commentlikerDetails": [
+      {
+        "userId": "66e9348015566658df1ae14c",
+        "_id": "6794e5092690288472a81e6e"
+      }
+    ],
+    "subComments": [
+      {
+        "userId": "66e9348015566658df1ae14c",
+        "content": "Hi say",
+        "totalLikes": 0,
+        "tagPeoples": [],
+        "createdAt": "2025-01-25T13:19:35.342Z",
+        "_id": "6794e4e72690288472a81e64",
+        "likeUsers": []
+      }
+    ],
+    "createdAt": "2025-01-25T13:00:26.176Z",
+    "updatedAt": "2025-01-25T13:20:09.672Z",
+    "__v": 0
+  },
+  {
+    "_id": "6794e75af645ac72cb47d31f",
+    "post_Id": "6794c5d47de4d3cd0d0dc4d5",
+    "text": "New comment",
+    "is_comment": "New comment",
+    "commentdetails": {
+      "_id": "66e9348015566658df1ae14c",
+      "username": "usernotfound",
+      "image": "https://clickq-app.s3.amazonaws.com/bdb7badf-6290-4b82-965f-00ed8e1b63dd1726559672.924655image.jpeg"
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "66e9348015566658df1ae14c",
+    "post_User_Id": "66e9348015566658df1ae14c",
+    "tagPeoples": [],
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2025-01-25T13:30:02.307Z",
+    "updatedAt": "2025-01-25T13:30:02.307Z",
+    "__v": 0
+  },
+  {
+    "_id": "6794e7db1a90962ab0324a20",
+    "post_Id": "6794c5d47de4d3cd0d0dc4d5",
+    "text": "heyy",
+    "is_comment": "heyy",
+    "commentdetails": {
+      "_id": "66e9348015566658df1ae14c",
+      "username": "usernotfound",
+      "image": "https://clickq-app.s3.amazonaws.com/bdb7badf-6290-4b82-965f-00ed8e1b63dd1726559672.924655image.jpeg"
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "66e9348015566658df1ae14c",
+    "post_User_Id": "66e9348015566658df1ae14c",
+    "tagPeoples": [],
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2025-01-25T13:32:11.085Z",
+    "updatedAt": "2025-01-25T13:32:11.085Z",
+    "__v": 0
+  },
+  {
+    "_id": "6794e7f21a90962ab0324a57",
+    "post_Id": "6794ca6a7de4d3cd0d0dcb90",
+    "text": "Heyy",
+    "is_comment": "Heyy",
+    "commentdetails": {
+      "_id": "66e9348015566658df1ae14c",
+      "username": "usernotfound",
+      "image": "https://clickq-app.s3.amazonaws.com/bdb7badf-6290-4b82-965f-00ed8e1b63dd1726559672.924655image.jpeg"
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "66e9348015566658df1ae14c",
+    "post_User_Id": "666824c2a9c95f379c7f4f8c",
+    "tagPeoples": [],
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2025-01-25T13:32:34.636Z",
+    "updatedAt": "2025-01-25T13:32:34.636Z",
+    "__v": 0
+  },
+  {
+    "_id": "6794e80b1a90962ab0324adb",
+    "post_Id": "6794ca6a7de4d3cd0d0dcb90",
+    "text": "Check comment notification",
+    "is_comment": "Check comment notification",
+    "commentdetails": {
+      "_id": "666824c2a9c95f379c7f4f8c",
+      "username": "anas_parekh",
+      "image": "https://clickq-app.s3.amazonaws.com/3b2db5c7-cf6b-43b0-bc08-ed317aa37d891721112216.7996101image.jpeg"
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 1,
+    "user_Id": "666824c2a9c95f379c7f4f8c",
+    "post_User_Id": "666824c2a9c95f379c7f4f8c",
+    "tagPeoples": [],
+    "commentlikerDetails": [],
+    "subComments": [
+      {
+        "userId": "66e9348015566658df1ae14c",
+        "content": "Egfrw",
+        "totalLikes": 0,
+        "tagPeoples": [],
+        "createdAt": "2025-01-25T13:38:10.817Z",
+        "_id": "6794e9426ad8260959e5a1ed",
+        "likeUsers": []
+      }
+    ],
+    "createdAt": "2025-01-25T13:32:59.768Z",
+    "updatedAt": "2025-01-25T13:38:10.910Z",
+    "__v": 0
+  },
+  {
+    "_id": "6794e8211a90962ab0324b64",
+    "post_Id": "678996ae7de4d3cd0d0dbc4b",
+    "text": "Check comment notification ",
+    "is_comment": "Check comment notification ",
+    "commentdetails": {
+      "_id": "666824c2a9c95f379c7f4f8c",
+      "username": "anas_parekh",
+      "image": "https://clickq-app.s3.amazonaws.com/3b2db5c7-cf6b-43b0-bc08-ed317aa37d891721112216.7996101image.jpeg"
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "666824c2a9c95f379c7f4f8c",
+    "post_User_Id": "666acee4547c0608c2f348cb",
+    "tagPeoples": [],
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2025-01-25T13:33:21.542Z",
+    "updatedAt": "2025-01-25T13:33:21.542Z",
+    "__v": 0
+  },
+  {
+    "_id": "679788f045b03a1f0f37c24e",
+    "post_Id": "678996ae7de4d3cd0d0dbc4b",
+    "text": "@Jamie wys",
+    "is_comment": "@Jamie wys",
+    "commentdetails": {
+      "_id": "668d8894ebb46ed45c500505",
+      "username": "Tyler",
+      "image": "https://clickq-app.s3.amazonaws.com/e224abcb-2ce1-45c7-8352-90cc1d3930b71720553963.9239202image.jpeg"
+    },
+    "totallikesofcomments": 1,
+    "totalCommentsReply": 2,
+    "user_Id": "668d8894ebb46ed45c500505",
+    "post_User_Id": "666acee4547c0608c2f348cb",
+    "tagPeoples": [
+      {
+        "user_id": "668e40e1ebb46ed45c50223e",
+        "username": "Jamie",
+        "_id": "679788f045b03a1f0f37c24f"
+      }
+    ],
+    "commentlikerDetails": [
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "_id": "6797898445b03a1f0f37c2e3"
+      }
+    ],
+    "subComments": [
+      {
+        "userId": "668d8894ebb46ed45c500505",
+        "content": "@kenneth ",
+        "totalLikes": 0,
+        "tagPeoples": [
+          {
+            "user_id": "666acee4547c0608c2f348cb",
+            "username": "kenneth",
+            "_id": "6797890d45b03a1f0f37c280"
+          }
+        ],
+        "createdAt": "2025-01-27T13:24:29.450Z",
+        "_id": "6797890d45b03a1f0f37c27f",
+        "likeUsers": []
+      },
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "content": "@Tyler yes bro",
+        "totalLikes": 0,
+        "tagPeoples": [
+          {
+            "user_id": "668d8894ebb46ed45c500505",
+            "username": "Tyler",
+            "_id": "67a5e418e04baf0e583cac60"
+          }
+        ],
+        "createdAt": "2025-02-07T10:44:40.213Z",
+        "_id": "67a5e418e04baf0e583cac5f",
+        "likeUsers": []
+      }
+    ],
+    "createdAt": "2025-01-27T13:24:00.811Z",
+    "updatedAt": "2025-02-07T10:44:40.318Z",
+    "__v": 0
+  },
+  {
+    "_id": "6797894645b03a1f0f37c2a2",
+    "post_Id": "678996ae7de4d3cd0d0dbc4b",
+    "text": "@Tyler wys",
+    "is_comment": "@Tyler wys",
+    "commentdetails": {
+      "_id": "666acee4547c0608c2f348cb",
+      "username": "kenneth",
+      "image": "https://clickq-app.s3.amazonaws.com/8e9d87fc-c95a-4ad6-a468-3d4a0dec707a1737866458.45008image.jpeg"
+    },
+    "totallikesofcomments": 1,
+    "totalCommentsReply": 0,
+    "user_Id": "666acee4547c0608c2f348cb",
+    "post_User_Id": "666acee4547c0608c2f348cb",
+    "tagPeoples": [
+      {
+        "user_id": "668d8894ebb46ed45c500505",
+        "username": "Tyler",
+        "_id": "6797894645b03a1f0f37c2a3"
+      }
+    ],
+    "commentlikerDetails": [
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "_id": "6797bdc145b03a1f0f37c44a"
+      }
+    ],
+    "subComments": [],
+    "createdAt": "2025-01-27T13:25:26.375Z",
+    "updatedAt": "2025-01-27T17:09:21.764Z",
+    "__v": 0
+  },
+  {
+    "_id": "67a49de045b03a1f0f37e7ee",
+    "post_Id": "6794ca6a7de4d3cd0d0dcb90",
+    "text": "@anas_parekh ",
+    "is_comment": "@anas_parekh ",
+    "commentdetails": {
+      "_id": "666824c2a9c95f379c7f4f8c",
+      "username": "anas_parekh",
+      "image": "https://clickq-app.s3.amazonaws.com/3b2db5c7-cf6b-43b0-bc08-ed317aa37d891721112216.7996101image.jpeg"
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "666824c2a9c95f379c7f4f8c",
+    "post_User_Id": "666824c2a9c95f379c7f4f8c",
+    "tagPeoples": [
+      {
+        "user_id": "666824c2a9c95f379c7f4f8c",
+        "username": "anas_parekh",
+        "_id": "67a49de045b03a1f0f37e7ef"
+      }
+    ],
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2025-02-06T11:32:48.595Z",
+    "updatedAt": "2025-02-06T11:32:48.595Z",
+    "__v": 0
+  },
+  {
+    "_id": "67ac61f9e28b1d6087a689dd",
+    "post_Id": "67ac611be28b1d6087a684d2",
+    "text": "Love brother ❤️",
+    "is_comment": "Love brother ❤️",
+    "commentdetails": {
+      "_id": "668d8894ebb46ed45c500505",
+      "username": "Tyler",
+      "image": "https://clickq-app.s3.amazonaws.com/e224abcb-2ce1-45c7-8352-90cc1d3930b71720553963.9239202image.jpeg"
+    },
+    "totallikesofcomments": 1,
+    "totalCommentsReply": 0,
+    "user_Id": "668d8894ebb46ed45c500505",
+    "post_User_Id": "666acee4547c0608c2f348cb",
+    "tagPeoples": [],
+    "commentlikerDetails": [
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "_id": "67ac625ce28b1d6087a68a48"
+      }
+    ],
+    "subComments": [],
+    "createdAt": "2025-02-12T08:55:21.737Z",
+    "updatedAt": "2025-02-12T08:57:00.549Z",
+    "__v": 0
+  },
+  {
+    "_id": "67b2d080f1285cb1e385e902",
+    "post_Id": "67ac9cc7f1285cb1e385df45",
+    "text": "@androidtest1 ",
+    "is_comment": "@androidtest1 ",
+    "commentdetails": {
+      "_id": "666824c2a9c95f379c7f4f8c",
+      "username": "anas_parekh",
+      "image": "https://clickq-app.s3.amazonaws.com/3b2db5c7-cf6b-43b0-bc08-ed317aa37d891721112216.7996101image.jpeg"
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 1,
+    "user_Id": "666824c2a9c95f379c7f4f8c",
+    "post_User_Id": "666824c2a9c95f379c7f4f8c",
+    "tagPeoples": [
+      {
+        "user_id": "6663f108af09c97547bda51b",
+        "username": "androidtest1",
+        "_id": "67b2d080f1285cb1e385e903"
+      }
+    ],
+    "commentlikerDetails": [],
+    "subComments": [
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "content": "rwerer",
+        "totalLikes": 0,
+        "tagPeoples": [],
+        "createdAt": "2025-03-17T18:05:24.707Z",
+        "_id": "67d86464b23535f0ba501833",
+        "likeUsers": []
+      }
+    ],
+    "createdAt": "2025-02-17T06:00:32.940Z",
+    "updatedAt": "2025-03-17T18:05:24.803Z",
+    "__v": 0
+  },
+  {
+    "_id": "67b59494a1c35c023c095a46",
+    "post_Id": "666aa3b7e538e9759f5bb92c",
+    "text": "comment is here",
+    "is_comment": "comment is here",
+    "commentdetails": {
+      "_id": "6663f108af09c97547bda51b",
+      "username": "androidtest1",
+      "image": "https://clickq-app.s3.amazonaws.com/9f47255f-d3e3-4661-b3f0-91058ca349241000000029.jpg"
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "6663f108af09c97547bda51b",
+    "post_User_Id": "6663f108af09c97547bda51b",
+    "tagPeoples": [],
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2025-02-19T08:21:40.700Z",
+    "updatedAt": "2025-02-19T08:21:40.700Z",
+    "__v": 0
+  },
+  {
+    "_id": "67b5958eec2473c0f3235855",
+    "post_Id": "666aa3b7e538e9759f5bb92c",
+    "text": "comment is here",
+    "is_comment": "comment is here",
+    "commentdetails": {
+      "_id": "6663f108af09c97547bda51b",
+      "username": "androidtest1",
+      "image": "https://clickq-app.s3.amazonaws.com/9f47255f-d3e3-4661-b3f0-91058ca349241000000029.jpg"
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "6663f108af09c97547bda51b",
+    "post_User_Id": "6663f108af09c97547bda51b",
+    "tagPeoples": [],
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2025-02-19T08:25:50.115Z",
+    "updatedAt": "2025-02-19T08:25:50.115Z",
+    "__v": 0
+  },
+  {
+    "_id": "67b59683c903ad768a8acb76",
+    "post_Id": "666aa3b7e538e9759f5bb92c",
+    "text": "comment is here",
+    "is_comment": "comment is here",
+    "commentdetails": {
+      "_id": "6663f108af09c97547bda51b",
+      "username": "androidtest1",
+      "image": "https://clickq-app.s3.amazonaws.com/9f47255f-d3e3-4661-b3f0-91058ca349241000000029.jpg"
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 1,
+    "user_Id": "6663f108af09c97547bda51b",
+    "post_User_Id": "6663f108af09c97547bda51b",
+    "tagPeoples": [],
+    "commentlikerDetails": [],
+    "subComments": [
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "content": "Testing replay",
+        "totalLikes": 0,
+        "tagPeoples": [],
+        "createdAt": "2025-06-11T10:27:28.996Z",
+        "_id": "68495a11eab7ade3982c0305",
+        "likeUsers": []
+      }
+    ],
+    "createdAt": "2025-02-19T08:29:55.746Z",
+    "updatedAt": "2025-06-11T10:27:29.096Z",
+    "__v": 0
+  },
+  {
+    "_id": "67b5a5f5d1562e48d3469d1c",
+    "post_Id": "666aa3b7e538e9759f5bb92c",
+    "text": "comment is here",
+    "is_comment": "comment is here",
+    "commentdetails": {
+      "_id": "6663f108af09c97547bda51b",
+      "username": "androidtest1",
+      "image": "https://clickq-app.s3.amazonaws.com/9f47255f-d3e3-4661-b3f0-91058ca349241000000029.jpg"
+    },
+    "totallikesofcomments": 1,
+    "totalCommentsReply": 0,
+    "user_Id": "6663f108af09c97547bda51b",
+    "post_User_Id": "6663f108af09c97547bda51b",
+    "tagPeoples": [],
+    "commentlikerDetails": [
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "_id": "68448adce5a3d1f73bd72601"
+      }
+    ],
+    "subComments": [],
+    "createdAt": "2025-02-19T09:35:49.982Z",
+    "updatedAt": "2025-06-07T18:54:20.253Z",
+    "__v": 0
+  },
+  {
+    "_id": "67b5a63f0de214763bb45d8c",
+    "post_Id": "666aa3b7e538e9759f5bb92c",
+    "text": "comment is here",
+    "is_comment": "comment is here",
+    "commentdetails": {
+      "_id": "6663f108af09c97547bda51b",
+      "username": "androidtest1",
+      "image": "https://clickq-app.s3.amazonaws.com/9f47255f-d3e3-4661-b3f0-91058ca349241000000029.jpg"
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "6663f108af09c97547bda51b",
+    "post_User_Id": "6663f108af09c97547bda51b",
+    "tagPeoples": [],
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2025-02-19T09:37:03.646Z",
+    "updatedAt": "2025-02-19T09:37:03.646Z",
+    "__v": 0
+  },
+  {
+    "_id": "67b5c2fca20bbfbc2d23e174",
+    "post_Id": "666aa3b7e538e9759f5bb92c",
+    "text": "@ahsan @ahsan how are you guys?",
+    "is_comment": "@ahsan @ahsan how are you guys?",
+    "commentdetails": {
+      "_id": "6663ef80af09c97547bda511",
+      "username": "androidtest",
+      "image": ""
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 1,
+    "user_Id": "6663ef80af09c97547bda511",
+    "post_User_Id": "66449784998b321a8f3bfc89",
+    "tagPeoples": [
+      {
+        "user_id": "66449784998b321a8f3bfc89",
+        "username": "ahsan",
+        "_id": "67b5c2fca20bbfbc2d23e175"
+      }
+    ],
+    "commentlikerDetails": [],
+    "subComments": [
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "content": "testing repay",
+        "totalLikes": 0,
+        "tagPeoples": [],
+        "createdAt": "2025-06-07T18:56:22.634Z",
+        "_id": "68448b56e5a3d1f73bd7268e",
+        "likeUsers": []
+      }
+    ],
+    "createdAt": "2025-02-19T11:39:40.240Z",
+    "updatedAt": "2025-06-07T18:56:22.727Z",
+    "__v": 0
+  },
+  {
+    "_id": "67b5c328c94014dad629f95a",
+    "post_Id": "666aa3b7e538e9759f5bb92c",
+    "text": "@ahsan @ahsan how are you guys?",
+    "is_comment": "@ahsan @ahsan how are you guys?",
+    "commentdetails": {
+      "_id": "6663ef80af09c97547bda511",
+      "username": "androidtest",
+      "image": ""
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "6663ef80af09c97547bda511",
+    "post_User_Id": "66449784998b321a8f3bfc89",
+    "tagPeoples": [
+      {
+        "user_id": "66449784998b321a8f3bfc89",
+        "username": "ahsan",
+        "_id": "67b5c328c94014dad629f95b"
+      }
+    ],
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2025-02-19T11:40:24.888Z",
+    "updatedAt": "2025-02-19T11:40:24.888Z",
+    "__v": 0
+  },
+  {
+    "_id": "67b5c34fc94014dad629f98e",
+    "post_Id": "666aa3b7e538e9759f5bb92c",
+    "text": "@ahsan @ahsan how are you guys?",
+    "is_comment": "@ahsan @ahsan how are you guys?",
+    "commentdetails": {
+      "_id": "6663ef80af09c97547bda511",
+      "username": "androidtest",
+      "image": ""
+    },
+    "totallikesofcomments": 1,
+    "totalCommentsReply": 0,
+    "user_Id": "6663ef80af09c97547bda511",
+    "post_User_Id": "66449784998b321a8f3bfc89",
+    "tagPeoples": [
+      {
+        "user_id": "66449784998b321a8f3bfc89",
+        "username": "ahsan",
+        "_id": "67b5c34fc94014dad629f98f"
+      }
+    ],
+    "commentlikerDetails": [
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "_id": "67b5c410bd10c472084d8757"
+      }
+    ],
+    "subComments": [],
+    "createdAt": "2025-02-19T11:41:03.277Z",
+    "updatedAt": "2025-02-19T11:44:16.580Z",
+    "__v": 0
+  },
+  {
+    "_id": "67bc4513f1285cb1e38630d0",
+    "post_Id": "67bc4415f1285cb1e3862ffe",
+    "text": "@Tyler facts ",
+    "is_comment": "@Tyler facts ",
+    "commentdetails": {
+      "_id": "666acee4547c0608c2f348cb",
+      "username": "kenneth",
+      "image": "https://clickq-app.s3.amazonaws.com/8e9d87fc-c95a-4ad6-a468-3d4a0dec707a1737866458.45008image.jpeg"
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "666acee4547c0608c2f348cb",
+    "post_User_Id": "668d8894ebb46ed45c500505",
+    "tagPeoples": [
+      {
+        "user_id": "668d8894ebb46ed45c500505",
+        "username": "Tyler",
+        "_id": "67bc4513f1285cb1e38630d1"
+      }
+    ],
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2025-02-24T10:08:19.859Z",
+    "updatedAt": "2025-02-24T10:08:19.859Z",
+    "__v": 0
+  },
+  {
+    "_id": "67bc55810ac2cc80a30d3489",
+    "post_Id": "67bc54960ac2cc80a30d2f20",
+    "text": "😍",
+    "is_comment": "😍",
+    "commentdetails": {
+      "_id": "669041ca864a822f8633a4ab",
+      "username": "Karlie",
+      "image": "https://clickq-app.s3.amazonaws.com/20670eb8-a9b9-40c6-abdc-e1bf9ebfea881720735572.630579image.jpeg"
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "669041ca864a822f8633a4ab",
+    "post_User_Id": "668d8894ebb46ed45c500505",
+    "tagPeoples": [],
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2025-02-24T11:18:25.662Z",
+    "updatedAt": "2025-02-24T11:28:52.480Z",
+    "__v": 0
+  },
+  {
+    "_id": "67bc58250ac2cc80a30d3b7b",
+    "post_Id": "67bc55c10ac2cc80a30d361e",
+    "text": "Fiancé 💍",
+    "is_comment": "Fiancé 💍",
+    "commentdetails": {
+      "_id": "668d8894ebb46ed45c500505",
+      "username": "Tyler",
+      "image": "https://clickq-app.s3.amazonaws.com/e224abcb-2ce1-45c7-8352-90cc1d3930b71720553963.9239202image.jpeg"
+    },
+    "totallikesofcomments": 1,
+    "totalCommentsReply": 0,
+    "user_Id": "668d8894ebb46ed45c500505",
+    "post_User_Id": "669041ca864a822f8633a4ab",
+    "tagPeoples": [],
+    "commentlikerDetails": [
+      {
+        "userId": "669041ca864a822f8633a4ab",
+        "_id": "67bc58d50ac2cc80a30d3bcd"
+      }
+    ],
+    "subComments": [],
+    "createdAt": "2025-02-24T11:29:41.016Z",
+    "updatedAt": "2025-02-24T11:32:37.738Z",
+    "__v": 0
+  },
+  {
+    "_id": "67d86294b23535f0ba5015ae",
+    "post_Id": "67ac9cc7f1285cb1e385df45",
+    "text": "test sub comment",
+    "is_comment": "test sub comment",
+    "commentdetails": {
+      "_id": "666824c2a9c95f379c7f4f8c",
+      "username": "anas_parekh",
+      "image": "https://clickq-app.s3.amazonaws.com/3b2db5c7-cf6b-43b0-bc08-ed317aa37d891721112216.7996101image.jpeg"
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "666824c2a9c95f379c7f4f8c",
+    "post_User_Id": "666824c2a9c95f379c7f4f8c",
+    "tagPeoples": [],
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2025-03-17T17:57:40.038Z",
+    "updatedAt": "2025-03-17T17:57:40.038Z",
+    "__v": 0
+  },
+  {
+    "_id": "67d9073fb23535f0ba502605",
+    "post_Id": "67bc4b0f51831476b577ee95",
+    "text": "No",
+    "is_comment": "No",
+    "commentdetails": {
+      "_id": "666824c2a9c95f379c7f4f8c",
+      "username": "anas_parekh",
+      "image": "https://clickq-app.s3.amazonaws.com/3b2db5c7-cf6b-43b0-bc08-ed317aa37d891721112216.7996101image.jpeg"
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 1,
+    "user_Id": "666824c2a9c95f379c7f4f8c",
+    "post_User_Id": "666824c2a9c95f379c7f4f8c",
+    "tagPeoples": [],
+    "commentlikerDetails": [],
+    "subComments": [
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "content": "Jibh",
+        "totalLikes": 0,
+        "tagPeoples": [],
+        "createdAt": "2025-03-18T05:40:23.584Z",
+        "_id": "67d90747b23535f0ba502615",
+        "likeUsers": []
+      }
+    ],
+    "createdAt": "2025-03-18T05:40:15.744Z",
+    "updatedAt": "2025-03-18T05:40:23.680Z",
+    "__v": 0
+  },
+  {
+    "_id": "67e284a7e559804d448db714",
+    "post_Id": "67e16f4f4089750ead713d76",
+    "text": "testing @anas_parekh  fdsfsdfds ffds",
+    "is_comment": "testing @anas_parekh  fdsfsdfds ffds",
+    "commentdetails": {
+      "_id": "6663ef80af09c97547bda511",
+      "username": "androidtest",
+      "image": ""
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "666824c2a9c95f379c7f4f8c",
+    "post_User_Id": "666824c2a9c95f379c7f4f8c",
+    "tagPeoples": [
+      {
+        "user_id": "666824c2a9c95f379c7f4f8c",
+        "username": "anas_parekh",
+        "_id": "67e284a7e559804d448db715"
+      }
+    ],
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2025-03-25T10:25:43.458Z",
+    "updatedAt": "2025-03-25T10:25:43.458Z",
+    "__v": 0
+  },
+  {
+    "_id": "67f25839f0f4eb2f00c825f0",
+    "post_Id": "67ac9b60d15f18f8d72a61ed",
+    "text": "Hello",
+    "is_comment": "Hello",
+    "commentdetails": {
+      "_id": "6663ef80af09c97547bda511",
+      "username": "androidtest",
+      "image": ""
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "666824c2a9c95f379c7f4f8c",
+    "post_User_Id": "666824c2a9c95f379c7f4f8c",
+    "tagPeoples": [],
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2025-04-06T10:32:25.572Z",
+    "updatedAt": "2025-04-06T10:32:25.572Z",
+    "__v": 0
+  },
+  {
+    "_id": "6806671e761c0c03ee3b6269",
+    "post_Id": "680536ae64b4c5c124940dcf",
+    "text": "Hello",
+    "is_comment": "Hello",
+    "commentdetails": {
+      "_id": "6663ef80af09c97547bda511",
+      "username": "androidtest",
+      "image": ""
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "6663ef80af09c97547bda511",
+    "post_User_Id": "6663ef80af09c97547bda511",
+    "tagPeoples": [],
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2025-04-21T15:41:18.250Z",
+    "updatedAt": "2025-04-21T15:41:18.250Z",
+    "__v": 0
+  },
+  {
+    "_id": "6808a4fa0571f9a3fe0d24c5",
+    "post_Id": "6808a4a50571f9a3fe0d21ca",
+    "text": "yoo",
+    "is_comment": "yoo",
+    "commentdetails": {
+      "_id": "6663ef80af09c97547bda511",
+      "username": "androidtest",
+      "image": ""
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "668d8894ebb46ed45c500505",
+    "post_User_Id": "666acee4547c0608c2f348cb",
+    "tagPeoples": [],
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2025-04-23T08:29:46.917Z",
+    "updatedAt": "2025-04-23T08:29:46.917Z",
+    "__v": 0
+  },
+  {
+    "_id": "683167d1444fc877af8a5580",
+    "post_Id": "680b2eb1f9494bbb224636fb",
+    "text": "hello",
+    "is_comment": "hello",
+    "commentdetails": {
+      "_id": "666824c2a9c95f379c7f4f8c",
+      "username": "anas_parekh",
+      "image": "https://clickq-app.s3.amazonaws.com/3b2db5c7-cf6b-43b0-bc08-ed317aa37d891721112216.7996101image.jpeg"
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 1,
+    "user_Id": "666824c2a9c95f379c7f4f8c",
+    "post_User_Id": "666824c2a9c95f379c7f4f8c",
+    "tagPeoples": [],
+    "commentlikerDetails": [],
+    "subComments": [
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "content": "vvvvb",
+        "totalLikes": 0,
+        "tagPeoples": [],
+        "createdAt": "2025-05-24T06:32:03.664Z",
+        "_id": "683167e3444fc877af8a55a3",
+        "likeUsers": []
+      }
+    ],
+    "createdAt": "2025-05-24T06:31:45.416Z",
+    "updatedAt": "2025-05-24T06:32:03.756Z",
+    "__v": 0
+  },
+  {
+    "_id": "6834a75a1a124fdff4361add",
+    "post_Id": "666be4d760b6e67aa7b2103e",
+    "text": "testing comment ui",
+    "is_comment": "testing comment ui",
+    "commentdetails": {
+      "_id": "666824c2a9c95f379c7f4f8c",
+      "username": "anas_parekh",
+      "image": "https://clickq-app.s3.amazonaws.com/3b2db5c7-cf6b-43b0-bc08-ed317aa37d891721112216.7996101image.jpeg"
+    },
+    "totallikesofcomments": 1,
+    "totalCommentsReply": 1,
+    "user_Id": "666824c2a9c95f379c7f4f8c",
+    "post_User_Id": "666824c2a9c95f379c7f4f8c",
+    "tagPeoples": [],
+    "commentlikerDetails": [
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "_id": "6834a7d41a124fdff4361c99"
+      }
+    ],
+    "subComments": [
+      {
+        "userId": "666824c2a9c95f379c7f4f8c",
+        "content": "Hello testing reply",
+        "totalLikes": 0,
+        "tagPeoples": [],
+        "createdAt": "2025-05-26T17:41:23.694Z",
+        "_id": "6834a7c31a124fdff4361c6f",
+        "likeUsers": []
+      }
+    ],
+    "createdAt": "2025-05-26T17:39:38.618Z",
+    "updatedAt": "2025-05-26T17:41:40.767Z",
+    "__v": 0
+  },
+  {
+    "_id": "6834a7711a124fdff4361aff",
+    "post_Id": "666be4d760b6e67aa7b2103e",
+    "text": "hello how are you?",
+    "is_comment": "hello how are you?",
+    "commentdetails": {
+      "_id": "6663ef80af09c97547bda511",
+      "username": "androidtest",
+      "image": ""
+    },
+    "totallikesofcomments": 1,
+    "totalCommentsReply": 0,
+    "user_Id": "6663ef80af09c97547bda511",
+    "post_User_Id": "6663ef80af09c97547bda511",
+    "tagPeoples": [],
+    "commentlikerDetails": [
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "_id": "6834a7cf1a124fdff4361c85"
+      }
+    ],
+    "subComments": [],
+    "createdAt": "2025-05-26T17:40:01.427Z",
+    "updatedAt": "2025-05-26T17:41:35.339Z",
+    "__v": 0
+  },
+  {
+    "_id": "6834a7851a124fdff4361b20",
+    "post_Id": "666be4d760b6e67aa7b2103e",
+    "text": "I m file",
+    "is_comment": "I m file",
+    "commentdetails": {
+      "_id": "666824c2a9c95f379c7f4f8c",
+      "username": "anas_parekh",
+      "image": "https://clickq-app.s3.amazonaws.com/3b2db5c7-cf6b-43b0-bc08-ed317aa37d891721112216.7996101image.jpeg"
+    },
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 1,
+    "user_Id": "666824c2a9c95f379c7f4f8c",
+    "post_User_Id": "666824c2a9c95f379c7f4f8c",
+    "tagPeoples": [],
+    "commentlikerDetails": [],
+    "subComments": [
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "content": "good",
+        "totalLikes": 0,
+        "tagPeoples": [],
+        "createdAt": "2025-05-26T17:40:37.666Z",
+        "_id": "6834a7951a124fdff4361b41",
+        "likeUsers": []
+      }
+    ],
+    "createdAt": "2025-05-26T17:40:21.941Z",
+    "updatedAt": "2025-05-26T17:40:37.756Z",
+    "__v": 0
+  },
+  {
+    "_id": "687e2ffd5e4b591d165d89b4",
+    "post_Id": "67fb9bd3811fe7a65367d7de",
+    "text": "👍",
+    "is_comment": "👍",
+    "commentdetails": "6663ef80af09c97547bda511",
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 1,
+    "user_Id": "6663ef80af09c97547bda511",
+    "post_User_Id": "6663ef80af09c97547bda511",
+    "tagPeoples": [],
+    "commentlikerDetails": [],
+    "subComments": [
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "content": "TT",
+        "totalLikes": 0,
+        "tagPeoples": [],
+        "createdAt": "2025-07-23T08:38:06.914Z",
+        "_id": "68809f6e5e4b591d165da103",
+        "likeUsers": []
+      }
+    ],
+    "createdAt": "2025-07-21T12:18:05.407Z",
+    "updatedAt": "2025-07-23T08:38:07.005Z",
+    "__v": 0
+  },
+  {
+    "_id": "687e301c5e4b591d165d89d7",
+    "post_Id": "67fb9bd3811fe7a65367d7de",
+    "text": "🎉",
+    "is_comment": "🎉",
+    "commentdetails": "6663ef80af09c97547bda511",
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "6663ef80af09c97547bda511",
+    "post_User_Id": "6663ef80af09c97547bda511",
+    "tagPeoples": [],
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2025-07-21T12:18:36.285Z",
+    "updatedAt": "2025-07-21T12:18:36.285Z",
+    "__v": 0
+  },
+  {
+    "_id": "687e393e5e4b591d165d8a8a",
+    "post_Id": "687e28e75e4b591d165d86f5",
+    "text": "h",
+    "is_comment": "h",
+    "commentdetails": "6663ef80af09c97547bda511",
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "6663ef80af09c97547bda511",
+    "post_User_Id": "6663ef80af09c97547bda511",
+    "tagPeoples": [],
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2025-07-21T12:57:34.620Z",
+    "updatedAt": "2025-07-21T12:57:34.620Z",
+    "__v": 0
+  },
+  {
+    "_id": "68809f635e4b591d165da0e6",
+    "post_Id": "67fb9bd3811fe7a65367d7de",
+    "text": "Hlw",
+    "is_comment": "Hlw",
+    "commentdetails": "6663ef80af09c97547bda511",
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "6663ef80af09c97547bda511",
+    "post_User_Id": "6663ef80af09c97547bda511",
+    "tagPeoples": [],
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2025-07-23T08:37:55.553Z",
+    "updatedAt": "2025-07-23T08:37:55.553Z",
+    "__v": 0
+  },
+  {
+    "_id": "688574489e1a3212743e329e",
+    "post_Id": "6885742d9e1a3212743e31e3",
+    "text": "facts ",
+    "is_comment": "facts ",
+    "commentdetails": "668d95a5ebb46ed45c50086f",
+    "totallikesofcomments": 2,
+    "totalCommentsReply": 0,
+    "user_Id": "668d95a5ebb46ed45c50086f",
+    "post_User_Id": "668e40e1ebb46ed45c50223e",
+    "tagPeoples": [],
+    "commentlikerDetails": [
+      {
+        "userId": "666acee4547c0608c2f348cb",
+        "_id": "6885eb859e1a3212743e372c"
+      },
+      {
+        "userId": "668e40e1ebb46ed45c50223e",
+        "_id": "6887c54a9e1a3212743e4cb4"
+      }
+    ],
+    "subComments": [],
+    "createdAt": "2025-07-27T00:35:20.489Z",
+    "updatedAt": "2025-07-28T18:45:30.611Z",
+    "__v": 0
+  },
+  {
+    "_id": "6899c8e39e1a3212743ee72c",
+    "post_Id": "688486355e4b591d165dce88",
+    "text": "good song",
+    "is_comment": "good song",
+    "commentdetails": "6663ef80af09c97547bda511",
+    "totallikesofcomments": 1,
+    "totalCommentsReply": 1,
+    "user_Id": "6663ef80af09c97547bda511",
+    "post_User_Id": "6663ef80af09c97547bda511",
+    "tagPeoples": [],
+    "commentlikerDetails": [
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "_id": "6899c8f49e1a3212743ee748"
+      }
+    ],
+    "subComments": [
+      {
+        "userId": "6663ef80af09c97547bda511",
+        "content": "hlw",
+        "totalLikes": 0,
+        "tagPeoples": [],
+        "createdAt": "2025-08-11T10:42:08.903Z",
+        "_id": "6899c9009e1a3212743ee75c",
+        "likeUsers": []
+      }
+    ],
+    "createdAt": "2025-08-11T10:41:39.316Z",
+    "updatedAt": "2025-08-11T10:42:08.992Z",
+    "__v": 0
+  },
+  {
+    "_id": "6899c9ac9e1a3212743ee8c3",
+    "post_Id": "688481315e4b591d165dcc84",
+    "text": "Classic song",
+    "is_comment": "Classic song",
+    "commentdetails": "689996659e1a3212743edfb8",
+    "totallikesofcomments": 1,
+    "totalCommentsReply": 1,
+    "user_Id": "689996659e1a3212743edfb8",
+    "post_User_Id": "6663ef80af09c97547bda511",
+    "tagPeoples": [],
+    "commentlikerDetails": [
+      {
+        "userId": "689996659e1a3212743edfb8",
+        "_id": "6899d3019e1a3212743eebc3"
+      }
+    ],
+    "subComments": [
+      {
+        "userId": "689996659e1a3212743edfb8",
+        "content": "Hlw 1",
+        "totalLikes": 0,
+        "tagPeoples": [],
+        "createdAt": "2025-08-11T12:02:29.589Z",
+        "_id": "6899dbd59e1a3212743eecff",
+        "likeUsers": []
+      }
+    ],
+    "createdAt": "2025-08-11T10:45:00.582Z",
+    "updatedAt": "2025-08-11T12:02:29.682Z",
+    "__v": 0
+  },
+  {
+    "_id": "6899c9de9e1a3212743ee939",
+    "post_Id": "688481315e4b591d165dcc84",
+    "text": "thank you",
+    "is_comment": "thank you",
+    "commentdetails": "6663ef80af09c97547bda511",
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 1,
+    "user_Id": "6663ef80af09c97547bda511",
+    "post_User_Id": "6663ef80af09c97547bda511",
+    "tagPeoples": [],
+    "commentlikerDetails": [],
+    "subComments": [
+      {
+        "userId": "689996659e1a3212743edfb8",
+        "content": "Hlw",
+        "totalLikes": 0,
+        "tagPeoples": [],
+        "createdAt": "2025-08-11T10:46:18.592Z",
+        "_id": "6899c9fa9e1a3212743ee963",
+        "likeUsers": []
+      }
+    ],
+    "createdAt": "2025-08-11T10:45:50.647Z",
+    "updatedAt": "2025-08-11T10:46:18.680Z",
+    "__v": 0
+  },
+  {
+    "_id": "6899dfe59e1a3212743eed6c",
+    "post_Id": "688481315e4b591d165dcc84",
+    "text": "Owesome post, great, good, so much love….",
+    "is_comment": "Owesome post, great, good, so much love….",
+    "commentdetails": "689996659e1a3212743edfb8",
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "689996659e1a3212743edfb8",
+    "post_User_Id": "6663ef80af09c97547bda511",
+    "tagPeoples": [],
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2025-08-11T12:19:49.382Z",
+    "updatedAt": "2025-08-11T12:19:49.382Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a2d8814839b40d079c7500",
+    "post_Id": "68a2d7c94839b40d079c74c6",
+    "text": "hello",
+    "is_comment": "hello",
+    "commentdetails": "666acee4547c0608c2f348cb",
+    "totallikesofcomments": 0,
+    "totalCommentsReply": 0,
+    "user_Id": "666acee4547c0608c2f348cb",
+    "post_User_Id": "666acee4547c0608c2f348cb",
+    "tagPeoples": [],
+    "commentlikerDetails": [],
+    "subComments": [],
+    "createdAt": "2025-08-18T07:38:41.232Z",
+    "updatedAt": "2025-08-18T07:38:41.232Z",
+    "__v": 0
+  }
+]
